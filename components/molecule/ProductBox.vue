@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NuxtLink :to="`product/${product.id}`">
+    <NuxtLink :to="`./produkt/${product.id}`">
       <div
         class="flex items-center justify-center rounded-lg bg-secondary py-4"
       >

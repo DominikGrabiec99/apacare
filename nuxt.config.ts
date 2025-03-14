@@ -9,9 +9,6 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/apacare/',
   },
-  generate: {
-    fallback: '404.html',
-  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   nitro: {

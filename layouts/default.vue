@@ -1,6 +1,8 @@
 <template>
   <div>
     <OrganismMenu />
-    <slot />
+    <div>
+      <slot />
+    </div>
   </div>
 </template>

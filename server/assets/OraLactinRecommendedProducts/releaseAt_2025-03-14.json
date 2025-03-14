@@ -1,0 +1,14 @@
+[
+  {
+    "id": "apaCare-oraLactin-liquid",
+    "name": "ApaCare OraLactin Liquid",
+    "photo": "./images/products/OraLactin-Liquid.png",
+    "description": "Płyn do płukania jamy ustnej z medycznym hydroksyapatytem i prebiotykami."
+  },
+  {
+    "id": "oraLactin-toothpast",
+    "name": "OraLactin Toothpast",
+    "photo": "./images/products/OraLactin_Zahncreme.png",
+    "description": "Medyczna pasta do zębów z probiotykim i płynnym szkliwem do codziennego mycia i pielęgnacji zębów."
+  }
+]

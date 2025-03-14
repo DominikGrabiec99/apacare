@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   ],
   icon: {
     serverBundle: {
-      collections: ['material-symbols', 'lucide-lab'],
+      collections: ['material-symbols', 'lucide-lab', 'ri'],
     },
     componentName: 'NuxtIcon',
   },

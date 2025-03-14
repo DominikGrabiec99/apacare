@@ -15,7 +15,7 @@
             class="relative size-72 rotate-[25deg] overflow-hidden rounded-full border-8 border-solid border-primary md:size-[calc(384px-20px)] md:border-[10px]"
           >
             <img
-              src="./images/header-main-page.png"
+              src="/images/header-main-page.png"
               alt="uśmiechnięta dziewczyna"
               class="h-full w-full object-cover"
             />

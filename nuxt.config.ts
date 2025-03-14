@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   router: {
     base: '/apacare/',
   },
+  app: {
+    baseURL: '/apacare/',
+  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   nitro: {

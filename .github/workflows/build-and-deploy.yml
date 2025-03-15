@@ -34,6 +34,17 @@ jobs:
         env:
           NUXT_APP_BASE_URL: ${{ vars.NUXT_APP_BASE_URL  }}
 
+      - name: Ensure .nojekyll exists
+        run: |
+          # Sprawdź, czy plik .nojekyll istnieje w folderze dist/
+          if [ ! -f dist/.nojekyll ]; then
+            # Jeśli nie ma, utwórz go
+            touch dist/.nojekyll
+            echo ".nojekyll file created"
+          else
+            echo ".nojekyll file already exists"
+          fi
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:

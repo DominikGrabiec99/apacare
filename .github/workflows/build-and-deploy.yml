@@ -36,9 +36,9 @@ jobs:
 
       - name: Ensure .nojekyll exists
         run: |
-          # Sprawdź, czy plik .nojekyll istnieje w folderze dist/
+          # SCheck, file .nojekyll exist in folder dist/
           if [ ! -f dist/.nojekyll ]; then
-            # Jeśli nie ma, utwórz go
+            # If not, create
             touch dist/.nojekyll
             echo ".nojekyll file created"
           else

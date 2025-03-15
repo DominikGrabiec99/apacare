@@ -14,9 +14,31 @@
           </TabsTrigger>
         </TabsList>
         <TabsContent value="apaCare">
+          <div class="mb-6">
+            <p class="text-primary-black">
+              {{ APA_CARE_SHORT_DESCRIPTION }}
+              <NuxtLink
+                to="/"
+                class="inline-flex items-center justify-center gap-1 underline"
+              >
+                Dowiedz się więcej
+              </NuxtLink>
+            </p>
+          </div>
           <OrganismCarouselProducts :products="apaCareProducts" />
         </TabsContent>
         <TabsContent value="oraLactin">
+          <div class="mb-6">
+            <p class="text-primary-black">
+              {{ ORA_LACTIN_SHORT_DESCRIPTION }}
+              <NuxtLink
+                to="/"
+                class="inline-flex items-center justify-center gap-1 underline"
+              >
+                Dowiedz się więcej
+              </NuxtLink>
+            </p>
+          </div>
           <OrganismCarouselProducts :products="oraLactinProducts" />
         </TabsContent>
       </Tabs>
@@ -30,6 +52,12 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
 /** INTERFACES */
 import type { IRecommendedProducts } from '@/ts/interfaces/RecommendedProducts';
+
+/** CONSTANTS */
+import {
+  ORA_LACTIN_SHORT_DESCRIPTION,
+  APA_CARE_SHORT_DESCRIPTION,
+} from '@/constants/productsMethods';
 
 defineProps({
   apaCareProducts: {

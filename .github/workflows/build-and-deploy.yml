@@ -32,9 +32,11 @@ jobs:
           pnpm install
           pnpm generate
         env:
-          NUXT_APP_BASE_URL: ${{ vars.NUXT_APP_BASE_URL  }}
+          NUXT_APP_BASE_URL: '/apacare/'
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
+          branch: gh-pages
           folder: dist
+          clean: true

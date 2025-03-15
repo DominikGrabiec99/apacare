@@ -1,11 +1,8 @@
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
-  ssr: false,
+  // ssr: false,
   target: 'static',
-  router: {
-    base: '/apacare/',
-  },
   app: {
     baseURL: '/apacare/',
   },

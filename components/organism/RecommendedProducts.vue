@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h3 class="text-2xl font-bold md:text-4xl">Najpopularniesze produkty</h3>
+    <h3 class="text-2xl font-bold text-primary-black md:text-4xl">
+      Najpopularniesze produkty
+    </h3>
     <div class="mt-8">
       <Tabs default-value="apaCare">
         <TabsList class="mb-6 h-12 w-full md:w-auto">
@@ -17,12 +19,12 @@
           <div class="mb-6">
             <p class="text-primary-black">
               {{ APA_CARE_SHORT_DESCRIPTION }}
-              <NuxtLink
-                to="/"
-                class="inline-flex items-center justify-center gap-1 underline"
-              >
-                Dowiedz się więcej
-              </NuxtLink>
+
+              <OrganismSidebarContent
+                open-button-text="Dowiedz się więcej"
+                sidebar-title="ApaCare - Jak to działa"
+                :sidebarContent="APA_CARE_DESCRIPTION"
+              />
             </p>
           </div>
           <OrganismCarouselProducts :products="apaCareProducts" />
@@ -31,12 +33,11 @@
           <div class="mb-6">
             <p class="text-primary-black">
               {{ ORA_LACTIN_SHORT_DESCRIPTION }}
-              <NuxtLink
-                to="/"
-                class="inline-flex items-center justify-center gap-1 underline"
-              >
-                Dowiedz się więcej
-              </NuxtLink>
+              <OrganismSidebarContent
+                open-button-text="Dowiedz się więcej"
+                sidebar-title="OraLactin - Jak to działa"
+                :sidebarContent="ORA_LACTIN_DESCRIPTION"
+              />
             </p>
           </div>
           <OrganismCarouselProducts :products="oraLactinProducts" />
@@ -57,6 +58,8 @@ import type { IRecommendedProducts } from '@/ts/interfaces/RecommendedProducts';
 import {
   ORA_LACTIN_SHORT_DESCRIPTION,
   APA_CARE_SHORT_DESCRIPTION,
+  APA_CARE_DESCRIPTION,
+  ORA_LACTIN_DESCRIPTION,
 } from '@/constants/productsMethods';
 
 defineProps({

@@ -35,11 +35,12 @@
               Sprawdź nasze produkty, które zapewniają naturalnie gładkie,
               zdrowe i lśniące zęby!
             </p>
-            <NuxtLink to="/produkty">
-              <Button class="h-12 px-12" size="lg">
-                <span class="text-lg font-medium tracking-wider">Sprawdź</span>
-              </Button>
-            </NuxtLink>
+            <AtomUnderlineNuxtLink
+              link="/produkty"
+              text="Sprawdź"
+              text-class=" font-semibold"
+              showIcon
+            />
           </div>
         </div>
       </div>

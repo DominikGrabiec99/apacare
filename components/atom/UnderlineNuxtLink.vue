@@ -1,11 +1,15 @@
 <template>
   <NuxtLink :to="link">
     <span
-      class="flex items-center gap-1 text-lg font-medium tracking-wider underline"
+      class="gap-1 text-lg font-medium tracking-wider underline"
       :class="[textClass]"
     >
       {{ text }}
-      <NuxtIcon v-if="showIcon" :name="icon" class="text-sm font-semibold" />
+      <NuxtIcon
+        v-if="showIcon"
+        :name="icon"
+        class="whitespace-nowrap text-sm font-semibold"
+      />
     </span>
   </NuxtLink>
 </template>

@@ -1,15 +1,15 @@
 <template>
-  <div class="flex flex-col gap-6 md:gap-8">
+  <div class="flex flex-col gap-10">
     <OrganismMainInformation />
-    <div class="container flex flex-col gap-8 px-4 md:px-8">
+    <div class="container flex flex-col gap-10 px-4 md:px-8">
       <OrganismRecommendedProducts
         :apaCareProducts="apaCareRecommendedProducts || []"
         :oraLactinProducts="oraLactinRecommendedProducts || []"
       />
-
       <MoleculeAboutUs />
+      <OrganismSalesProductsAdvantages />
     </div>
-    <footer class="h-40 bg-primary" />
+    <footer class="h-40 bg-secondary" />
   </div>
 </template>
 

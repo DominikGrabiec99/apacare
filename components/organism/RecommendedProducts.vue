@@ -5,12 +5,12 @@
     </h3>
     <div class="mt-8">
       <Tabs default-value="apaCare">
-        <TabsList class="mb-6 h-12 w-full md:w-auto">
+        <TabsList class="mb-6 h-14 w-full md:w-auto">
           <TabsTrigger
             v-for="tab in tabs"
             :key="tab.id"
             :value="tab.id"
-            class="text-md h-full w-1/2 px-6 font-medium data-[state=active]:bg-primary data-[state=active]:text-white md:w-auto md:min-w-60"
+            class="text-md h-full w-1/2 px-6 font-medium data-[state=active]:bg-primary data-[state=active]:text-white md:w-auto md:min-w-72"
           >
             {{ tab.name }}
           </TabsTrigger>

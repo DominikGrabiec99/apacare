@@ -1,7 +1,7 @@
 <template>
   <div>
     <h3 class="text-2xl font-bold text-primary-black md:text-4xl">O nas</h3>
-    <div class="mt-6 flex flex-col items-center gap-4 md:flex-row md:gap-12">
+    <div class="mt-8 flex flex-col items-center gap-4 md:flex-row md:gap-12">
       <img
         src="/images/about-us.png"
         alt="zdjęcie firmy"

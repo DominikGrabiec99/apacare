@@ -55,7 +55,7 @@ export const APA_CARE_DESCRIPTION = `
 
             <h5 class="font-semibold">Produkty systemu ApaCare</h5>
             <div>
-              <ul class="list-disc ml-8">
+              <ul class="list-disc ml-[32px]">
                 <li>
                   Tworzą warstwy ochronnej: płynne szkliwo tworzy niewidzialną
                   warstwę ochronną, która pokrywa zęby niczym „druga skóra”.

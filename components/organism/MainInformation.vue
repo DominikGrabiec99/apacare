@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative h-[700px] overflow-hidden pt-6 md:flex md:h-[450px] md:items-center md:pt-8"
+    class="relative h-[650px] overflow-hidden pt-6 md:flex md:h-[450px] md:items-center md:pt-8"
   >
     <div
       class="container flex h-full flex-col gap-3 px-4 md:h-min md:flex-row-reverse md:items-center md:justify-end md:gap-8 md:px-10 lg:gap-28"
@@ -50,9 +50,7 @@
     <div
       class="absolute -right-32 bottom-10 size-64 rounded-full bg-primary opacity-15 md:hidden"
     />
-    <div
-      class="absolute -bottom-24 -left-24 size-48 rounded-full bg-primary opacity-15 md:hidden"
-    />
+
     <NuxtIcon
       name="ri:tooth-line"
       class="absolute left-5 top-5 text-[60px] text-primary opacity-15 md:hidden"

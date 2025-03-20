@@ -1,19 +1,26 @@
 <template>
-  <div
-    class="flex w-full flex-col items-center justify-center gap-2 rounded-lg border border-solid border-primary bg-[#7bcf9a] p-4 md:max-w-[250px]"
-  >
-    <img :src="photo" :alt="text" class="size-20" />
-    <p class="text-center font-medium text-white">{{ text }}</p>
+  <div class="flex w-full flex-col items-center gap-4">
+    <div class="flex items-center justify-center rounded-full bg-secondary p-3">
+      <NuxtIcon :name="icon" class="text-5xl text-primary" />
+    </div>
+    <div class="flex h-full flex-col justify-between gap-1">
+      <p class="text-center font-semibold text-primary-black">{{ title }}</p>
+      <p class="text-center text-sm text-primary-black">{{ text }}</p>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 defineProps({
-  photo: {
+  title: {
     type: String,
     default: '',
   },
   text: {
+    type: String,
+    default: '',
+  },
+  icon: {
     type: String,
     default: '',
   },

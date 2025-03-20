@@ -3,7 +3,7 @@
     <h3 class="text-2xl font-bold text-primary-black md:text-4xl">O nas</h3>
     <div class="mt-8 flex flex-col items-center gap-4 md:flex-row md:gap-12">
       <img
-        src="/images/about-us.png"
+        src="/images/about-company.png"
         alt="zdjęcie firmy"
         class="rounded-lg md:max-w-[300px]"
       />

@@ -16,31 +16,20 @@
           </TabsTrigger>
         </TabsList>
         <TabsContent value="apaCare">
-          <div class="mb-6">
-            <p class="text-primary-black">
-              {{ APA_CARE_SHORT_DESCRIPTION }}
-
-              <OrganismSidebarContent
-                open-button-text="Dowiedz się więcej"
-                sidebar-title="ApaCare - Jak to działa"
-                :sidebarContent="APA_CARE_DESCRIPTION"
-              />
-            </p>
-          </div>
-          <OrganismCarouselProducts :products="apaCareProducts" />
+          <OrganismRecommendedProductsTab
+            :products="apaCareProducts"
+            :description="APA_CARE_DESCRIPTION"
+            :short-description="APA_CARE_SHORT_DESCRIPTION"
+            sidebar-title="ApaCare - Jak to działa"
+          />
         </TabsContent>
         <TabsContent value="oraLactin">
-          <div class="mb-6">
-            <p class="text-primary-black">
-              {{ ORA_LACTIN_SHORT_DESCRIPTION }}
-              <OrganismSidebarContent
-                open-button-text="Dowiedz się więcej"
-                sidebar-title="OraLactin - Jak to działa"
-                :sidebarContent="ORA_LACTIN_DESCRIPTION"
-              />
-            </p>
-          </div>
-          <OrganismCarouselProducts :products="oraLactinProducts" />
+          <OrganismRecommendedProductsTab
+            :products="oraLactinProducts"
+            :description="ORA_LACTIN_DESCRIPTION"
+            :short-description="ORA_LACTIN_SHORT_DESCRIPTION"
+            sidebar-title="OraLactin - Jak to działa"
+          />
         </TabsContent>
       </Tabs>
     </div>

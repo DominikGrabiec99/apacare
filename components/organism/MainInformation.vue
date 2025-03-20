@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative h-[650px] overflow-hidden pt-6 md:flex md:h-[450px] md:items-center md:pt-8"
+    class="relative min-h-[650px] overflow-hidden pt-6 md:flex md:min-h-[450px] md:items-center md:pt-8"
   >
     <div
       class="container flex h-full flex-col gap-3 px-4 md:h-min md:flex-row-reverse md:items-center md:justify-end md:gap-8 md:px-10 lg:gap-28"
@@ -23,7 +23,7 @@
         </div>
       </div>
       <div class="relative h-full md:h-min">
-        <div class="relative top-10">
+        <div class="pt-10">
           <div class="flex flex-col gap-1">
             <h1 class="text-5xl font-bold text-primary">Dbaj o swój</h1>
             <h2 class="text-3xl font-semibold text-primary-black md:text-3xl">

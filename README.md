@@ -36,6 +36,7 @@ yarn dev
 
 # bun
 bun run dev
+
 ```
 
 ## Production

@@ -2,9 +2,13 @@
   <div>
     <NuxtLink :to="`./produkt/${product.id}`">
       <div
-        class="flex items-center justify-center rounded-lg bg-secondary py-4"
+        class="flex items-center justify-center overflow-hidden rounded-lg bg-secondary py-4"
       >
-        <img class="h-64" :src="product.photo" :alt="product.name" />
+        <img
+          class="h-64 transform transition-transform duration-300 ease-in-out hover:scale-105"
+          :src="product.photo"
+          :alt="product.name"
+        />
       </div>
 
       <div class="flex flex-col gap-2 p-4">

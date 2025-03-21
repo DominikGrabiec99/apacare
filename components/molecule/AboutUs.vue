@@ -9,7 +9,7 @@
         alt="zdjęcie firmy"
         class="rounded-lg md:max-w-[400px]"
       />
-      <p class="text-primary-black">{{ ABOUT_US_TEXT }}</p>
+      <AtomExpandingText :text="ABOUT_US_TEXT" :truncate-length="100" />
     </div>
   </div>
 </template>

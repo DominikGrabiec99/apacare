@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+    <div
+      class="flex flex-col md:mb-10 md:flex-row md:items-center md:justify-between"
+    >
       <h3 class="text-2xl font-bold text-primary-black md:text-4xl">
         Zalety naszych produktów
       </h3>
@@ -11,20 +13,15 @@
         showIcon
       />
     </div>
-    <div class="mt-8 flex flex-col md:flex-row">
-      <OrganismCarouselContent>
-        <CarouselItem
-          v-for="(advantage, index) in SALES_PRODUCTS_ADVANTAGES"
-          :key="index"
-          class="basis-3/4 md:basis-1/4 lg:basis-1/4"
-        >
+    <div class="mt-8">
+      <OrganismCarouselContent :items="SALES_PRODUCTS_ADVANTAGES">
+        <template #default="{ item }">
           <MoleculeSalesProductAdvantage
-            class="h-full"
-            :title="advantage.title"
-            :text="advantage.text"
-            :icon="advantage.icon"
+            :title="item.title"
+            :text="item.text"
+            :icon="item.icon"
           />
-        </CarouselItem>
+        </template>
       </OrganismCarouselContent>
     </div>
   </div>

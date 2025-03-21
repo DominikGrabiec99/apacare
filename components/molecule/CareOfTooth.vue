@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full flex-col items-center gap-4">
+  <div class="flex w-full flex-col items-center gap-4 py-4">
     <img :src="photo" :alt="title" class="w-full rounded-lg" />
     <h5 class="text-center text-lg font-semibold">{{ title }}</h5>
     <AtomUnderlineNuxtLink

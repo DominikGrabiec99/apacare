@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-10">
+  <div class="flex flex-col gap-10 md:gap-16">
     <OrganismMainInformation />
-    <div class="container flex flex-col gap-10 px-4 md:gap-14 md:px-8">
+    <div class="container flex flex-col gap-10 px-4 md:gap-16 md:px-8">
       <OrganismRecommendedProducts
         :apaCareProducts="apaCareRecommendedProducts || []"
         :oraLactinProducts="oraLactinRecommendedProducts || []"

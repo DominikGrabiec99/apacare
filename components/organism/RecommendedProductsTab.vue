@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mb-6">
+    <div class="mb-8 md:mb-10">
       <p class="text-primary-black">
         {{ shortDescription }}
         <OrganismSidebarContent
@@ -10,14 +10,10 @@
         />
       </p>
     </div>
-    <OrganismCarouselContent>
-      <CarouselItem
-        v-for="product in products"
-        :key="product.id"
-        class="basis-3/4 md:basis-1/2 lg:basis-1/4"
-      >
-        <MoleculeProductBox :product="product" />
-      </CarouselItem>
+    <OrganismCarouselContent :items="products" showPagination>
+      <template #default="{ item }">
+        <MoleculeProductBox :product="item" />
+      </template>
     </OrganismCarouselContent>
   </div>
 </template>

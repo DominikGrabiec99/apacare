@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full flex-col items-center gap-4">
+  <div class="flex flex-col items-center gap-4 py-4">
     <div class="flex items-center justify-center rounded-full bg-secondary p-3">
       <NuxtIcon :name="icon" class="text-5xl text-primary" />
     </div>

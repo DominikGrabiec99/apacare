@@ -4,19 +4,15 @@
       Dbaj o swoje zęby
     </h3>
     <div class="mt-8">
-      <OrganismCarouselContent class="md:hidden">
-        <CarouselItem
-          v-for="(item, idx) in CARE_OF_TEETH"
-          :key="idx"
-          class="basis-full"
-        >
+      <OrganismCarouselContent class="md:hidden" :items="CARE_OF_TEETH">
+        <template #default="{ item }">
           <MoleculeCareOfTooth
             :photo="item.photo"
             :link="item.link"
             :text="item.text"
             :title="item.title"
           />
-        </CarouselItem>
+        </template>
       </OrganismCarouselContent>
     </div>
 

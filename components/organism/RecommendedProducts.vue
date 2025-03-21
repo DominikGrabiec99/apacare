@@ -3,7 +3,7 @@
     <h3 class="text-2xl font-bold text-primary-black md:text-4xl">
       Najpopularniesze produkty
     </h3>
-    <div class="mt-8">
+    <div class="mt-8 md:mt-10">
       <Tabs default-value="apaCare">
         <TabsList class="mb-6 h-14 w-full md:w-auto">
           <TabsTrigger

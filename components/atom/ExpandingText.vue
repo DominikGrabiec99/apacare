@@ -1,7 +1,11 @@
 <template>
   <div>
-    <p class="text-primary-black" v-if="isExpanded">{{ text }}</p>
-    <p class="text-primary-black" v-else>{{ truncatedText }}...</p>
+    <p class="text-primary-black" :class="[textClass]" v-if="isExpanded">
+      {{ text }}
+    </p>
+    <p class="text-primary-black" :class="[textClass]" v-else>
+      {{ truncatedText }}...
+    </p>
     <Button
       variant="ghost"
       class="inline rounded p-0 text-primary-black"
@@ -17,6 +21,10 @@ import { ref, computed } from 'vue';
 
 const props = defineProps({
   text: {
+    type: String,
+    default: '',
+  },
+  textClass: {
     type: String,
     default: '',
   },

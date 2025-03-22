@@ -73,8 +73,9 @@ const modules = computed(() => {
 <style lang="scss" scoped>
 :deep(.swiper) {
   .swiper-pagination-bullet {
-    width: 10px;
-    height: 10px;
+    --size: 14px;
+    width: var(--size);
+    height: var(--size);
     background-color: #c8c8ca;
     opacity: 1;
   }
@@ -92,7 +93,7 @@ const modules = computed(() => {
     display: flex;
     padding-block: 6px;
     padding-inline: 12px;
-    justify-self: center;
+    justify-self: center !important;
     gap: 6px;
   }
 

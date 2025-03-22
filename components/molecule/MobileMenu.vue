@@ -11,13 +11,9 @@
           :class="{ 'top-0': isMenuOpen }"
         >
           <NuxtLink v-for="link in MENU_LINK" :key="link.id" :to="link.to">
-            <div class="flex items-center gap-3 py-2">
-              <NuxtIcon :name="link.icon" class="text-primary-black text-xl" />
-
-              <p class="text-primary-black text-xl font-semibold uppercase">
-                {{ link.text }}
-              </p>
-            </div>
+            <p class="text-xl font-semibold uppercase text-primary-black">
+              {{ link.text }}
+            </p>
           </NuxtLink>
         </nav>
       </Teleport>

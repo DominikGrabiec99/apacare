@@ -10,7 +10,6 @@
       <OrganismSalesProductsAdvantages />
       <OrganismCareOfTeeth />
     </div>
-    <footer class="h-40 bg-secondary" />
   </div>
 </template>
 

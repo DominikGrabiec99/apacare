@@ -93,7 +93,7 @@ const modules = computed(() => {
     display: flex;
     padding-block: 6px;
     padding-inline: 12px;
-    justify-self: center !important;
+    margin-inline: auto;
     gap: 6px;
   }
 

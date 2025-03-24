@@ -1,17 +1,18 @@
 <template>
   <div>
-    <p class="text-primary-black" :class="[textClass]" v-if="isExpanded">
-      {{ text }}
-    </p>
-    <p class="text-primary-black" :class="[textClass]" v-else>
-      {{ truncatedText }}...
-    </p>
-    <Button
-      variant="ghost"
-      class="inline rounded p-0 text-primary-black"
-      @click="toggleText"
+    <div
+      class="overflow-hidden transition-all duration-300"
+      :class="isExpanded ? 'max-h-[600px] opacity-100' : 'max-h-32'"
     >
-      {{ isExpanded ? 'Zwiń' : 'Rozwiń' }}
+      <p class="text-primary-black" :class="textClass">
+        {{ isExpanded ? text : truncatedText + '...' }}
+      </p>
+    </div>
+    <Button variant="ghost" class="inline h-min p-0" @click="toggleText">
+      <AtomUnderlineText
+        :text="isExpanded ? 'Zwiń' : 'Rozwiń'"
+        text-class="text-sm"
+      />
     </Button>
   </div>
 </template>

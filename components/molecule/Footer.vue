@@ -4,7 +4,7 @@
       class="container flex w-full flex-col gap-2 px-4 py-8 text-primary-black md:px-8"
     >
       <h5 class="text-2xl font-medium">Jesteś zainteresowany naszą ofertą?</h5>
-      <p class="text-xl">
+      <p class="flex flex-col gap-1 text-xl md:flex-row">
         Zadzwoń do nas:
         <a href="tel:+48226354541" class="font-bold" target="_blank">
           22 635 45 41
@@ -15,7 +15,7 @@
         </a>
       </p>
       <div>
-        <p>Od poniedziałku do piątku w godzinach 8:00 - 21:00</p>
+        <p>Od poniedziałku do piątku w godzinach 8:00 - 18:00</p>
         <p>Opłata zgodna z taryfądostawcy usług</p>
       </div>
 

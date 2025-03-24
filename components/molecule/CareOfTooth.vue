@@ -2,7 +2,7 @@
   <div class="flex w-full flex-col items-center gap-4 pb-4">
     <img :src="photo" :alt="title" class="w-full rounded-lg" />
     <h5 class="text-center text-lg font-semibold">{{ title }}</h5>
-    <AtomUnderlineNuxtLink
+    <MoleculeUnderlineNuxtLink
       v-if="link"
       :to="link"
       text="Dowiedz się więcej"

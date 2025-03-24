@@ -1,9 +1,7 @@
 <template>
   <div>
-    <h3 class="text-2xl font-bold text-primary-black md:text-4xl">
-      Dbaj o swoje zęby
-    </h3>
-    <div class="mt-8">
+    <AtomTitleElementSection text="Dbaj o swoje zęby" />
+    <div>
       <OrganismCarouselContent class="md:hidden" :items="CARE_OF_TEETH">
         <template #default="{ item }">
           <MoleculeCareOfTooth

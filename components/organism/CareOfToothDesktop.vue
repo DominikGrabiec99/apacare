@@ -32,7 +32,7 @@
               <p v-if="item.text" class="text-sm xl:text-base">
                 {{ item.text }}
               </p>
-              <AtomUnderlineNuxtLink
+              <MoleculeUnderlineNuxtLink
                 v-if="item.link"
                 :link="item.link"
                 text-class="text-sm"

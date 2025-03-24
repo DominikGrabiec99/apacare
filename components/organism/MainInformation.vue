@@ -46,7 +46,7 @@
               zdrowe i lśniące zęby!
             </p>
             <!-- link="/produkty" -->
-            <AtomUnderlineNuxtLink
+            <MoleculeUnderlineNuxtLink
               text="Sprawdź"
               text-class="font-semibold md:text-white md:before:bg-white md:after:bg-white md:[text-shadow:_0_4px_8px_rgba(0,0,0,0.7)]"
               icon-class="md:text-white md:[text-shadow:_0_4px_8px_rgba(0,0,0,0.7)]"
@@ -70,7 +70,7 @@
     />
     <NuxtIcon
       name="ri:tooth-line"
-      class="absolute left-16 top-80 text-[58px] text-primary opacity-10 md:hidden"
+      class="absolute left-12 top-96 text-[58px] text-primary opacity-10 md:hidden"
     />
   </div>
 
@@ -115,7 +115,7 @@
               zdrowe i lśniące zęby!
             </p>
             <!-- link="/produkty" -->
-            <AtomUnderlineNuxtLink
+            <MoleculeUnderlineNuxtLink
               text="Sprawdź"
               text-class="font-semibold"
               showIcon

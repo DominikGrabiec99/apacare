@@ -1,7 +1,7 @@
 <template>
   <Sheet>
-    <SheetTrigger class="cursor-pointer text-primary-black underline">
-      {{ openButtonText }}
+    <SheetTrigger class="cursor-pointer">
+      <AtomUnderlineText :text="openButtonText" text-class="!text-base" />
     </SheetTrigger>
     <SheetContent class="w-full overflow-y-auto sm:max-w-full md:max-w-[600px]">
       <SheetHeader class="text-left">

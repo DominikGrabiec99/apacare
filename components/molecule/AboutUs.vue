@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h3 class="text-2xl font-bold text-primary-black md:text-4xl">O nas</h3>
+    <AtomTitleElementSection text="O nas" />
     <div
-      class="mt-8 flex flex-col items-center gap-4 rounded-lg bg-secondary p-4 md:flex-row md:gap-12 md:p-8"
+      class="flex flex-col items-center gap-4 rounded-lg bg-secondary p-4 md:flex-row md:gap-12 md:p-8"
     >
       <img
         src="/images/about-company.png"

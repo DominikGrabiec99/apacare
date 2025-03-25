@@ -7,7 +7,7 @@
     <ClientOnly>
       <Teleport to="body">
         <nav
-          class="border-b-solid border-b-black-100 duration-400 absolute -top-[100dvh] left-0 z-30 flex h-auto w-full flex-col overflow-auto border-b bg-white px-4 py-2 pt-[64px] shadow-md transition-all ease-in-out lg:hidden"
+          class="border-b-solid border-b-black-100 duration-400 absolute -top-[100dvh] left-0 z-30 flex h-[100vh] w-full flex-col gap-3 overflow-auto border-b bg-white px-4 py-2 pt-[calc(var(--menu-height-mobile)+16px)] shadow-md transition-all ease-in-out lg:hidden"
           :class="{ 'top-0': isMenuOpen }"
         >
           <NuxtLink v-for="link in MENU_LINK" :key="link.id" :to="link.to">

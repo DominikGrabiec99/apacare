@@ -9,7 +9,7 @@
         class="flex h-full items-center px-5 font-medium"
       >
         <span
-          class="before:content-[' '] relative text-2xl font-medium text-white before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-blue-700 before:transition-all hover:before:w-full"
+          class="before:content-[' '] before:bg-primary-blue-dark relative text-2xl font-medium text-white before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:transition-all hover:before:w-full"
         >
           {{ link.text }}
         </span>

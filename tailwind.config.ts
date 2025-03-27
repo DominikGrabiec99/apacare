@@ -22,6 +22,7 @@ module.exports = {
       colors: {
         'primary-black': '#333',
         'primary-green-light': '#94f2b7',
+        'primary-blue-dark': '#203C8F',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {

@@ -2,7 +2,7 @@ const MENU_LINK = [
   {
     id: '1',
     text: 'Produkty',
-    to: '/',
+    to: '/produkty',
   },
   {
     id: '3',

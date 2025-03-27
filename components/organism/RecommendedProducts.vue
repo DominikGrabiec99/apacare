@@ -38,8 +38,8 @@
 /** UI */
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
-/** INTERFACES */
-import type { IRecommendedProducts } from '@/ts/interfaces/RecommendedProducts';
+/** SCHEMA */
+import type { IRecommendedProducts } from '@/schema/index';
 
 /** CONSTANTS */
 import {

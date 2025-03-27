@@ -1,13 +1,30 @@
-/** INTERFACES */
-import type { IRecommendedProducts } from '@/ts/interfaces/RecommendedProducts';
+/** SCHEMA */
+import type { IRecommendedProducts } from '@/schema/index';
+import { ECompany } from '@/schema/index';
 
 export const useRecommendedProducts = () => {
   const { data: apaCareRecommendedProducts } = useFetch<IRecommendedProducts[]>(
-    '/api/ApaCareRecommendedProducts',
+    '/api/getRecommendedProducts',
+    {
+      method: 'POST',
+      body: {
+        variables: {
+          company: ECompany.APACARE,
+        },
+      },
+    },
   );
+
   const { data: oraLactinRecommendedProducts } = useFetch<
     IRecommendedProducts[]
-  >('/api/OraLactinRecommendedProducts');
+  >('/api/getRecommendedProducts', {
+    method: 'POST',
+    body: {
+      variables: {
+        company: ECompany.ORALACTIN,
+      },
+    },
+  });
 
   return {
     apaCareRecommendedProducts,

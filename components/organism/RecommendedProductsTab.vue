@@ -19,8 +19,8 @@
 </template>
 
 <script setup lang="ts">
-/** INTERFACES */
-import type { IRecommendedProducts } from '@/ts/interfaces/RecommendedProducts';
+/** SCHEMA */
+import type { IRecommendedProducts } from '@/schema/index';
 
 defineProps({
   products: {

@@ -1,0 +1,1 @@
+import{_ as c,a as n}from"./-eEIvRVv.js";import{_ as a,c as r,o as _,b as e,a as m,v as d}from"./SSehySF5.js";import"./CsgzDnqU.js";const l={},i={class:"bg-secondary"};function p(o,f){const t=c,s=n;return _(),r("div",i,[e(t),m("div",null,[d(o.$slots,"default")]),e(s,{class:"mt-10 !bg-white md:mt-16"})])}const h=a(l,[["render",p]]);export{h as default};

@@ -1,6 +1,7 @@
 <template>
   <div
-    :class="`md: relative min-h-[650px] overflow-hidden bg-cover bg-center pt-16 md:flex md:min-h-[400px] md:items-center md:bg-[url(${runtimeConfig.public.baseURL}/images/bg-main-section.png)] md:pt-0 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-20 xl:min-h-[620px]`"
+    :style="bgStyle"
+    class="md: relative min-h-[650px] overflow-hidden bg-cover bg-center pt-16 md:flex md:min-h-[400px] md:items-center md:pt-0 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-20 xl:min-h-[620px]"
   >
     <div
       class="container flex h-full flex-col gap-5 px-6 md:h-min md:flex-row-reverse md:items-center md:justify-end md:gap-12 md:px-14 lg:gap-36"
@@ -74,5 +75,17 @@
 </template>
 
 <script setup lang="ts">
+import { useWindowSize } from '@vueuse/core';
+
 const runtimeConfig = useRuntimeConfig();
+
+const { width, height } = useWindowSize();
+
+const bgStyle = computed(() =>
+  Number(width.value) >= 768
+    ? {
+        backgroundImage: `url(${runtimeConfig.public.baseURL}/images/bg-main-section.png)`,
+      }
+    : {},
+);
 </script>

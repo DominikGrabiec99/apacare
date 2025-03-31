@@ -1,1 +1,0 @@
-import{_ as c,a as n}from"./DLGgI7aA.js";import{_ as a,c as r,o as _,b as e,a as d,M as l}from"./ByoZIxu5.js";import"./ry_bygth.js";const m={},p={class:"bg-secondary"};function i(o,f){const s=c,t=n;return _(),r("div",null,[e(s),d("div",p,[l(o.$slots,"default")]),e(t,{class:"pt-10 md:pt-16"})])}const B=a(m,[["render",i]]);export{B as default};

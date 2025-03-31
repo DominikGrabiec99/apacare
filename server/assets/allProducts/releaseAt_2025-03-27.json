@@ -5,7 +5,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/ApaCare_Remineralising_Toothpaste.png",
+        "url": "/images/products/ApaCare_Remineralising_Toothpaste.png",
         "priority": 100
       }
     ],
@@ -138,7 +138,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/ApaCare_Repair.png",
+        "url": "/images/products/ApaCare_Repair.png",
         "priority": 100
       }
     ],
@@ -235,7 +235,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/ApaCare_Polish.png",
+        "url": "/images/products/ApaCare_Polish.png",
         "priority": 100
       }
     ],
@@ -311,7 +311,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/OraLactin-Liquid.png",
+        "url": "/images/products/OraLactin-Liquid.png",
         "priority": 100
       }
     ],
@@ -421,7 +421,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/ApaCare_Gum.png",
+        "url": "/images/products/ApaCare_Gum.png",
         "priority": 100
       }
     ],
@@ -513,7 +513,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/ApaCare_Zahnlack.png",
+        "url": "/images/products/ApaCare_Zahnlack.png",
         "priority": 100
       }
     ],
@@ -580,7 +580,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/OraLactin_Zahncreme.png",
+        "url": "/images/products/OraLactin_Zahncreme.png",
         "priority": 100
       }
     ],
@@ -707,7 +707,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/ApaCare_SzynaRepair.png",
+        "url": "/images/products/ApaCare_SzynaRepair.png",
         "priority": 100
       }
     ],
@@ -765,7 +765,7 @@
     "category": "",
     "photos": [
       {
-        "url": "./images/products/ApaCare_Prophylaxe.png",
+        "url": "/images/products/ApaCare_Prophylaxe.png",
         "priority": 100
       }
     ],

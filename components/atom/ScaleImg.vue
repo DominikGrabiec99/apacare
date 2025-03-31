@@ -1,7 +1,7 @@
 <template>
   <img
     class="h-64 transform transition-transform duration-300 ease-in-out hover:scale-105"
-    :src="photo"
+    :src="`${runtimeConfig.public.baseURL}${photo}`"
     :alt="name"
   />
 </template>
@@ -17,4 +17,6 @@ defineProps({
     default: '',
   },
 });
+
+const runtimeConfig = useRuntimeConfig();
 </script>

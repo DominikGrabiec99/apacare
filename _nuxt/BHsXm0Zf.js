@@ -1,0 +1,1 @@
+import{_ as a,a as s}from"./BE1S-Zpu.js";import{_ as c,c as r,o as _,b as e,a as l,q as m}from"./DexrIab_.js";import"./BIMy1JaR.js";const d={};function f(o,u){const t=a,n=s;return _(),r("div",null,[e(t),l("div",null,[m(o.$slots,"default")]),e(n,{class:"mt-10 md:mt-16"})])}const B=c(d,[["render",f]]);export{B as default};

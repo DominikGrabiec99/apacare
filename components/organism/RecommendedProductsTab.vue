@@ -12,7 +12,7 @@
     </div>
     <OrganismCarouselContent :items="products" showPagination>
       <template #default="{ item }">
-        <MoleculeProductBox :product="item" />
+        <MoleculeRecommendedProductBox :product="item" />
       </template>
     </OrganismCarouselContent>
   </div>

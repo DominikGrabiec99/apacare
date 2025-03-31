@@ -20,7 +20,7 @@ export interface Product {
   category: string;
   photos: IPhoto[];
   company: ECompany;
-  label: string[];
+  labels: string[];
   name: string;
   description: string;
   isHomePageRecommended: boolean;

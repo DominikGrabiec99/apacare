@@ -10,7 +10,7 @@
       }
     ],
     "company": "ApaCare",
-    "label": ["Nowość", "Test", "Mocne szkliwo"],
+    "labels": ["Nowość", "Test", "Mocne szkliwo"],
     "name": "ApaCare Remineralising Toothpaste",
     "description": "Pasta do codziennego czyszczenia zębów. Płynne szkliwo wzmacnia, wygładza i rozjaśnia zęby.",
     "isHomePageRecommended": true,
@@ -143,7 +143,7 @@
       }
     ],
     "company": "ApaCare",
-    "label": [],
+    "labels": [],
     "name": "ApaCare Repair",
     "description": "Medyczna pasta do naprawy zębów. Pasta o dużej zawartości płynnego szkliwa do stosowania po umyciu zębów.",
     "isHomePageRecommended": true,
@@ -240,7 +240,7 @@
       }
     ],
     "company": "ApaCare",
-    "label": [],
+    "labels": [],
     "name": "ApaCare Polish",
     "description": "Medyczna pasta do polerowania zębów z płynnym szkliwem",
     "isHomePageRecommended": true,
@@ -316,7 +316,7 @@
       }
     ],
     "company": "OraLactin",
-    "label": ["Test"],
+    "labels": ["Test"],
     "name": "ApaCare OraLactin Liquid",
     "description": "Płyn do płukania jamy ustnej z medycznym hydroksyapatytem i prebiotykami.",
     "isHomePageRecommended": true,
@@ -426,7 +426,7 @@
       }
     ],
     "company": "ApaCare",
-    "label": [],
+    "labels": [],
     "name": "ApaCare Anti-caries chewing gum",
     "description": "Guma do żucia chroniąca przed próchnicą zawierająca minerały szkliwa i ksylitol.",
     "isHomePageRecommended": true,
@@ -518,7 +518,7 @@
       }
     ],
     "company": "ApaCare",
-    "label": [],
+    "labels": [],
     "name": "ApaCare Lack Lakier Mineralizujący",
     "description": "",
     "isHomePageRecommended": false,
@@ -585,7 +585,7 @@
       }
     ],
     "company": "OraLactin",
-    "label": [],
+    "labels": [],
     "name": "OraLactin Toothpast",
     "description": "Medyczna pasta do zębów z probiotykim i płynnym szkliwem do codziennego mycia i pielęgnacji zębów.",
     "isHomePageRecommended": true,
@@ -712,7 +712,7 @@
       }
     ],
     "company": "ApaCare",
-    "label": [],
+    "labels": [],
     "name": "ApaCare Repair Dental Split",
     "description": "",
     "isHomePageRecommended": false,
@@ -771,7 +771,7 @@
       }
     ],
     "company": "ApaCare",
-    "label": [],
+    "labels": [],
     "name": "ApaCare Prophylaxis Set",
     "description": "",
     "isHomePageRecommended": false,

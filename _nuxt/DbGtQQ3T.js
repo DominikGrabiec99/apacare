@@ -1,1 +1,0 @@
-import{_ as o,c as s,a as e,o as a}from"./BS8iNhBy.js";const r={},n={class:"container px-4 pt-6 md:gap-16 md:px-8 md:pt-12"};function c(d,t){return a(),s("div",n,t[0]||(t[0]=[e("h3",{class:"text-2xl font-bold text-primary-black md:text-4xl"}," Nasze produkty ",-1),e("div",null,null,-1)]))}const p=o(r,[["render",c]]);export{p as default};

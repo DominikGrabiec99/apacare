@@ -39,10 +39,12 @@ definePageMeta({
   layout: 'products-page',
 });
 
+const runtimeConfig = useRuntimeConfig();
+
 const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
   {
     text: 'Strona głowna',
-    link: '/',
+    link: runtimeConfig.public.baseURL,
     icon: 'mingcute:home-3-line',
   },
 ]);

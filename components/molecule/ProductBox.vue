@@ -1,16 +1,28 @@
 <template>
-  <div class="grid gap-2 rounded-sm bg-white p-4">
+  <div class="flex flex-col gap-2 bg-white p-4">
     <div class="flex h-[30px] flex-wrap gap-1">
-      <Badge v-for="label in productLabels" class="h-min px-3 text-xs">
+      <Badge
+        v-for="label in productLabels"
+        class="h-min cursor-default px-3 text-xs"
+      >
         {{ label }}
       </Badge>
     </div>
-    <img class="mx-auto h-44" :src="productImg || ''" :alt="productTitle" />
 
-    <h4 class="font-lg h-[46px] font-semibold text-primary-black">
+    <AtomScaleImg
+      class="mx-auto h-40 px-2"
+      :photo="productImg"
+      :name="productTitle"
+    />
+
+    <h4
+      class="h-[24px] text-base font-semibold text-primary-black md:h-[56px] md:text-lg"
+    >
       {{ productTitle }}
     </h4>
-    <p class="h-[80px] text-sm text-primary-black">{{ productDescription }}</p>
+    <p class="h-[66px] text-justify text-sm text-primary-black md:h-[80px]">
+      {{ productDescription }}
+    </p>
     <NuxtLink :to="productLink" class="mx-auto">
       <Button
         href=""

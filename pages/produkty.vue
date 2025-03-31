@@ -7,11 +7,18 @@
     <div class="grid grid-cols-12 gap-4">
       <div class="hidden h-min bg-white p-4 md:col-span-3 md:flex">filtry</div>
       <div class="col-span-12 flex flex-col gap-4 md:col-span-9">
-        <div class="flex flex-col justify-between gap-1 md:flex-row md:gap-4">
-          <p>Liczba produktów:</p>
-          <div class="flex flex-col gap-1 md:flex-row md:gap-4">
-            <span class="w-full md:w-[150px]">Wyszukaj</span>
-            <span class="w-full md:w-[150px]">Filtry</span>
+        <div
+          class="flex flex-col justify-between gap-2 md:flex-row md:items-center"
+        >
+          <p class="text-primary-black">
+            Liczba produktów:
+            <span class="font-semibold">{{ numberOfProducts }}</span>
+          </p>
+          <div
+            class="flex w-full flex-col gap-2 md:w-2/3 md:flex-row md:justify-end md:gap-4 xl:w-4/5"
+          >
+            <MoleculeProductsSearch />
+            <MoleculeProductsSortButton />
           </div>
         </div>
 
@@ -35,10 +42,10 @@ definePageMeta({
 const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
   {
     text: 'Strona głowna',
-    link: './',
+    link: '/',
     icon: 'mingcute:home-3-line',
   },
 ]);
 
-const { allProducts } = useProducts();
+const { allProducts, numberOfProducts } = useProducts();
 </script>

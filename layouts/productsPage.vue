@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="bg-secondary">
     <OrganismMenu />
-    <div class="bg-secondary">
+    <div>
       <slot />
     </div>
-    <MoleculeFooter class="pt-10 md:pt-16" />
+    <MoleculeFooter class="mt-10 !bg-white md:mt-16" />
   </div>
 </template>

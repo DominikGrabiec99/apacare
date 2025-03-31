@@ -4,10 +4,10 @@
       <div
         class="flex items-center justify-center overflow-hidden rounded-lg bg-secondary py-4"
       >
-        <img
-          class="h-64 transform transition-transform duration-300 ease-in-out hover:scale-105"
-          :src="product.photo"
-          :alt="product.name"
+        <AtomScaleImg
+          class="h-64"
+          :photo="product.photo"
+          :name="product.name"
         />
       </div>
 

@@ -5,7 +5,10 @@ export default defineEventHandler(async (event) => {
   try {
     const body = await readBody(event);
 
-    return allProducts;
+    return {
+      products: allProducts,
+      numberOfProducts: allProducts.length,
+    };
   } catch (error) {
     console.error('getProducts error: ', error);
     return [];

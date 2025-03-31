@@ -508,19 +508,19 @@
     ]
   },
   {
-    "id": "6",
+    "id": "apaCare-lack-lakier-mineralizujacy",
     "priority": "5",
     "category": "",
     "photos": [
       {
-        "url": "",
+        "url": "./images/products/ApaCare_Zahnlack.png",
         "priority": 100
       }
     ],
     "company": "ApaCare",
     "labels": [],
     "name": "ApaCare Lack Lakier Mineralizujący",
-    "description": "",
+    "description": "Długotrwały lakier, który chroni przed nadwrażliwością, remineralizuje szkliwo i zapobiega próchnicy.",
     "isHomePageRecommended": false,
     "textsAfterTitle": [
       "Natychmiastowa pomoc w przypadku nadwrażliwości zębów",
@@ -702,19 +702,19 @@
     ]
   },
   {
-    "id": "8",
+    "id": "apaCare-repair-dental-split",
     "priority": "7",
     "category": "",
     "photos": [
       {
-        "url": "",
+        "url": "./images/products/ApaCare_SzynaRepair.png",
         "priority": 100
       }
     ],
     "company": "ApaCare",
     "labels": [],
     "name": "ApaCare Repair Dental Split",
-    "description": "",
+    "description": "Jednoczęściowa szyna intensywnie remineralizuje, rozjaśnia i nabłyszcza zęby, wspomagając ich ochronę.",
     "isHomePageRecommended": false,
     "textsAfterTitle": [
       "Jednoczęściowa szyna dentystyczna do stosowania ApaCare Repair",
@@ -759,21 +759,20 @@
       }
     ]
   },
-
   {
-    "id": "9",
+    "id": "apaCare-prophylaxis-set",
     "priority": "8",
     "category": "",
     "photos": [
       {
-        "url": "",
+        "url": "./images/products/ApaCare_Prophylaxe.png",
         "priority": 100
       }
     ],
     "company": "ApaCare",
     "labels": [],
     "name": "ApaCare Prophylaxis Set",
-    "description": "",
+    "description": "Zestaw zawiera pasty Remineralising Toothpaste, Repair, Polish oraz szynę dentystyczną Repair.",
     "isHomePageRecommended": false,
     "textsAfterTitle": [
       "W zestawie znajduje się pasta do zębów ApaCare Remineralising Toothpast, pasty do naprawy zębów ApaCare Repair, pasty polerskiej ApaCare Polish oraz jednoczęściowej szyny dentystycznej ApaCare Repair."

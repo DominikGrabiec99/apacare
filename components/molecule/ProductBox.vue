@@ -3,7 +3,8 @@
     <div class="flex h-[30px] flex-wrap gap-1">
       <Badge
         v-for="label in productLabels"
-        class="h-min cursor-default px-3 text-xs"
+        variant="outline"
+        class="h-min cursor-default rounded-none border-primary px-3 text-xs text-primary"
       >
         {{ label }}
       </Badge>
@@ -37,7 +38,7 @@
 
 <script setup lang="ts">
 /** SCHEMA */
-import type { Product } from '@/schema/index';
+import type { IProduct } from '@/schema/index';
 
 /** COMPOSABLES */
 import { useProductInformation } from '@/composables/useProductInformation';
@@ -47,7 +48,7 @@ import { Badge } from '@/components/ui/badge';
 
 const props = defineProps({
   product: {
-    type: Object as PropType<Product>,
+    type: Object as PropType<IProduct>,
     default: () => ({}),
   },
 });

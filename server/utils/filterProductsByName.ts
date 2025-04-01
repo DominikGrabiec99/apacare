@@ -1,7 +1,7 @@
 /** SCHEMA */
-import { Product } from '@/schema/index';
+import { IProduct } from '@/schema/index';
 
-const filterProductsByName = (products: Product[], name: string) => {
+const filterProductsByName = (products: IProduct[], name: string) => {
   return products.filter((product) =>
     product.name.toLowerCase().includes(name.toLowerCase()),
   );

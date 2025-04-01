@@ -14,7 +14,13 @@ export enum ECompany {
   ORALACTIN = 'OraLactin',
 }
 
-export interface Product {
+export enum ESortOrder {
+  RECOMMENDED = 'RECOMMENDED',
+  BACKWARDS = 'BACKWARDS',
+  ALPHABETICAL = 'ALPHABETICAL',
+}
+
+export interface IProduct {
   id: string;
   priority: string;
   category: string;
@@ -67,8 +73,13 @@ export interface IRecommendedProducts {
   description: string;
 }
 
-export enum ESortOrder {
-  RECOMMENDED = 'RECOMMENDED',
-  BACKWARDS = 'BACKWARDS',
-  ALPHABETICAL = 'ALPHABETICAL',
+export interface IChoice {
+  name: string;
+  id: string;
+}
+
+export interface IFilter {
+  name: string;
+  id: string;
+  choices: IChoice[];
 }

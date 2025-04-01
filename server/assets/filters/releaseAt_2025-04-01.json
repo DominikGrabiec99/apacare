@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Producent",
+    "id": "e1468696-aff6-41d8-8921-490e0358ee15",
+    "choices": [
+      {
+        "name": "ApaCare",
+        "id": "040f9d36-2dcb-403a-aa14-3766849dd838"
+      },
+      {
+        "name": "OraLactin",
+        "id": "758213bb-4cb6-4151-bdf0-2e2b3f49dfe9"
+      }
+    ]
+  },
+  {
+    "name": "Kategoria",
+    "id": "cb0da292-21ce-4c21-9f4a-88fc7e90989f",
+    "choices": [
+      {
+        "name": "Pasta do zębów",
+        "id": "30013b8f-4365-4b97-94eb-241747ebb750"
+      },
+      {
+        "name": "Pasta naprawcza",
+        "id": "afcc9db3-9c37-4eb8-b228-febd2ca6dcb4"
+      },
+      {
+        "name": "Probiotyki",
+        "id": "586c3407-67b3-4ca2-baad-42652a94512e"
+      },
+      {
+        "name": "Akcesoria do pielęgnacji",
+        "id": "4fb1e300-6147-41f3-bb90-07ffbe507ad6"
+      },
+      {
+        "name": "Gumy",
+        "id": "4c8975e1-8d0c-41e3-aec5-dc679cc5e85c"
+      },
+      {
+        "name": "Zestawy",
+        "id": "f5808197-7664-4fc8-a06d-9654edd30227"
+      }
+    ]
+  },
+  {
+    "name": "Nowość",
+    "id": "4c97cda6-6fea-4f8c-822e-5730bcb0583d",
+    "choices": [
+      {
+        "name": "Nowość",
+        "id": "53b3b9ed-963b-4c4d-a465-39770dd7e85e"
+      }
+    ]
+  },
+  {
+    "name": "Wegańska",
+    "id": "cadb2dd4-6bae-4596-9df2-0adb31299345",
+    "choices": [
+      {
+        "name": "Wegańska",
+        "id": "3398000c-39f6-4d01-8f4b-df424282faa8"
+      }
+    ]
+  },
+  {
+    "name": "Laktoza",
+    "id": "f49bc887-bb7f-4c81-a8ab-7d7fa954ed6f",
+    "choices": [
+      {
+        "name": "Bez laktozy",
+        "id": "46eee932-8080-4bdc-994f-795dabb119bb"
+      }
+    ]
+  },
+  {
+    "name": "Gluten",
+    "id": "f0b94586-1066-444d-bd69-2a7a0f432856",
+    "choices": [
+      {
+        "name": "Bez glutenu",
+        "id": "f83691b8-e16c-4c25-b656-702788aef507"
+      }
+    ]
+  },
+  {
+    "name": "Dwutlenk tytanu",
+    "id": "8ef2621c-1abd-4a16-9b4b-a2f8f9d2e1c9",
+    "choices": [
+      {
+        "name": "Bez dwutlenku tytanu",
+        "id": "96fcc9ad-896e-4254-92af-2aa0b663b79a"
+      }
+    ]
+  },
+  {
+    "name": "Mikroplastik",
+    "id": "f53cf023-be08-4029-b304-f9aff7113f1c",
+    "choices": [
+      {
+        "name": "Bez mikroplastiku",
+        "id": "7e2d79a0-b45a-462f-8fca-3670212a7884"
+      }
+    ]
+  },
+  {
+    "name": "Konserwanty",
+    "id": "194e2ac2-564f-4bb4-aabe-21f316089768",
+    "choices": [
+      {
+        "name": "Bez konserwantów",
+        "id": "5f2697ca-71be-422f-be1a-88c8475bed99"
+      }
+    ]
+  },
+  {
+    "name": "Parabeny",
+    "id": "9e8f045d-f535-411f-b183-84c820d6a6ba",
+    "choices": [
+      {
+        "name": "Bez parabenów",
+        "id": "052709b3-3ed1-459d-9424-2b53de436b5f"
+      }
+    ]
+  }
+]

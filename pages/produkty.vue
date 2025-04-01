@@ -3,9 +3,12 @@
     class="container flex flex-col gap-4 px-4 pt-6 md:gap-6 md:px-8 md:pt-12"
   >
     <MoleculeProductsHeader :paths="currentResourcePath" />
-    <div class="md:hidden">filtry</div>
+    <!-- <OrganismProductsFilters class="md:hidden" /> -->
     <div class="grid grid-cols-12 gap-4">
-      <div class="hidden h-min bg-white p-4 md:col-span-3 md:flex">filtry</div>
+      <OrganismProductsFilters
+        v-model="productsFilters"
+        class="hidden h-min bg-white p-4 md:col-span-3 md:flex"
+      />
       <div class="col-span-12 flex flex-col gap-4 md:col-span-9">
         <div
           class="flex flex-col justify-between gap-2 md:flex-row md:items-center"
@@ -40,6 +43,7 @@ import { ESortOrder } from '@/schema';
 
 /** COMPOSABLES */
 import { useProductsPage } from '@/composables/useProductsPage';
+import { useFilters } from '@/composables/useFilters';
 
 definePageMeta({
   layout: 'products-page',
@@ -70,6 +74,8 @@ const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
   },
 ]);
 
+const { chosenFilters, productsFilters } = useFilters();
+
 const { allProducts, numberOfProducts, sortOrder, searchValue } =
-  useProductsPage();
+  useProductsPage(chosenFilters);
 </script>

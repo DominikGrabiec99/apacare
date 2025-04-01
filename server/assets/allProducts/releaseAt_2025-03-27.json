@@ -689,7 +689,7 @@
       },
       {
         "priority": 0,
-        "title": "Bez konserwantów :",
+        "title": "Bez konserwantów:",
         "value": true,
         "type": "CHECK"
       },
@@ -746,7 +746,7 @@
             "text": "1 x pudełko do przechowywania"
           },
           {
-            "text": " 1 x jednoczęściowa, przezroczysta szyna"
+            "text": "1 x jednoczęściowa, przezroczysta szyna"
           }
         ],
         "type": "ARRAY"

@@ -11,14 +11,14 @@
 
 <script setup lang="ts">
 /** SCHEMA */
-import type { Product } from '@/schema';
+import type { IProduct } from '@/schema';
 
 /** COMPOSABLES */
 import { useProductInformation } from '@/composables/useProductInformation';
 
 defineProps({
   products: {
-    type: Array as PropType<Product[]>,
+    type: Array as PropType<IProduct[]>,
     default: [],
   },
 });

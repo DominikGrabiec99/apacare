@@ -15,9 +15,6 @@ export default defineNuxtConfig({
       failOnError: false,
     },
   },
-  vite: {
-    plugins: [tailwindcss()],
-  },
   css: ['@/assets/css/main.scss'],
   postcss: {
     plugins: {

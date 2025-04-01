@@ -1,3 +1,7 @@
+@use 'tailwindcss/base';
+@use 'tailwindcss/components';
+@use 'tailwindcss/utilities';
+
 body {
   font-family: 'DM Sans', sans-serif;
 }

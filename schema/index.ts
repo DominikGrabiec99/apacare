@@ -66,3 +66,9 @@ export interface IRecommendedProducts {
   photo: string;
   description: string;
 }
+
+export enum ESortOrder {
+  RECOMMENDED = 'RECOMMENDED',
+  BACKWARDS = 'BACKWARDS',
+  ALPHABETICAL = 'ALPHABETICAL',
+}

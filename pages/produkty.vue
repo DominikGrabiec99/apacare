@@ -17,8 +17,11 @@
           <div
             class="flex w-full flex-col gap-2 md:w-2/3 md:flex-row md:justify-end md:gap-4 xl:w-4/5"
           >
-            <MoleculeProductsSearch />
-            <MoleculeProductsSortButton />
+            <MoleculeProductsSearch v-model="searchValue" />
+            <MoleculeProductsSortButton
+              v-model="sortOrder"
+              :options="sortValuesOptions"
+            />
           </div>
         </div>
 
@@ -32,14 +35,32 @@
 /** INTERFACES */
 import type { ICurrentResourcePath } from '@/ts/interfaces/CurrentResourcePath';
 
+/** SCHEMA */
+import { ESortOrder } from '@/schema';
+
 /** COMPOSABLES */
-import { useProducts } from '@/composables/useProducts';
+import { useProductsPage } from '@/composables/useProductsPage';
 
 definePageMeta({
   layout: 'products-page',
 });
 
 const runtimeConfig = useRuntimeConfig();
+
+const sortValuesOptions = [
+  {
+    text: 'Polecane',
+    value: ESortOrder.RECOMMENDED,
+  },
+  {
+    text: 'Nazwa (A-Z)',
+    value: ESortOrder.ALPHABETICAL,
+  },
+  {
+    text: 'Nazwa (Z-A)',
+    value: ESortOrder.BACKWARDS,
+  },
+];
 
 const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
   {
@@ -49,5 +70,6 @@ const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
   },
 ]);
 
-const { allProducts, numberOfProducts } = useProducts();
+const { allProducts, numberOfProducts, sortOrder, searchValue } =
+  useProductsPage();
 </script>

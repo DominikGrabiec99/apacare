@@ -1,7 +1,6 @@
 <template>
   <div
-    :style="bgStyle"
-    class="md: relative min-h-[650px] overflow-hidden bg-cover bg-center pt-16 md:flex md:min-h-[400px] md:items-center md:pt-0 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-20 xl:min-h-[620px]"
+    class="relative min-h-[650px] overflow-hidden bg-cover bg-center pt-16 md:flex md:min-h-[400px] md:items-center md:bg-[url(/apacare/images/bg-main-section.png)] md:pt-0 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-20 xl:min-h-[620px]"
   >
     <div
       class="container flex h-full flex-col gap-5 px-6 md:h-min md:flex-row-reverse md:items-center md:justify-end md:gap-12 md:px-14 lg:gap-36"
@@ -13,7 +12,7 @@
           class="relative flex size-[calc(20rem)] -rotate-[25deg] items-center justify-center rounded-full border-2 border-solid border-gray-900 border-t-transparent before:absolute before:left-11 before:top-10 before:z-10 before:size-2 before:rounded-full before:bg-gray-900 after:absolute after:right-11 after:top-10 after:z-10 after:size-2 after:rounded-full after:bg-gray-900 md:size-[28rem] md:before:left-[60px] md:before:top-[60px] md:after:right-[60px] md:after:top-[60px]"
         >
           <div
-            class="relative size-72 rotate-[25deg] overflow-hidden rounded-full border-8 border-solid border-primary shadow-lg transition-transform duration-300 ease-in-out hover:scale-105 md:size-[calc(400px-20px)] md:border-[12px]"
+            class="relative size-72 rotate-[25deg] overflow-hidden rounded-full border-8 border-solid border-primary shadow-lg transition-transform duration-300 ease-in-out hover:scale-[103%] md:size-[calc(400px-20px)] md:border-[12px]"
           >
             <img
               :src="`${runtimeConfig.public.baseURL}/images/header-main-page.png`"
@@ -76,16 +75,30 @@
 
 <script setup lang="ts">
 import { useWindowSize } from '@vueuse/core';
+import { useNuxtApp } from '#app';
 
 const runtimeConfig = useRuntimeConfig();
 
-const { width, height } = useWindowSize();
+const { width } = useWindowSize();
 
-const bgStyle = computed(() =>
-  Number(width.value) >= 768
-    ? {
-        backgroundImage: `url(${runtimeConfig.public.baseURL}/images/bg-main-section.png)`,
-      }
-    : {},
+const bgStyle = ref({});
+
+watch(
+  () => width.value,
+  () => {
+    if (useNuxtApp().ssrContext) {
+      return;
+    }
+    console.log('width.value', width.value, Number(width.value) >= 768);
+    bgStyle.value =
+      Number(width.value) >= 768
+        ? {
+            backgroundImage: `url(${runtimeConfig.public.baseURL}/images/bg-main-section.png)`,
+          }
+        : {};
+  },
+  {
+    immediate: true,
+  },
 );
 </script>

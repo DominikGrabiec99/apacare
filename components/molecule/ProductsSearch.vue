@@ -3,6 +3,7 @@
     class="relative h-10 w-full items-center md:max-w-[250px] xl:max-w-[292px]"
   >
     <Input
+      v-model="localValue"
       id="search"
       type="text"
       placeholder="Znajdz produkt"
@@ -17,7 +18,21 @@
 </template>
 
 <script setup lang="ts">
+import { watchDebounced } from '@vueuse/core';
+
 /** UI */
 import { Input } from '@/components/ui/input';
 import { Search } from 'lucide-vue-next';
+
+const model = defineModel<string>();
+
+const localValue = ref<string | number | undefined>();
+
+watchDebounced(
+  localValue,
+  () => {
+    model.value = String(localValue.value || '');
+  },
+  { debounce: 800, maxWait: 1200 },
+);
 </script>

@@ -22,7 +22,7 @@ export const useProductInformation = () => {
   };
 
   const getProductPageLink = (product: Product) => {
-    return `./produkt${product.id}`;
+    return `./produkt?id=${product.id}`;
   };
 
   return {

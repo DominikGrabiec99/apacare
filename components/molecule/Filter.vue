@@ -13,6 +13,7 @@
           <AtomCheckbox
             v-for="choice in filter?.choices"
             v-model="choice.value"
+            :disabled="disabled"
             :key="choice.id"
             :id="choice.id"
             :text="choice.name"
@@ -31,7 +32,13 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from '@/components/ui/accordion';
-import { Checkbox } from '@/components/ui/checkbox';
+
+defineProps({
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+});
 
 /** INTERFACES */
 import type { IFiltersProducts } from '@/ts/interfaces/FiltersProducts';

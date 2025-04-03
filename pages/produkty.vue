@@ -7,6 +7,7 @@
     <div class="grid grid-cols-12 gap-4">
       <OrganismProductsFilters
         v-model="productsFilters"
+        :disabled="areProductLoading"
         class="hidden h-min bg-white p-4 md:col-span-4 md:flex xl:col-span-3"
       />
       <div class="col-span-12 flex flex-col gap-4 md:col-span-8 xl:col-span-9">
@@ -20,19 +21,26 @@
           <div
             class="flex w-full flex-col gap-2 md:w-2/3 md:flex-row md:justify-end md:gap-4 xl:w-4/5"
           >
-            <MoleculeProductsSearch v-model="searchValue" />
+            <MoleculeProductsSearch
+              v-model="searchValue"
+              :disabled="areProductLoading"
+            />
             <MoleculeProductsSortButton
               v-model="sortOrder"
               :options="sortValuesOptions"
+              :disabled="areProductLoading"
             />
             <OrganismProductsFilters
               v-model="productsFilters"
+              :disabled="areProductLoading"
               class="md:hidden"
             />
           </div>
         </div>
 
-        <OrganismProductsList :products="allProducts || []" />
+        <div v-if="areProductLoading">loading</div>
+        <div v-else-if="!allProducts.length">pusty</div>
+        <OrganismProductsList v-else :products="allProducts || []" />
       </div>
     </div>
   </div>
@@ -80,6 +88,11 @@ const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
 
 const { chosenFilters, productsFilters } = useFilters();
 
-const { allProducts, numberOfProducts, sortOrder, searchValue } =
-  useProductsPage(chosenFilters);
+const {
+  allProducts,
+  numberOfProducts,
+  sortOrder,
+  searchValue,
+  areProductLoading,
+} = useProductsPage(chosenFilters);
 </script>

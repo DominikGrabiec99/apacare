@@ -6,16 +6,19 @@
           v-for="(filter, index) in filters"
           :key="filter.id"
           v-model="filters[index]"
+          :disabled="disabled"
         />
       </template>
     </div>
 
     <OrganismSidebarContent
+      :disabled="disabled"
       sidebar-title="Filtruj"
       button-class="w-full md:hidden"
     >
       <template #button>
         <Button
+          :disabled="disabled"
           variant="outline"
           class="w-full rounded-none border-primary px-4 text-base font-semibold text-primary hover:text-primary md:hidden"
         >
@@ -28,6 +31,7 @@
           v-for="(filter, index) in filters"
           :key="filter.id"
           v-model="filters[index]"
+          :disabled="disabled"
         />
       </template>
     </OrganismSidebarContent>
@@ -37,6 +41,13 @@
 <script setup lang="ts">
 /** INTERFACES */
 import type { IFiltersProducts } from '@/ts/interfaces/FiltersProducts';
+
+defineProps({
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+});
 
 const filters = defineModel<IFiltersProducts[]>();
 </script>

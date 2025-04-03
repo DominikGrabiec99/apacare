@@ -1,7 +1,7 @@
 /** SCHEMA */
-import { Product, ESortOrder } from '@/schema/index';
+import { IProduct, ESortOrder } from '@/schema/index';
 
-const sortProducts = (products: Product[], sortOrder: ESortOrder) => {
+const sortProducts = (products: IProduct[], sortOrder: ESortOrder) => {
   return products.sort((a, b) => {
     if (sortOrder === ESortOrder.RECOMMENDED) {
       return Number(a.priority) - Number(b.priority);

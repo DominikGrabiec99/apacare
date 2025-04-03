@@ -74,23 +74,6 @@ export const useFilters = () => {
     },
   );
 
-  watch(
-    () => productsFilters.value,
-    () => {
-      console.log('productsFilters.value', productsFilters.value);
-    },
-    {
-      deep: true,
-    },
-  );
-
-  watch(
-    () => chosenFilters.value,
-    () => {
-      console.log('chosenFilters', chosenFilters.value);
-    },
-  );
-
   return {
     productsFilters,
     chosenFilters,

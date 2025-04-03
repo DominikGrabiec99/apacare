@@ -4,6 +4,7 @@
   >
     <Input
       v-model="localValue"
+      :disabled="disabled"
       id="search"
       type="text"
       placeholder="Znajdz produkt"
@@ -12,7 +13,10 @@
     <span
       class="absolute inset-y-0 end-0 flex items-center justify-center px-2"
     >
-      <Search class="size-6 text-muted-foreground text-primary-black" />
+      <Search
+        class="size-6 text-muted-foreground text-primary-black"
+        :class="{ 'opacity-50': disabled }"
+      />
     </span>
   </div>
 </template>
@@ -25,6 +29,13 @@ import { Input } from '@/components/ui/input';
 import { Search } from 'lucide-vue-next';
 
 const model = defineModel<string>();
+
+defineProps({
+  disabled: {
+    type: Boolean,
+    default: false,
+  },
+});
 
 const localValue = ref<string | number | undefined>();
 

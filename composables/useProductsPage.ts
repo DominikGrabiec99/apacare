@@ -1,3 +1,5 @@
+/** ENUMS */
+import { EApiFetchStatus } from '@/ts/enums/ApiFetchStatus';
 /** SCHEMA */
 import type { IProduct } from '@/schema';
 import { ESortOrder } from '@/schema';
@@ -12,7 +14,7 @@ export const useProductsPage = (chosenFilters: Ref<any>) => {
     selectedFilters: chosenFilters.value,
   }));
 
-  const { data: dataProducts } = useFetch<{
+  const { data: dataProducts, status: productsStatus } = useFetch<{
     products: IProduct[];
     numberOfProducts: number;
   }>('/api/getProducts', {
@@ -25,6 +27,10 @@ export const useProductsPage = (chosenFilters: Ref<any>) => {
 
   const allProducts = computed(() => dataProducts.value?.products || []);
 
+  const areProductLoading = computed(
+    () => productsStatus.value === EApiFetchStatus.PENDING,
+  );
+
   const numberOfProducts = computed(
     () => dataProducts.value?.numberOfProducts || 0,
   );
@@ -34,5 +40,6 @@ export const useProductsPage = (chosenFilters: Ref<any>) => {
     numberOfProducts,
     sortOrder,
     searchValue,
+    areProductLoading,
   };
 };

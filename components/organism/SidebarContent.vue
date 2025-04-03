@@ -1,6 +1,10 @@
 <template>
   <Sheet>
-    <SheetTrigger class="cursor-pointer" :class="[buttonClass]">
+    <SheetTrigger
+      class="cursor-pointer"
+      :class="[buttonClass]"
+      :disabled="disabled"
+    >
       <slot name="button">
         <AtomUnderlineText :text="openButtonText" text-class="!text-base" />
       </slot>
@@ -47,6 +51,10 @@ defineProps({
   buttonClass: {
     type: String,
     default: '',
+  },
+  disabled: {
+    type: Boolean,
+    default: false,
   },
 });
 </script>

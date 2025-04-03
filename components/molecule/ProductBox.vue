@@ -1,37 +1,30 @@
 <template>
   <div class="flex flex-col gap-2 bg-white p-4">
-    <div class="flex h-[30px] flex-wrap gap-1">
-      <Badge
-        v-for="label in productLabels"
-        variant="outline"
-        class="h-min cursor-default rounded-none border-primary px-3 text-xs text-primary"
-      >
-        {{ label }}
-      </Badge>
-    </div>
+    <NuxtLink :to="productLink">
+      <div class="flex h-[30px] flex-wrap gap-1">
+        <Badge
+          v-for="label in productLabels"
+          variant="outline"
+          class="h-min cursor-default rounded-none border-primary px-3 text-xs text-primary"
+        >
+          {{ label }}
+        </Badge>
+      </div>
 
-    <AtomScaleImg
-      class="mx-auto h-40 px-2"
-      :photo="productImg"
-      :name="productTitle"
-    />
+      <AtomScaleImg
+        class="mx-auto h-40 px-2"
+        :photo="productImg"
+        :name="productTitle"
+      />
 
-    <h4
-      class="h-[24px] text-base font-semibold text-primary-black md:h-[56px] md:text-lg"
-    >
-      {{ productTitle }}
-    </h4>
-    <p class="h-[66px] text-justify text-sm text-primary-black md:h-[80px]">
-      {{ productDescription }}
-    </p>
-    <NuxtLink :to="productLink" class="mx-auto">
-      <Button
-        href=""
-        variant="outline"
-        class="w-min border-primary px-4 text-base font-semibold text-primary hover:text-primary"
+      <h4
+        class="h-[24px] text-base font-semibold text-primary-black md:h-[56px] md:text-lg"
       >
-        Sprawdź
-      </Button>
+        {{ productTitle }}
+      </h4>
+      <p class="text-justify text-sm text-primary-black">
+        {{ productDescription }}
+      </p>
     </NuxtLink>
   </div>
 </template>

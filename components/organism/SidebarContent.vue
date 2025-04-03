@@ -1,7 +1,9 @@
 <template>
   <Sheet>
-    <SheetTrigger class="cursor-pointer">
-      <AtomUnderlineText :text="openButtonText" text-class="!text-base" />
+    <SheetTrigger class="cursor-pointer" :class="[buttonClass]">
+      <slot name="button">
+        <AtomUnderlineText :text="openButtonText" text-class="!text-base" />
+      </slot>
     </SheetTrigger>
     <SheetContent class="w-full overflow-y-auto sm:max-w-full md:max-w-[600px]">
       <SheetHeader class="text-left">
@@ -9,7 +11,9 @@
           {{ sidebarTitle }}
         </SheetTitle>
         <SheetDescription>
-          <div v-html="sidebarContent" />
+          <slot>
+            <div v-html="sidebarContent" />
+          </slot>
         </SheetDescription>
       </SheetHeader>
     </SheetContent>
@@ -37,6 +41,10 @@ defineProps({
     default: '',
   },
   sidebarContent: {
+    type: String,
+    default: '',
+  },
+  buttonClass: {
     type: String,
     default: '',
   },

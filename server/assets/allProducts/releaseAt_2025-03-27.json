@@ -2,7 +2,7 @@
   {
     "id": "apaCare-remineralising-toothpaste",
     "priority": "0",
-    "category": "",
+    "category": "Pasta do zębów",
     "photos": [
       {
         "url": "/images/products/ApaCare_Remineralising_Toothpaste.png",
@@ -66,67 +66,67 @@
     "information": [
       {
         "priority": 0,
-        "title": "Fluorek sodu:",
+        "title": "Fluorek sodu",
         "text": "1450 ppm F",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Wartość RDA:",
+        "title": "Wartość RDA",
         "text": "40",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "text": "tubka 75 mL",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Aqua, Sorbitol, Hydrated Silica, Propylene Glycol, Glycerin, Sodium C14-16 Olefin Sulfonate, Flavouring, Hydroxyapatite, Cellulose Gum, Sodium Fluoride, Allantoin, Sodium Saccharin, Tetrapotassium Pyrophosphate, Limonene, Cl 77947.",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Wegańska:",
+        "title": "Wegańska",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez laktozy:",
+        "title": "Bez laktozy",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez glutenu:",
+        "title": "Bez glutenu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez dwutlenku tytanu:",
+        "title": "Bez dwutlenku tytanu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez mikroplastiku:",
+        "title": "Bez mikroplastiku",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez konserwantów :",
+        "title": "Bez konserwantów",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez parabenów:",
+        "title": "Bez parabenów",
         "value": true,
         "type": "CHECK"
       }
@@ -135,7 +135,7 @@
   {
     "id": "apaCare-repair",
     "priority": "1",
-    "category": "",
+    "category": "Pasta naprawcza",
     "photos": [
       {
         "url": "/images/products/ApaCare_Repair.png",
@@ -205,25 +205,25 @@
     "information": [
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "text": "Tubka 30 mL",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Aqua, Hydroxyapatite, Xylitol, Sorbitol, Glycerin, Propylene Glycol, Silica, Xanthan Gum, Aroma, Sodium Saccharin, Zinc Chloride, Menthol, Anethole, Mentha Piperita Oil",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Wegańska:",
+        "title": "Wegańska",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez dwutlenku tytanu:",
+        "title": "Bez dwutlenku tytanu",
         "value": true,
         "type": "CHECK"
       }
@@ -232,7 +232,7 @@
   {
     "id": "apaCare-polish",
     "priority": "2",
-    "category": "",
+    "category": "Pasta do zębów",
     "photos": [
       {
         "url": "/images/products/ApaCare_Polish.png",
@@ -287,19 +287,19 @@
     "information": [
       {
         "priority": 0,
-        "title": "Wartość RDA:",
+        "title": "Wartość RDA",
         "text": "180",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Fluorek sodu:",
+        "title": "Fluorek sodu",
         "text": "1450 ppm F",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Aqua, Hydrated Silica, Sorbitol, Propylene Glycol, Hydroxyapatite, Sodium C14-16 Olefin Sulfonate, Aroma, Cellulose Gum, Tetrapotassium Pyrophosphate, Sodium Fluoride, Sodium Saccharin, Limonene, CI 42051.",
         "type": "TEXT"
       }
@@ -308,7 +308,7 @@
   {
     "id": "apaCare-oraLactin-liquid",
     "priority": "3",
-    "category": "",
+    "category": "Probiotyki",
     "photos": [
       {
         "url": "/images/products/OraLactin-Liquid.png",
@@ -316,7 +316,7 @@
       }
     ],
     "company": "OraLactin",
-    "labels": ["Test"],
+    "labels": ["Nowość"],
     "name": "ApaCare OraLactin Liquid",
     "description": "Płyn do płukania jamy ustnej z medycznym hydroksyapatytem i prebiotykami.",
     "isHomePageRecommended": true,
@@ -355,61 +355,61 @@
     "information": [
       {
         "priority": 0,
-        "title": "Fluorek sodu:",
+        "title": "Fluorek sodu",
         "text": "250 ppm F",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "text": "butelka 200 mL z miarką do dozowania.",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Aqua, Glycerin, Propylene glycol, Arginine, Potassium nitrate, Hydroxyapatite, Cellulose, Cellulose gum, Aroma, Acacia senegal gum, Lactobacillus Ferment, Hyaluronic acid, Sodium fluoride, Cocamidopropyl betaine, Mentha spicata herb oil, Sodium saccharin, Benzyl alcohol, Benzoic acid, Dehydroacetic acid.",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Nie Zawiera alkoholu.",
+        "title": "Nie Zawiera alkoholu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Wegańska:",
+        "title": "Wegańska",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez laktozy:",
+        "title": "Bez laktozy",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez glutenu:",
+        "title": "Bez glutenu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez dwutlenku tytanu:",
+        "title": "Bez dwutlenku tytanu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez mikroplastiku:",
+        "title": "Bez mikroplastiku",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez parabenów:",
+        "title": "Bez parabenów",
         "value": true,
         "type": "CHECK"
       }
@@ -418,7 +418,7 @@
   {
     "id": "apaCare-anti-caries-chewing-gum",
     "priority": "4",
-    "category": "",
+    "category": "Gumy",
     "photos": [
       {
         "url": "/images/products/ApaCare_Gum.png",
@@ -477,31 +477,31 @@
     "information": [
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "text": "słoiczek plastikowy zawierający 45 gum do żucia.",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Xylitol (56 %), Gum base, Glycerin, Calcium carbonate, Aroma, Gum arabic, Potassium acesulfame, Curcuma longa, CI 75810 (chlorophyll).",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Bez glutenu:",
+        "title": "Bez glutenu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez laktozy:",
+        "title": "Bez laktozy",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Wegańska:",
+        "title": "Wegańska",
         "value": true,
         "type": "CHECK"
       }
@@ -510,7 +510,7 @@
   {
     "id": "apaCare-lack-lakier-mineralizujacy",
     "priority": "5",
-    "category": "",
+    "category": "Akcesoria do pielęgnacji",
     "photos": [
       {
         "url": "/images/products/ApaCare_Zahnlack.png",
@@ -562,13 +562,13 @@
     "information": [
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "text": "butelka zawierająca 5 mL lakieru.",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Alcohol, Shellac, Hydroxy Apatite, Aqua, Aroma (Limonene, Menthol).",
         "type": "TEXT"
       }
@@ -577,7 +577,7 @@
   {
     "id": "oraLactin-toothpast",
     "priority": "6",
-    "category": "",
+    "category": "Pasta do zębów",
     "photos": [
       {
         "url": "/images/products/OraLactin_Zahncreme.png",
@@ -635,67 +635,67 @@
     "information": [
       {
         "priority": 0,
-        "title": "Fluorek sodu:",
+        "title": "Fluorek sodu",
         "text": "1450 ppm F",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Wartość RDA:",
+        "title": "Wartość RDA",
         "text": "40",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "text": "tubka 75 mL",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Aqua, Sorbitol, Hydrated silica, Propylene glycol, Glycerin, Sodium c14-16 olefin sulfonate, Potassium nitrate, Aroma, Arginine, Hydroxyapatite, Cellulose gum, Sodium fluoride, Allantoin, Sodium saccharin, Acacia senegal gum, Tetrapotassium pyrophosphate, Lactobacillus Ferment, Menthol, Limonene, CI 77947 (ZnO), CI 75810 (chlorophyll).",
         "type": "TEXT"
       },
       {
         "priority": 0,
-        "title": "Wegańska:",
+        "title": "Wegańska",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez laktozy:",
+        "title": "Bez laktozy",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez glutenu:",
+        "title": "Bez glutenu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez dwutlenku tytanu:",
+        "title": "Bez dwutlenku tytanu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez mikroplastiku:",
+        "title": "Bez mikroplastiku",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez konserwantów:",
+        "title": "Bez konserwantów",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Bez parabenów:",
+        "title": "Bez parabenów",
         "value": true,
         "type": "CHECK"
       }
@@ -704,7 +704,7 @@
   {
     "id": "apaCare-repair-dental-split",
     "priority": "7",
-    "category": "",
+    "category": "Akcesoria do pielęgnacji",
     "photos": [
       {
         "url": "/images/products/ApaCare_SzynaRepair.png",
@@ -740,7 +740,7 @@
     "information": [
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "array": [
           {
             "text": "1 x pudełko do przechowywania"
@@ -753,7 +753,7 @@
       },
       {
         "priority": 0,
-        "title": "Skład:",
+        "title": "Skład",
         "text": "Szyna jest wykonana z termoplastycznego, miękkiego plastiku (przeznaczonego do żywności).",
         "type": "TEXT"
       }
@@ -762,7 +762,7 @@
   {
     "id": "apaCare-prophylaxis-set",
     "priority": "8",
-    "category": "",
+    "category": "Zestawy",
     "photos": [
       {
         "url": "/images/products/ApaCare_Prophylaxe.png",
@@ -789,7 +789,7 @@
     "information": [
       {
         "priority": 0,
-        "title": "Opakowanie:",
+        "title": "Opakowanie",
         "array": [
           {
             "text": "1x ApaCare Remineralising Toothpast pasta do zębów",

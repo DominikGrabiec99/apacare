@@ -3,13 +3,13 @@
     class="container flex flex-col gap-4 px-4 pt-6 md:gap-6 md:px-8 md:pt-12"
   >
     <MoleculeProductsHeader :paths="currentResourcePath" />
-    <!-- <OrganismProductsFilters class="md:hidden" /> -->
+
     <div class="grid grid-cols-12 gap-4">
       <OrganismProductsFilters
         v-model="productsFilters"
-        class="hidden h-min bg-white p-4 md:col-span-3 md:flex"
+        class="hidden h-min bg-white p-4 md:col-span-4 md:flex xl:col-span-3"
       />
-      <div class="col-span-12 flex flex-col gap-4 md:col-span-9">
+      <div class="col-span-12 flex flex-col gap-4 md:col-span-8 xl:col-span-9">
         <div
           class="flex flex-col justify-between gap-2 md:flex-row md:items-center"
         >
@@ -24,6 +24,10 @@
             <MoleculeProductsSortButton
               v-model="sortOrder"
               :options="sortValuesOptions"
+            />
+            <OrganismProductsFilters
+              v-model="productsFilters"
+              class="md:hidden"
             />
           </div>
         </div>

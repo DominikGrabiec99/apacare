@@ -1,0 +1,1 @@
+import{_ as a,a as s}from"./9BD6dl7Y.js";import{_ as c,c as r,o as _,b as e,a as l,v as m}from"./BV8SZQ3B.js";import"./BJFvntex.js";const d={};function f(o,u){const t=a,n=s;return _(),r("div",null,[e(t),l("div",null,[m(o.$slots,"default")]),e(n,{class:"mt-10 md:mt-16"})])}const x=c(d,[["render",f]]);export{x as default};

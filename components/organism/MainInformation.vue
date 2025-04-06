@@ -15,7 +15,7 @@
             class="relative size-72 rotate-[25deg] overflow-hidden rounded-full border-8 border-solid border-primary shadow-lg transition-transform duration-300 ease-in-out hover:scale-[103%] md:size-[calc(400px-20px)] md:border-[12px]"
           >
             <img
-              :src="`${runtimeConfig.public.baseURL}/images/header-main-page.png`"
+              src="/images/header-main-page.png"
               alt="Uśmiechnięta dziewczyna"
               class="h-full w-full object-cover"
             />
@@ -72,33 +72,3 @@
     />
   </div>
 </template>
-
-<script setup lang="ts">
-import { useWindowSize } from '@vueuse/core';
-import { useNuxtApp } from '#app';
-
-const runtimeConfig = useRuntimeConfig();
-
-const { width } = useWindowSize();
-
-const bgStyle = ref({});
-
-watch(
-  () => width.value,
-  () => {
-    if (useNuxtApp().ssrContext) {
-      return;
-    }
-    console.log('width.value', width.value, Number(width.value) >= 768);
-    bgStyle.value =
-      Number(width.value) >= 768
-        ? {
-            backgroundImage: `url(${runtimeConfig.public.baseURL}/images/bg-main-section.png)`,
-          }
-        : {};
-  },
-  {
-    immediate: true,
-  },
-);
-</script>

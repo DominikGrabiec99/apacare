@@ -1,7 +1,7 @@
 <template>
   <img
     class="h-64 transform transition-transform duration-300 ease-in-out hover:scale-105"
-    :src="`${runtimeConfig.public.baseURL}${photo}`"
+    :src="photo"
     :alt="name"
   />
 </template>

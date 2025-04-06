@@ -61,8 +61,6 @@ definePageMeta({
   layout: 'products-page',
 });
 
-const runtimeConfig = useRuntimeConfig();
-
 const sortValuesOptions = [
   {
     text: 'Polecane',
@@ -81,7 +79,7 @@ const sortValuesOptions = [
 const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
   {
     text: 'Strona głowna',
-    link: runtimeConfig.public.baseURL,
+    link: '/',
     icon: 'mingcute:home-3-line',
   },
 ]);

@@ -3,13 +3,19 @@
     <Badge
       v-for="filter in filterTags"
       variant="outline"
-      class="flex h-min cursor-pointer flex-row gap-2 rounded-none border-primary bg-white px-3 text-sm text-primary hover:bg-secondary"
+      class="flex h-min cursor-pointer flex-row gap-2 rounded-full border-none bg-transparent px-3 text-sm text-primary-black"
+      :class="{
+        'border border-solid !border-primary-black hover:bg-white':
+          filter.showBorder,
+        'underline hover:opacity-80': !filter.showBorder,
+      }"
       @click="filter.function"
     >
       {{ filter.name }}
       <NuxtIcon
+        v-if="filter.showIcon"
         name="material-symbols:close-rounded"
-        class="text-base font-bold text-primary"
+        class="text-base font-bold text-primary-black"
       />
     </Badge>
   </div>
@@ -51,6 +57,8 @@ const filterTags = computed(() => {
               idFilter: filter.categoryId,
               idChoice: option.filterId,
             }),
+          showIcon: true,
+          showBorder: true,
         });
       });
       return acc;
@@ -59,6 +67,8 @@ const filterTags = computed(() => {
       {
         name: 'Wyczyść wszytsko',
         function: () => emits('clear-filter'),
+        showIcon: false,
+        showBorder: false,
       },
     ],
   );

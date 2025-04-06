@@ -2,9 +2,6 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
   target: 'static',
-  app: {
-    baseURL: '/apacare/',
-  },
   generate: {
     fallback: '404.html',
   },
@@ -49,10 +46,5 @@ export default defineNuxtConfig({
      * @default "./components/ui"
      */
     componentDir: './components/ui',
-  },
-  runtimeConfig: {
-    public: {
-      baseURL: '/apacare',
-    },
   },
 });

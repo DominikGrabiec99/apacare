@@ -1,21 +1,31 @@
 <template>
   <Select v-model="model" :disabled="disabled">
     <SelectTrigger
-      class="h-10 w-full rounded-none border-primary-black bg-white text-base text-primary-black focus:!ring-0 focus-visible:!ring-0 md:max-w-[250px] xl:max-w-[292px]"
+      class="h-10 w-full rounded-none border-transparent border-b-primary-black bg-transparent text-base text-primary-black shadow-none focus:!ring-0 focus-visible:!ring-0 md:max-w-[250px] xl:max-w-[292px]"
     >
-      <SelectValue class="text-primary-black" />
+      <ClientOnly>
+        <SelectValue class="text-primary-black" />
+      </ClientOnly>
     </SelectTrigger>
-    <SelectContent class="rounded-none border-primary-black">
-      <SelectGroup>
-        <SelectItem
-          v-for="(option, index) in options"
-          :key="index"
-          :value="option.value"
-          class="cursor-pointer"
-        >
-          {{ option.text }}
-        </SelectItem>
-      </SelectGroup>
+    <SelectContent class="-top-[4px] rounded-none border-secondary shadow-md">
+      <ClientOnly>
+        <SelectGroup>
+          <SelectItem
+            v-for="(option, index) in options"
+            :key="index"
+            :value="option.value"
+            class="cursor-pointer focus:underline"
+          >
+            <div class="flex items-center gap-3">
+              <div
+                class="size-5 shrink-0 rounded-full border-[3px] border-solid border-secondary bg-transparent"
+                :class="{ '!border-primary-black': model === option.value }"
+              />
+              <span class="text-base">{{ option.text }}</span>
+            </div>
+          </SelectItem>
+        </SelectGroup>
+      </ClientOnly>
     </SelectContent>
   </Select>
 </template>

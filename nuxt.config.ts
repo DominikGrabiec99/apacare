@@ -24,6 +24,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxtjs/google-fonts',
     'shadcn-nuxt',
+    '@nuxt/image',
   ],
   icon: {
     serverBundle: {

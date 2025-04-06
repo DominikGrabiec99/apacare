@@ -38,8 +38,15 @@
           </div>
         </div>
 
-        <div v-if="areProductLoading">loading</div>
-        <div v-else-if="!allProducts.length">pusty</div>
+        <MoleculeFiltersTabs
+          v-if="chosenFilters.length"
+          :filters="chosenFilters"
+          @remove-chose-from-filter="removeChoseFromFilter"
+          @clear-filter="clearFilter"
+        />
+
+        <MoleculeProductsSkeleton v-if="areProductLoading" />
+        <MoleculeProductsNotFound v-else-if="!allProducts.length" />
         <OrganismProductsList v-else :products="allProducts || []" />
       </div>
     </div>
@@ -84,7 +91,8 @@ const currentResourcePath = computed<ICurrentResourcePath[]>(() => [
   },
 ]);
 
-const { chosenFilters, productsFilters } = useFilters();
+const { chosenFilters, productsFilters, removeChoseFromFilter, clearFilter } =
+  await useFilters();
 
 const {
   allProducts,

@@ -8,13 +8,11 @@
       id="search"
       type="text"
       placeholder="Znajdz produkt"
-      class="h-10 rounded-none border-primary-black bg-white pr-10 text-base focus-visible:!ring-0"
+      class="h-10 rounded-none border-b border-solid border-transparent !border-b-primary-black !bg-transparent pl-8 pr-0 text-base shadow-none focus-visible:!ring-0"
     />
-    <span
-      class="absolute inset-y-0 end-0 flex items-center justify-center px-2"
-    >
+    <span class="absolute inset-y-0 start-0 flex items-center justify-center">
       <Search
-        class="size-6 text-muted-foreground text-primary-black"
+        class="size-6 text-muted-foreground text-primary-black opacity-70"
         :class="{ 'opacity-50': disabled }"
       />
     </span>

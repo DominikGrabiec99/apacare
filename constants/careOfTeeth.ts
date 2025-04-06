@@ -2,7 +2,7 @@ export const CARE_OF_TEETH = [
   {
     id: 0,
     photo: './images/careOfTeeth/smile.png',
-    title: 'Zadwaj o swój biału uśmiech!',
+    title: 'Zadwaj o swój biały uśmiech!',
     text: 'Szczotkuj zęby co najmniej 2 razy dziennie przez minimum 3 minuty.',
     link: '/',
   },

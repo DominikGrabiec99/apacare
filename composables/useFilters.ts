@@ -5,10 +5,12 @@ import type { IFilter } from '@/schema';
 import type { IFiltersProducts } from '@/ts/interfaces/FiltersProducts';
 import type { IChosenFilters } from '@/ts/interfaces/ChosenFilters';
 
-export const useFilters = () => {
-  const { data: filters } = useFetch<IFilter[]>('/api/getFilters', {
-    method: 'POST',
-  });
+export const useFilters = async () => {
+  const { data: filters } = await useAsyncData<IFilter[]>('filters', () =>
+    $fetch('/api/getFilters', {
+      method: 'POST',
+    }),
+  );
 
   const areFiltersInit = ref(false);
 
@@ -36,6 +38,35 @@ export const useFilters = () => {
       return acc;
     }, []),
   );
+
+  const removeChoseFromFilter = ({
+    idFilter,
+    idChoice,
+  }: {
+    idFilter: string;
+    idChoice: string;
+  }) => {
+    productsFilters.value = productsFilters.value.map((filter) => {
+      if (filter.id === idFilter) {
+        filter.choices.map((choice) => {
+          if (choice.id === idChoice) choice.value = false;
+          return choice;
+        });
+      }
+
+      return filter;
+    });
+  };
+
+  const clearFilter = () => {
+    productsFilters.value = productsFilters.value.map((filter) => {
+      filter.choices.map((choice) => {
+        choice.value = false;
+        return choice;
+      });
+      return filter;
+    });
+  };
 
   const createFilters = () => {
     productsFilters.value =
@@ -78,5 +109,7 @@ export const useFilters = () => {
     productsFilters,
     chosenFilters,
     createFilters,
+    removeChoseFromFilter,
+    clearFilter,
   };
 };

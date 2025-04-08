@@ -10,7 +10,7 @@
       }
     ],
     "company": "ApaCare",
-    "labels": ["Nowość", "Mocne szkliwo"],
+    "labels": [],
     "name": "ApaCare Remineralising Toothpaste",
     "description": "Pasta do codziennego czyszczenia zębów. Płynne szkliwo wzmacnia, wygładza i rozjaśnia zęby.",
     "isHomePageRecommended": true,
@@ -316,7 +316,7 @@
       }
     ],
     "company": "OraLactin",
-    "labels": ["Nowość"],
+    "labels": [],
     "name": "ApaCare OraLactin Liquid",
     "description": "Płyn do płukania jamy ustnej z medycznym hydroksyapatytem i prebiotykami.",
     "isHomePageRecommended": true,
@@ -577,7 +577,7 @@
   {
     "id": "oraLactin-toothpast",
     "priority": "6",
-    "category": "Pasta do zębów",
+    "category": "Probiotyki",
     "photos": [
       {
         "url": "/images/products/OraLactin_Zahncreme.png",
@@ -712,7 +712,7 @@
       }
     ],
     "company": "ApaCare",
-    "labels": [],
+    "labels": ["Nowość"],
     "name": "ApaCare Repair Dental Split",
     "description": "Jednoczęściowa szyna intensywnie remineralizuje, rozjaśnia i nabłyszcza zęby, wspomagając ich ochronę.",
     "isHomePageRecommended": false,

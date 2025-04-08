@@ -1,6 +1,6 @@
 <template>
   <img
-    class="h-64 transform transition-transform duration-300 ease-in-out hover:scale-105"
+    class="transform transition-transform duration-300 ease-in-out hover:scale-105"
     :src="photo"
     :alt="name"
   />

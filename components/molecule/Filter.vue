@@ -5,8 +5,11 @@
       collapsible
       :default-value="filter?.isInitialOpen ? filter?.id : ''"
     >
-      <AccordionItem :value="filter?.id || ''">
-        <AccordionTrigger class="text-lg font-semibold">
+      <AccordionItem
+        :value="filter?.id || ''"
+        :class="{ 'border-b-0': hideBorderBottom }"
+      >
+        <AccordionTrigger class="text-lg font-semibold hover:no-underline">
           {{ filter?.name }}
         </AccordionTrigger>
         <AccordionContent class="flex flex-col gap-3">
@@ -35,6 +38,10 @@ import {
 
 defineProps({
   disabled: {
+    type: Boolean,
+    default: false,
+  },
+  hideBorderBottom: {
     type: Boolean,
     default: false,
   },

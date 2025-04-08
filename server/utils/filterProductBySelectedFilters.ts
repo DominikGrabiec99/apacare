@@ -39,26 +39,16 @@ const filterProductBySelectedFilters = (
       return;
     }
 
-    // Wegańska, Parabeny, Mikroplastik, Dwutlenk tytanu, Gluten, Laktoza
-    if (
-      [
-        'cadb2dd4-6bae-4596-9df2-0adb31299345',
-        '9e8f045d-f535-411f-b183-84c820d6a6ba',
-        'f53cf023-be08-4029-b304-f9aff7113f1c',
-        '8ef2621c-1abd-4a16-9b4b-a2f8f9d2e1c9',
-        'f0b94586-1066-444d-bd69-2a7a0f432856',
-        'f49bc887-bb7f-4c81-a8ab-7d7fa954ed6f',
-      ].includes(filter.categoryId)
-    ) {
-      filteredProducts = filteredProducts.filter(
-        (product) =>
-          product.information.find((productInfo) =>
-            filter.optionsChosen.find(
-              (option) => option.name === productInfo.title,
-            ),
-          )?.value,
+    // Pozostałe
+    if (filter.categoryId === '9e8f045d-f535-411f-b183-84c820d6a6ba') {
+      filteredProducts = filteredProducts.filter((product) =>
+        filter.optionsChosen.every(
+          (option) =>
+            product.information.find(
+              (productInfo) => option.name === productInfo.title,
+            )?.value,
+        ),
       );
-      return;
     }
   });
 

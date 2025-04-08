@@ -10,12 +10,13 @@
           {{ label }}
         </Badge>
       </div>
-
-      <AtomScaleImg
-        class="mx-auto h-40 px-2"
-        :photo="productImg"
-        :name="productTitle"
-      />
+      <div class="flex h-64 items-center">
+        <AtomScaleImg
+          class="mx-auto h-max max-h-64 w-min px-2"
+          :photo="productImg"
+          :name="productTitle"
+        />
+      </div>
 
       <h4
         class="h-[24px] text-base font-semibold text-primary-black md:h-[56px] md:text-lg"

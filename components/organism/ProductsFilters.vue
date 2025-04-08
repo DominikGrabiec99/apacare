@@ -7,6 +7,7 @@
           :key="filter.id"
           v-model="filters[index]"
           :disabled="disabled"
+          :hide-border-bottom="index === filters.length - 1"
         />
       </template>
     </div>
@@ -32,6 +33,7 @@
           :key="filter.id"
           v-model="filters[index]"
           :disabled="disabled"
+          :hide-border-bottom="index === filters.length - 1"
         />
       </template>
     </OrganismSidebarContent>

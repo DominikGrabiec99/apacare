@@ -1,28 +1,49 @@
 /** SCHEMA */
-import type { IProduct } from '@/schema/index';
+import type { IProduct, IList } from '@/schema/index';
 
 /** UTILS */
 import findHighestPriorityPhoto from '@/server/utils/findHighestPriorityPhoto';
 
 export const useProductInformation = () => {
-  const getProductMainImg = (product: IProduct) => {
-    return findHighestPriorityPhoto(product.photos).url || '';
+  const getProductMainImg = (product: IProduct | null) => {
+    if (!product) {
+      return '';
+    }
+    return findHighestPriorityPhoto(product?.photos)?.url || '';
   };
 
-  const getProductLabel = (product: IProduct) => {
-    return product.labels || [];
+  const getProductLabel = (product: IProduct | null) => {
+    return product?.labels || [];
   };
 
-  const getProductTitle = (product: IProduct) => {
-    return product.name || '';
+  const getProductTitle = (product?: IProduct | null) => {
+    return product?.name || '';
   };
 
-  const getProductDescription = (product: IProduct) => {
-    return product.description || '';
+  const getProductDescription = (product: IProduct | null) => {
+    return product?.description || '';
   };
 
-  const getProductPageLink = (product: IProduct) => {
-    return `./produkt?id=${product.id}`;
+  const getProductTextsAfterTitle = (product: IProduct | null) => {
+    return product?.textsAfterTitle || [];
+  };
+
+  const getProductListInformation = (
+    product: IProduct | null,
+  ): IList | null => {
+    return product?.list || null;
+  };
+
+  const getTextsAfterList = (product: IProduct | null) => {
+    return product?.textsAfterList || [];
+  };
+
+  const getProductPageLink = (product: IProduct | null) => {
+    if (!product) {
+      return '';
+    }
+
+    return `./produkt?id=${product?.id}`;
   };
 
   return {
@@ -31,5 +52,8 @@ export const useProductInformation = () => {
     getProductTitle,
     getProductDescription,
     getProductPageLink,
+    getProductTextsAfterTitle,
+    getProductListInformation,
+    getTextsAfterList,
   };
 };

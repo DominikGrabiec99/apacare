@@ -23,15 +23,18 @@
       "elementsText": [
         {
           "title": "Odbudowa szkliwa:",
-          "text": "zawarty w paście medyczny hydroksyapatyt naprawia uszkodzone szkliwo, łagodzi nadwrażliwość zębów na ból i zimno."
+          "text": "zawarty w paście medyczny hydroksyapatyt naprawia uszkodzone szkliwo, łagodzi nadwrażliwość zębów na ból i zimno.",
+          "icon": "mdi:tooth"
         },
         {
           "title": "Warstwa ochronna:",
-          "text": "płynne szkliwo pokrywa zęby i tworzy wysoce skuteczną warstwę ochronną. Zapobiega próchnicy, zapaleniu dziąseł oraz paradontozie."
+          "text": "płynne szkliwo pokrywa zęby i tworzy wysoce skuteczną warstwę ochronną. Zapobiega próchnicy, zapaleniu dziąseł oraz paradontozie.",
+          "icon": "mdi:shield-check"
         },
         {
           "title": "Wybielanie zębów:",
-          "text": "medyczny hydroksyapatyt sprawia, że zęby stają się lśniąco i jaśniejsze."
+          "text": "medyczny hydroksyapatyt sprawia, że zęby stają się lśniąco i jaśniejsze.",
+          "icon": "mdi:brightness-5"
         }
       ]
     },
@@ -130,6 +133,12 @@
         "value": true,
         "type": "CHECK"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -156,15 +165,18 @@
       "elementsText": [
         {
           "title": "Naprawa szkliwa:",
-          "text": "zapobiega próchnicy początkowej, uszczelnia pory, wygładza powierzchnie zębów i działa remineralizująco w przypadku wad rozwojowych zębów oraz hipomineralizacji trzonowcowo-siekaczowej (MIH)."
+          "text": "zapobiega próchnicy początkowej, uszczelnia pory, wygładza powierzchnie zębów i działa remineralizująco w przypadku wad rozwojowych zębów oraz hipomineralizacji trzonowcowo-siekaczowej (MIH).",
+          "icon": "mdi:tooth-outline"
         },
         {
           "title": "Rozjaśnia zęby:",
-          "text": "zwiększa grubość powierzchni szkliwa i tworzy jasną, błyszczącą warstwę odbijającą światło."
+          "text": "zwiększa grubość powierzchni szkliwa i tworzy jasną, błyszczącą warstwę odbijającą światło.",
+          "icon": "mdi:white-balance-sunny"
         },
         {
           "title": "Leczy nadwrażliwość zębów:",
-          "text": "Pokrywa wrażliwe szyjki zębów warstwą ochronną. Szczelna barier ochronna uniemożliwia dotarcie czynników drażniących do zakończeń nerwowych w zębach."
+          "text": "Pokrywa wrażliwe szyjki zębów warstwą ochronną. Szczelna barier ochronna uniemożliwia dotarcie czynników drażniących do zakończeń nerwowych w zębach.",
+          "icon": "mdi:toothbrush-electric"
         }
       ]
     },
@@ -227,6 +239,12 @@
         "value": true,
         "type": "CHECK"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -252,15 +270,18 @@
       "elementsText": [
         {
           "title": "Pasta do zębów stosowana raz lub dwa razy w tygodniu zamiast zwykle stosowanej pasty:",
-          "text": "ApaCare Polish ma podobną strukturę do pasty do zębów ApaCare zawiera jednak dodatkowo delikatne, skutecznie czyszczące perełki podobnymi do tych występujących w profesjonalnych pastach polerskich używanych przez dentystów."
+          "text": "ApaCare Polish ma podobną strukturę do pasty do zębów ApaCare zawiera jednak dodatkowo delikatne, skutecznie czyszczące perełki podobnymi do tych występujących w profesjonalnych pastach polerskich używanych przez dentystów.",
+          "icon": "mdi:calendar-clock"
         },
         {
           "title": "Usuwanie przebarwień i płytki nazębnej:",
-          "text": "zmniejsza i minimalizuje powstawanie nowej płytki nazębnej i przebarwień, nawet u osób palących, często spożywających herbatę lub kawę lub u których przebarwienia są działaniami niepożądanymi leków itp."
+          "text": "zmniejsza i minimalizuje powstawanie nowej płytki nazębnej i przebarwień, nawet u osób palących, często spożywających herbatę lub kawę lub u których przebarwienia są działaniami niepożądanymi leków itp.",
+          "icon": "mdi:toothbrush"
         },
         {
           "title": "W przypadku silnego osadzania się kamienia nazębnego:",
-          "text": "może usuwać „świeży” kamień nazębny, zwłaszcza w połączeniu ze szczoteczką soniczną ApaCare i specjalnymi szczoteczkami Inter Polish. Skutecznie czyści zęby i usuwa płytkę nazębną tworząc jednocześnie warstwę ochronną na powierzchni dzięki zawartości płynnego szkliwa."
+          "text": "może usuwać „świeży” kamień nazębny, zwłaszcza w połączeniu ze szczoteczką soniczną ApaCare i specjalnymi szczoteczkami Inter Polish. Skutecznie czyści zęby i usuwa płytkę nazębną tworząc jednocześnie warstwę ochronną na powierzchni dzięki zawartości płynnego szkliwa.",
+          "icon": "mdi:toothbrush-paste"
         }
       ]
     },
@@ -303,6 +324,12 @@
         "text": "Aqua, Hydrated Silica, Sorbitol, Propylene Glycol, Hydroxyapatite, Sodium C14-16 Olefin Sulfonate, Aroma, Cellulose Gum, Tetrapotassium Pyrophosphate, Sodium Fluoride, Sodium Saccharin, Limonene, CI 42051.",
         "type": "TEXT"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -413,6 +440,12 @@
         "value": true,
         "type": "CHECK"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -438,23 +471,28 @@
       "elementsText": [
         {
           "title": "Innowacyjne zapobieganie próchnicy:",
-          "text": "ksylitol i minerały szkliwa skutecznie redukują liczbę bakterie powodujące próchnicę i wspomagają remineralizację."
+          "text": "ksylitol i minerały szkliwa skutecznie redukują liczbę bakterie powodujące próchnicę i wspomagają remineralizację.",
+          "icon": "mdi:shield-plus"
         },
         {
           "title": "Stymulacja wydzielania śliny dla naturalnej ochrony:",
-          "text": "guma do żucia stymuluje przepływ śliny, neutralizuje kwasy i wspomaga fizjologiczny układ odpornościowy."
+          "text": "guma do żucia stymuluje przepływ śliny, neutralizuje kwasy i wspomaga fizjologiczny układ odpornościowy.",
+          "icon": "mdi:water"
         },
         {
           "title": "Ksylitol zmniejsza ilość bakterii chorobotwórczym:",
-          "text": "badania naukowe potwierdzają, że ksylitol trwale zmniejsza ilość bakterii próchnicotwórczych."
+          "text": "badania naukowe potwierdzają, że ksylitol trwale zmniejsza ilość bakterii próchnicotwórczych.",
+          "icon": "mdi:bacteria"
         },
         {
           "title": "Wspomagnie mikrobiomu jamy ustnej:",
-          "text": "stabilizuje florę jamy ustnej, pomaga zmniejszyć nasilenie suchości w ustach i przywraca świeży oddech."
+          "text": "stabilizuje florę jamy ustnej, pomaga zmniejszyć nasilenie suchości w ustach i przywraca świeży oddech.",
+          "icon": "mdi:dna"
         },
         {
           "title": "Nie zawiera cukru i sztucznych dodatków:",
-          "text": "guma nie zawiera dwutlenku tytanu, konserwantów i syntetycznych substancji słodzących."
+          "text": "guma nie zawiera dwutlenku tytanu, konserwantów i syntetycznych substancji słodzących.",
+          "icon": "mdi:cancel"
         }
       ]
     },
@@ -505,6 +543,12 @@
         "value": true,
         "type": "CHECK"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -542,7 +586,7 @@
         "text": "Nakładać pędzelkiem na odsłonięte szyjki zębów lub powierzchnie zębów, które mają zostać poddane remineralizacji."
       },
       {
-        "priority": 23,
+        "priority": 3,
         "text": "Przez krótki czas osuszyć zęby, które mają być pokryte lakierem i nałożyć miejscowo. Następnie pozostawić do wchłonięcia."
       },
       {
@@ -572,6 +616,12 @@
         "text": "Alcohol, Shellac, Hydroxy Apatite, Aqua, Aroma (Limonene, Menthol).",
         "type": "TEXT"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -596,16 +646,19 @@
       "type": "TEXT",
       "elementsText": [
         {
-          "title": "Odbudowuje mikrobiom (florę bakteryjną) jamy ustnej):",
-          "text": "stabilizuje i regeneruje zrównoważoną, prozdrowotną florę jamy ustnej."
+          "title": "Odbudowuje mikrobiom (florę bakteryjną) jamy ustnej:",
+          "text": "stabilizuje i regeneruje zrównoważoną, prozdrowotną florę jamy ustnej.",
+          "icon": "mdi:bacteria-outline"
         },
         {
           "title": "Wspiera ogólny stan zdrowia:",
-          "text": "promuje mikroorganizmy regulujące nadciśnienie i zapobiegające cukrzycy."
+          "text": "promuje mikroorganizmy regulujące nadciśnienie i zapobiegające cukrzycy.",
+          "icon": "mdi:heart-pulse"
         },
         {
           "title": "Odbudowa szkliwa zębów:",
-          "text": "zawiera medyczny hydroksyapatyt, który naprawia uszkodzone szkliwo zębów. Łagodzi dolegliwości zębów związane z ich nadwrażliwością na ból i zimno."
+          "text": "zawiera medyczny hydroksyapatyt, który naprawia uszkodzone szkliwo zębów. Łagodzi dolegliwości zębów związane z ich nadwrażliwością na ból i zimno.",
+          "icon": "mdi:tooth"
         }
       ]
     },
@@ -699,6 +752,12 @@
         "value": true,
         "type": "CHECK"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -757,6 +816,12 @@
         "text": "Szyna jest wykonana z termoplastycznego, miękkiego plastiku (przeznaczonego do żywności).",
         "type": "TEXT"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   },
   {
@@ -810,6 +875,12 @@
         ],
         "type": "ARRAY"
       }
+    ],
+    "relationProductsId": [
+      "apaCare-repair",
+      "apaCare-lack-lakier-mineralizujacy",
+      "apaCare-prophylaxis-set",
+      "oraLactin-toothpast"
     ]
   }
 ]

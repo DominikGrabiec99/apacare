@@ -36,6 +36,7 @@ export interface IProduct {
   methodOfUse: IMethodOfUse[];
   textAfterMethodOfUse: string;
   information: IInformation[];
+  relationProductsId: string[];
 }
 
 export interface IPhoto {
@@ -51,6 +52,7 @@ export interface IList {
 export interface IElementText {
   title: string;
   text: string;
+  icon: string;
 }
 
 export interface IMethodOfUse {

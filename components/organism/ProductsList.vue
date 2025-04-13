@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-cols-12 gap-4">
-    <MoleculeProductBox
+    <OrganismProductBox
       v-for="product in products"
       :key="product.id"
       :product="product"

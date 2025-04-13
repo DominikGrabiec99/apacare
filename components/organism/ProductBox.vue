@@ -1,15 +1,10 @@
 <template>
   <div class="flex flex-col gap-2 bg-white p-4">
     <NuxtLink :to="productLink">
-      <div class="flex h-[30px] flex-wrap gap-1">
-        <Badge
-          v-for="label in productLabels"
-          variant="outline"
-          class="h-min cursor-default rounded-none border-primary px-3 text-xs text-primary"
-        >
-          {{ label }}
-        </Badge>
-      </div>
+      <MoleculeProductLabelsSection
+        class="h-[30px]"
+        :product-labels="productLabels"
+      />
       <div class="flex h-64 items-center">
         <AtomScaleImg
           class="mx-auto h-max max-h-64 w-min px-2"
@@ -36,9 +31,6 @@ import type { IProduct } from '@/schema/index';
 
 /** COMPOSABLES */
 import { useProductInformation } from '@/composables/useProductInformation';
-
-/** UI */
-import { Badge } from '@/components/ui/badge';
 
 const props = defineProps({
   product: {

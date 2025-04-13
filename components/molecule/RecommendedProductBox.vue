@@ -1,11 +1,11 @@
 <template>
   <div>
-    <NuxtLink :to="`./produkt/${product.id}`">
+    <NuxtLink :to="`./produkt?id=${product.id}`">
       <div
-        class="flex items-center justify-center overflow-hidden rounded-lg bg-secondary py-4"
+        class="flex h-72 items-center justify-center overflow-hidden rounded-lg bg-secondary py-4"
       >
         <AtomScaleImg
-          class="h-64"
+          class="max-h-64 w-min px-2"
           :photo="product.photo"
           :name="product.name"
         />

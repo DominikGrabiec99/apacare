@@ -2,7 +2,10 @@
 import allProducts from '@/server/assets/allProducts/releaseAt_2025-03-27.json';
 
 /** UTILS */
-import findHighestPriorityPhoto from '@/server/utils/findHighestPriorityPhoto';
+import mapRecommendedProducts from '@/server/utils/mapRecommendedProducts';
+
+/** SCHEMA */
+import type { IProduct } from '@/schema/index';
 
 export default defineEventHandler(async (event) => {
   try {
@@ -17,12 +20,7 @@ export default defineEventHandler(async (event) => {
       (product) => product.company === company && product.isHomePageRecommended,
     );
 
-    const recommendedProducts = products.map((product) => ({
-      id: product.id,
-      name: product.name,
-      photo: findHighestPriorityPhoto(product.photos).url,
-      description: product.description,
-    }));
+    const recommendedProducts = mapRecommendedProducts(products as IProduct[]);
 
     return recommendedProducts;
   } catch (error) {

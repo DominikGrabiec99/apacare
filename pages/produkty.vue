@@ -8,7 +8,7 @@
       <OrganismProductsFilters
         v-model="productsFilters"
         :disabled="areProductLoading"
-        class="hidden h-min bg-white p-4 md:col-span-4 md:flex xl:col-span-3"
+        class="hidden h-min bg-white px-4 md:col-span-4 md:flex xl:col-span-3"
       />
       <div class="col-span-12 flex flex-col gap-4 md:col-span-8 xl:col-span-9">
         <div

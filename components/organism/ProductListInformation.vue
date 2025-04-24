@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-4 md:gap-6">
     <h3 class="text-center text-2xl font-bold">Dlaczego warto używać?</h3>
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col gap-4 md:gap-6">
       <div
         v-for="(el, idx) in list"
         :key="idx"

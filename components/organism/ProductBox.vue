@@ -7,7 +7,7 @@
       />
       <div class="flex h-64 items-center">
         <AtomScaleImg
-          class="mx-auto h-max max-h-64 w-min px-2"
+          class="mx-auto h-max max-h-64 !w-min px-2"
           :photo="productImg"
           :name="productTitle"
         />

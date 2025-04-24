@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-4 pt-6 md:gap-6 md:pt-12">
+  <div class="flex flex-col gap-6 pt-6 md:gap-10 md:pt-12">
     <div class="container grid grid-cols-12 px-4 md:px-8">
       <div
         class="col-span-12 flex flex-col items-center justify-center gap-3 md:col-span-6"
@@ -19,7 +19,7 @@
     </div>
     <div
       v-if="productListInformation?.type !== EListType.EMPTY"
-      class="bg-secondary py-4 md:py-6"
+      class="bg-secondary py-4 md:py-8"
     >
       <div class="container px-4 md:px-8">
         <OrganismProductListInformation
@@ -29,7 +29,19 @@
       </div>
     </div>
 
-    <div class="container flex flex-col gap-4 px-4 md:gap-6 md:px-8">
+    <div class="container flex flex-col gap-6 px-4 md:gap-10 md:px-8">
+      <OrganismProductHowToUse
+        v-if="productMethodOfUse?.length"
+        :method-of-use="productMethodOfUse"
+        :text-after="productTextAfterMethodOfUse"
+        :productName="productTitle"
+      />
+
+      <OrganismProductInformationTable
+        v-if="productInformation?.length"
+        :information="productInformation"
+      />
+
       <div v-if="productRelation?.length">
         <h3 class="text-2xl font-bold">Polcane dla ciebie</h3>
         <OrganismCarouselContent
@@ -56,6 +68,8 @@ import { EListType } from '@/schema/index';
 
 const { productRelation, product } = useProduct();
 
+const route = useRoute();
+
 const {
   getProductMainImg,
   getProductTitle,
@@ -63,16 +77,37 @@ const {
   getProductLabel,
   getProductListInformation,
   getTextsAfterList,
+  getProductMethodOfUse,
+  getTextAfterMethodOfUse,
+  getProductInformation,
 } = useProductInformation();
 
 const productImg = computed(() => getProductMainImg(product.value));
 const productLabels = computed(() => getProductLabel(product.value));
 const productTitle = computed(() => getProductTitle(product.value));
+const productTextAfterMethodOfUse = computed(() =>
+  getTextAfterMethodOfUse(product.value),
+);
 const productTextsAfterTitle = computed(() =>
   getProductTextsAfterTitle(product.value),
 );
 const productListInformation = computed(() =>
   getProductListInformation(product.value),
 );
+
+const productInformation = computed(() => getProductInformation(product.value));
+
+const productMethodOfUse = computed(() => getProductMethodOfUse(product.value));
+
 const textsAfterList = computed(() => getTextsAfterList(product.value));
+
+watch(
+  () => route.query.id,
+  () => {
+    if (import.meta.client) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  },
+  { immediate: true },
+);
 </script>

@@ -60,11 +60,17 @@ export interface IMethodOfUse {
   text: string;
 }
 
+export interface InformationArrayValue {
+  link?: string;
+  text: string;
+}
+
 export interface IInformation {
   priority: number;
   title: string;
   text?: string;
   value?: boolean;
+  array?: InformationArrayValue[];
   type: EInformationType;
 }
 

@@ -508,7 +508,7 @@
       },
       {
         "priority": 0,
-        "text": "Dla osiągnięcia maksymalnego efektu zaleca się stosowanie systematyczne przez 30 dni (kurs)."
+        "text": "Dla osiągnięcia maksymalnego efektu zaleca się stosowanie systematyczne przez 30 dni."
       }
     ],
     "textAfterMethodOfUse": "",
@@ -858,19 +858,19 @@
         "array": [
           {
             "text": "1x ApaCare Remineralising Toothpast pasta do zębów",
-            "link": "/"
+            "link": "/produkt?id=apaCare-remineralising-toothpaste"
           },
           {
             "text": "1x ApaCare Repair Pasta naprawcza do zębów",
-            "link": "/"
+            "link": "/produkt?id=apaCare-repair"
           },
           {
             "text": "1x ApaCare Polish Pasta do polerowania zębów",
-            "link": "/"
+            "link": "/produkt?id=apaCare-polish"
           },
           {
             "text": "1x jednoczęściowa szyna dentystyczna do nakładania ApaCare Repair",
-            "link": "/"
+            "link": "/produkt?id=apaCare-repair-dental-split"
           }
         ],
         "type": "ARRAY"

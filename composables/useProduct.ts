@@ -4,15 +4,20 @@ import type { IProduct, IRecommendedProducts } from '@/schema';
 export const useProduct = () => {
   const route = useRoute();
 
-  const { data: product } = useAsyncData<IProduct>('product', () =>
-    $fetch('/api/getProduct', {
-      method: 'POST',
-      body: {
-        variables: {
-          id: route?.query?.id || '',
+  const { data: product } = useAsyncData<IProduct>(
+    'product',
+    () =>
+      $fetch('/api/getProduct', {
+        method: 'POST',
+        body: {
+          variables: {
+            id: route?.query?.id || '',
+          },
         },
-      },
-    }),
+      }),
+    {
+      watch: [() => route.query.id],
+    },
   );
 
   const { data: productRelation } = useAsyncData<IRecommendedProducts[]>(
@@ -26,6 +31,9 @@ export const useProduct = () => {
           },
         },
       }),
+    {
+      watch: [() => route.query.id],
+    },
   );
 
   return {

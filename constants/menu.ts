@@ -7,12 +7,12 @@ const MENU_LINK = [
   {
     id: '3',
     text: 'O nas',
-    to: '/',
+    to: '/onas',
   },
   {
     id: '2',
     text: 'Badania kliniczne',
-    to: '/',
+    to: '/badania',
   },
 ];
 

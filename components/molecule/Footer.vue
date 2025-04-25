@@ -14,14 +14,10 @@
           601 38 55 59
         </a>
       </p>
-      <div>
-        <p>Od poniedziałku do piątku w godzinach 8:00 - 18:00</p>
-        <p>Opłata zgodna z taryfądostawcy usług</p>
-      </div>
 
-      <span class="mt-8 text-xs"
-        >Copyright© {{ year }} Kodent. Wszelkie prawa zastrzeżone.</span
-      >
+      <span class="mt-8 text-xs">
+        Copyright© {{ year }} Kodent. Wszelkie prawa zastrzeżone.
+      </span>
     </div>
   </footer>
 </template>

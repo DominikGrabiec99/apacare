@@ -91,3 +91,20 @@ export interface IFilter {
   id: string;
   choices: IChoice[];
 }
+
+export interface ClinicalTrialsAnalysis {
+  title: string;
+  text?: string;
+  images?: string[];
+}
+
+export interface ClinicalTrials {
+  id: number;
+  isDefaultOpen?: boolean;
+  title: string;
+  description: string[];
+  results: string[];
+  references: string[];
+  analysis?: ClinicalTrialsAnalysis[];
+  img?: string;
+}

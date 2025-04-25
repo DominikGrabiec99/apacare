@@ -2,7 +2,7 @@
   <div class="size-full">
     <div class="flex size-full items-center justify-between">
       <AtomLogo />
-      <AtomHamburger @click="toggleMenu" />
+      <AtomHamburger :isHamburgerOpen="isMenuOpen" @click="toggleMenu" />
     </div>
     <ClientOnly>
       <Teleport to="body">
@@ -14,7 +14,7 @@
             v-for="link in MENU_LINK"
             :key="link.id"
             :to="link.to"
-            @click="removeOverflowBody"
+            @click="choseOption"
           >
             <p class="text-xl font-semibold uppercase text-primary-black">
               {{ link.text }}
@@ -34,6 +34,11 @@ const isMenuOpen = ref(false);
 
 const removeOverflowBody = () => {
   document.body.style.overflowY = '';
+};
+
+const choseOption = () => {
+  isMenuOpen.value = false;
+  removeOverflowBody();
 };
 
 const toggleMenu = () => {

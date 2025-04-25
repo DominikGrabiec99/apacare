@@ -1,0 +1,96 @@
+[
+  {
+    "id": 1,
+    "isDefaultOpen": true,
+    "title": "Zawiesina hydroksyapatytu przyspiesza proces remineralizacji",
+    "description": [
+      "Analiza sztucznych ubytków szkliwa przed i po zastosowaniu sztucznej śliny oraz zawiesiny hydroksyapatytu, pod mikroskopem optycznym (światłem spolaryzowanym), w skaningowej mikroskopii elektronowej (SEM), w badaniu rentgenowskim i badaniu mikrosensorycznym."
+    ],
+    "results": [
+      "Remineralizacja powierzchni szkliwa (A) i obszaru pod powierzchnią (B) była bardziej nasilona w przypadku zastosowania zawiesiny hydroksyapatytu w wodzie."
+    ],
+    "references": [
+      "Okashi T, Kani T, Isozaki A, Nishida A, Shintani H, Tokumoto T, Ishizu E, Kuwahara Y, Kani, M: Remineralization of artificial caries lesions by Hydroxyapatite. I Dent Health 41, 214 - 223 (1991).",
+      "Kani T, Kani M, Isozaki A, Kato H, Fukuoka Y, Ohashi T, Tokumoto T: The effect of apatitecontaining dentifrices on artificial caries lesions. I Dent Health 38, 364-366 (1988)."
+    ],
+    "analysis": [
+      {
+        "title": "(A) A. Analiza badanych próbek szkliwa w skaningowym mikroskopie elektronowym.",
+        "images": [
+          "/images/clinicalTrial/szkliwo-badanie-1.gif",
+          "/images/clinicalTrial/szkliwo-badanie-2.gif",
+          "/images/clinicalTrial/szkliwo-badanie-3.gif"
+        ]
+      },
+      {
+        "title": "(B) B. Analiza w mikroskopie optycznym obwodowych stref powierzchni.",
+        "text": "Strefa obwodowa sztucznego ubytku szkliwa badana po zanurzeniu w wodzie destylowanej (grupa kontrolna), w porównaniu z próbkami szkliwa po zastosowaniu pasty zawierającej hydroksyapatyt. Ciemny pasek określa w obu przypadkach położenie warstwy zdemineralizowanej.",
+        "images": [
+          "/images/clinicalTrial/mikroskop-badanie-1.jpg",
+          "/images/clinicalTrial/mikroskop-badanie-2.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Zawiesina hydroksyapatytu zmniejsza zakres próchnicy",
+    "description": [
+      "Trzyletnie badanie randomizowane z udziałem 181 dzieci (92 chłopców i 89 dziewczynek) na powierzchni świeżo wyrżniętych zębów. Dzieci biorące udział w badaniu szczotkowały, pod nadzorem, zęby po posiłku pastą do zębów zawierającą 5% hydroksyapatytu, a grupa kontrolna pastą bez hydroksyapatytu. Co roku kontrolowano wskaźnik próchnicy w uzębieniu stałym (DMFT) i przypadki próchnicy w świeżo wyrżniętych zębach."
+    ],
+    "results": [
+      "Wskaźnik DMFT były niższe w grupie stosującej hydroksyapatyt",
+      "Częstość występowania próchnicy w świeżo wyrżniętych zębach była istotnie statystycznie mniejsza w grupie stosującej hydroksyapatyt w porównaniu z grupą kontrolną."
+    ],
+    "references": [
+      "Kani T, Kani M, Isozaki A, Shintani H, Ohashi T, Tokumoto T: Effect to apatite-containing dentifrices on dental caries in school children. I Dent Health 39, 104 - 109 (1989)."
+    ],
+    "img": "/images/clinicalTrial/zawiesina-badania.gif"
+  },
+  {
+    "id": 3,
+    "title": "Zawiesina hydroksyapatytu wpływa na wygładzenie powierzchni zębów i zmniejszenie odkładania się płytki nazębnej.",
+    "description": [
+      "Na wypolerowane próbki szkliwa zębów ludzkich bezpośrednio po ekstrakcji, w warunkach standaryzowanych, nakładano 3 różne pasty polerskie o narastającej wartości wskaźnika RDA (120/170/250), a następnie poddawano remineralizacji pastą do zębów zawierającą hydroksyapatyt. Następnie przeprowadzono analizę powierzchni szkliwa w skaningowym mikroskopie elektronowym (SEM), w celu potwierdzenia obecności bakterii Streptococcus mutans"
+    ],
+    "results": [
+      "Szorstkość powierzchni próbki szkliwa wzrasta wraz ze wzrostem wartości wskaźnika RDA.",
+      "Zastosowanie pasty zawierającej hydroksyapatyt powoduje wygładzenie powierzchni, czyniąc ją nawet bardziej gładką, niż przed wypolerowaniem.",
+      "Po wypolerowaniu szybkość kolonizacji bakteriami Streptococcus mutans zwiększyła się znacząco, a następnie uległa zmniejszeniu po zastosowaniu zawiesiny hydroksyapatytu."
+    ],
+    "references": [
+      "Nishio M, Kawamata H, Fujita K, Ishizaki T, Hayman R, Ikemi T: A new enamel restoring agent for use after PMTC. Posterpresentation 82nd General Session &amp; Exhibition of the IADR / March 2004."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Hydroksyapatyt uszczelnia kanaliki w szkliwie po wybielaniu",
+    "description": [
+      "Na oczyszczone próbki szkliwa zębów ludzkich bezpośrednio po ekstrakcji, nakładano lakier do paznokci, pozostawiając odsłonięte pole, na które zastosowano żel do wybielania, zawierający 35% nadtlenek wodoru. Po wybielaniu część próbek była polerowana przez 20 sekund zawiesiną zawierającą hydroksyapatyt. Następnie badano i porównywano stan próbek w skaningowym mikroskopie elektronowym (SEM) stosując test penetracji barwnika."
+    ],
+    "results": [
+      "»Czyste« próbki wykazywały oznaki szczotkowania.",
+      "Powierzchnie wybielone były bardziej szorstkie, niż powierzchnie nie poddawane wybielaniu.",
+      "Próbki wybielane, po zastosowaniu hydroksyapatytu, były bardziej gładkie, niż bez jego zastosowania.",
+      "Test penetracji barwnika był pozytywny w obu grupach wybielonych próbek szkliwa, jednak głębokość penetracji była znacznie większa w grupie bez nałożonego hydroksyapatytu."
+    ],
+    "references": [
+      "Kawamata H, Nishio M, Fujita K, Ishizaki T, Hayman R, Ikemi T: Posterpresentation 82nd General Session &amp; Exhibition of the IADR / March 2004."
+    ]
+  },
+  {
+    "title": "Hydroksyapatyt w pastach do zębów ma wpływ na rozjaśnienie zębów do ich naturalnej barwy oraz nadaje im naturalny blask.",
+    "description": [
+      "Właściwości czyszczące. Badanie przeprowadzono na zębach ludzkich bezpośrednio po ich ekstrakcji. Zęby czyszczono pastą do zębów zawierającą hydroksyapatyt w różnych stężeniach (15%, 3% i 0%) lub czyszczono specjalnymi pastami (20 i 60%). Pasty mieszano z wodą w stosunku 1:1, a następnie zęby czyszczono co 15 minut przez 5 godzin.",
+      "Właściwości poprawiania wyglądu zębów. W badaniu wzięło udział 12 ochotników w wieku 20-50 lat, którzy nigdy wcześniej nie używali pasty z hydroksyapatytem, natomiast przez dwa tygodnie przed badaniem stosowali pastę do zębów bez hydroksyapatytu. Barwę zębów i połysk badano przed i po tym okresie czasu. Następnie ochotników podzielono na dwie grupy: jedna z nich używała pasty z 3% hzdrokszapatztem, a druga pasty zawierającej 15% hydroksyapatytu. Po 2, 4 i 6 tygodniach oceniano zmiany dotyczące barwy i połysku zębów. was measured."
+    ],
+    "results": [
+      "Zmiana zawartości hydroksyapatytu nie wpływała na właściwości czyszczące past.",
+      "Pasty zawierające hydrksyapatyt rozjaśniają zęby (w obrębie ich naturalnej barwy).",
+      "Nie zaleziono związku i wzajemnego wpływu właściwości czyszczących i właściwości poprawiania wyglądu zębów."
+    ],
+    "references": [
+      "Niwa M, Sato T, Li W, Aoki H: Polishing and Whitening Properties of Toothpaste, J Mater Sci, Mater Med 12, 277 - 81 (2001)."
+    ]
+  }
+]

@@ -5,7 +5,7 @@
         class="flex h-72 items-center justify-center overflow-hidden rounded-lg bg-secondary py-4"
       >
         <AtomScaleImg
-          class="max-h-64 w-min px-2"
+          class="h-full max-h-64 w-auto px-2"
           :photo="product.photo"
           :name="product.name"
         />

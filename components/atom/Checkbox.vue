@@ -8,13 +8,13 @@
         class="size-5 rounded border-primary-black"
         :class="checkboxClass"
       />
-      <label
+      <Label
         :for="id"
         class="cursor-pointer text-base font-medium leading-none text-primary-black peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
         :class="labelClass"
       >
-        <slot {{ text }}></slot>
-      </label>
+        <slot>{{ text }}</slot>
+      </Label>
     </div>
     <span v-if="error" class="text-sm text-red-700">{{ error }}</span>
   </div>

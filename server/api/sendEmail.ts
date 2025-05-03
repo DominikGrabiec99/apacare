@@ -9,15 +9,7 @@ export default defineEventHandler(async (event) => {
 
     const runtimeConfig = useRuntimeConfig();
 
-    console.log(
-      'runtimeConfig.SENDGRID_API_KEY',
-      runtimeConfig.SENDGRID_API_KEY,
-    );
-
-    sgMail.setApiKey(
-      runtimeConfig.SENDGRID_API_KEY,
-      runtimeConfig.RECEIVER_EMAIL,
-    );
+    sgMail.setApiKey(runtimeConfig.SENDGRID_API_KEY);
 
     const {
       nameAndSurname,

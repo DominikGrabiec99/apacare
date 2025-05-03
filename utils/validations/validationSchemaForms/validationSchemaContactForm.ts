@@ -1,4 +1,4 @@
-import { object, string } from 'yup';
+import { object } from 'yup';
 
 import email from '@/utils/validations/yupFields/email';
 import nameAndSurname from '@/utils/validations/yupFields/nameAndSurname';

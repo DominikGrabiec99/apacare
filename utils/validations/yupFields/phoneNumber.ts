@@ -4,8 +4,12 @@ import { numberPattern } from '@/utils/validations/helpers/regexRules';
 const phoneNumber = yup
   .string()
   .label('Numer telefonu')
-  .matches(/^[0-9+\-\s]{7,}$/, 'Nieprawidłowy numer telefonu.')
-  .required('Numer telefonu jest wymagany.')
+  .notRequired()
+  .test(
+    'is-valid-phone',
+    'Nieprawidłowy numer telefonu.',
+    (value) => !value || /^[0-9+\-\s]{7,}$/.test(value),
+  )
   .meta({
     allowedInputCharacters: numberPattern,
     minValueLength: 9,

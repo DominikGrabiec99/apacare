@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col">
-    <Label :for="name" class="text-lg font-medium text-primary-black">
+    <Label :for="name" class="text-lg font-medium text-white">
       {{ label }}
       <span class="text-bold text-red-700">
         {{ requireStart }}
@@ -13,7 +13,7 @@
       :placeholder="placeholder"
       :max="maxValueLength"
       :disabled="isFieldDisabled"
-      class="block w-full rounded-[4px] border-2 border-primary-black bg-secondary px-2 py-3 text-base focus:outline-none md:max-w-[450px]"
+      class="block w-full rounded-[4px] border-2 border-secondary bg-secondary px-2 py-3 text-base focus:outline-none"
       :class="{
         'border-red-700': error,
         'cursor-default opacity-70': isFieldDisabled,
@@ -30,7 +30,7 @@
       :placeholder="placeholder"
       :maxlength="maxValueLength"
       :disabled="isFieldDisabled"
-      class="block w-full rounded-[4px] border-2 border-primary-black bg-secondary px-2 py-3 text-base focus:outline-none md:max-w-[450px]"
+      class="block w-full rounded-[4px] border-2 border-secondary bg-secondary px-2 py-3 text-base focus:outline-none"
       :class="{
         'border-red-700': error,
         'cursor-default opacity-70': isFieldDisabled,

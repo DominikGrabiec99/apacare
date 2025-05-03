@@ -1,17 +1,22 @@
 <template>
-  <div class="flex flex-row items-center gap-2">
-    <Checkbox
-      v-model="model"
-      :id="id"
-      :disabled="disabled"
-      class="size-5 rounded border-primary-black"
-    />
-    <label
-      :for="id"
-      class="cursor-pointer text-base font-medium leading-none text-primary-black peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-    >
-      {{ text }}
-    </label>
+  <div>
+    <div class="flex flex-row items-center gap-2" :class="checkboxWrapperClass">
+      <Checkbox
+        v-model="model"
+        :id="id"
+        :disabled="disabled"
+        class="size-5 rounded border-primary-black"
+        :class="checkboxClass"
+      />
+      <label
+        :for="id"
+        class="cursor-pointer text-base font-medium leading-none text-primary-black peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+        :class="labelClass"
+      >
+        <slot {{ text }}></slot>
+      </label>
+    </div>
+    <span v-if="error" class="text-sm text-red-700">{{ error }}</span>
   </div>
 </template>
 
@@ -31,6 +36,22 @@ defineProps({
     default: false,
   },
   text: {
+    type: String,
+    default: '',
+  },
+  error: {
+    type: String,
+    default: '',
+  },
+  checkboxWrapperClass: {
+    type: String,
+    default: '',
+  },
+  labelClass: {
+    type: String,
+    default: '',
+  },
+  checkboxClass: {
     type: String,
     default: '',
   },

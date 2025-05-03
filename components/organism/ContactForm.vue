@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
     <AtomTitleElementSection
       text="Masz pytanie? - Oddzwonimy"
       class="!mb-4"
@@ -50,6 +50,13 @@
         Wyślij
       </Button>
     </form>
+
+    <div
+      v-if="isSendFormInfo"
+      class="fixed bottom-10 left-1/2 w-11/12 -translate-x-1/2 rounded-sm border border-secondary bg-primary p-4 text-white shadow-lg md:w-9/12 lg:w-7/12"
+    >
+      Udało Ci się wysłać wiadomośc! W krótce się do Ciebie odezwiemy.
+    </div>
   </div>
 </template>
 
@@ -67,14 +74,27 @@ const token = ref();
 const tokeError = ref('');
 const isFormSending = ref(false);
 const acceptPrivatePolicy = ref(false);
+const isSendFormInfo = ref(false);
 const privatePolicyError = ref('');
 
-const { errors, validate, values } = useForm({
+const { errors, validate, values, resetForm } = useForm({
   validationSchema: validationSchemaContactForm,
 });
 
 const { fields } = validationSchemaContactForm;
 const formFields = createFormFields(fields);
+
+const clearForm = () => {
+  resetForm();
+  acceptPrivatePolicy.value = false;
+};
+
+const showSuccessSendFormInfo = () => {
+  isSendFormInfo.value = true;
+  setTimeout(() => {
+    isSendFormInfo.value = true;
+  }, 5000);
+};
 
 const submitForm = async () => {
   try {
@@ -113,8 +133,8 @@ const submitForm = async () => {
       throw new Error(`Cam't send email, result: ${result}`);
     }
 
-    // wyczysc formularz
-    // daj infromacje ze sie udało
+    clearForm();
+    showSuccessSendFormInfo();
   } catch (error) {
     console.log('submitForm error: ', error);
   } finally {

@@ -1,4 +1,4 @@
-import nodemailer from 'nodemailer';
+import sgMail from '@sendgrid/mail';
 
 /** INTERFACES */
 import { ITurnstileVerificationResponse } from '@/server/ts/interfaces/TurnstileVerificationResponse';
@@ -9,6 +9,16 @@ export default defineEventHandler(async (event) => {
 
     const runtimeConfig = useRuntimeConfig();
 
+    console.log(
+      'runtimeConfig.SENDGRID_API_KEY',
+      runtimeConfig.SENDGRID_API_KEY,
+    );
+
+    sgMail.setApiKey(
+      runtimeConfig.SENDGRID_API_KEY,
+      runtimeConfig.RECEIVER_EMAIL,
+    );
+
     const {
       nameAndSurname,
       email,
@@ -18,13 +28,7 @@ export default defineEventHandler(async (event) => {
       turnstileToken,
     } = body;
 
-    if (
-      !nameAndSurname ||
-      !phoneNumber ||
-      !email ||
-      !message ||
-      !turnstileToken
-    ) {
+    if (!nameAndSurname || !email || !message || !turnstileToken) {
       throw createError({ statusCode: 400, statusMessage: 'Brakuje danych.' });
     }
 
@@ -62,31 +66,25 @@ export default defineEventHandler(async (event) => {
       });
     }
 
-    const transporter = nodemailer.createTransport({
-      host: runtimeConfig.SMTP_HOST,
-      port: Number(runtimeConfig.SMTP_PORT),
-      secure: runtimeConfig.SMTP_SECURE === 'true',
-      auth: {
-        user: runtimeConfig.SMTP_USER,
-        pass: runtimeConfig.SMTP_PASS,
+    const msg = {
+      to: [{ email: runtimeConfig.RECEIVER_EMAIL || '' }],
+      from: {
+        email: runtimeConfig.RESEND_SENDER || '',
+        name: 'Formularz kontaktowy',
       },
-    });
-
-    const mailOptions = {
-      from: `"Formularz kontaktowy" <${runtimeConfig.SMTP_USER}>`,
-      to: runtimeConfig.RECEIVER_EMAIL,
-      subject: 'Nowa wiadomość ze strony',
+      subject: 'Formularz kontaktowy',
       text: `
         Imię i nazwisko: ${nameAndSurname}
         Firma: ${company || ''}
         Email: ${email}
-        Numer telefonu: ${phoneNumber}
+        Numer telefonu: ${phoneNumber || ''}
         Wiadomość: ${message}
       `,
     };
 
-    await transporter.sendMail(mailOptions);
-    console.log('Wiadomość wysłana pomyślnie.');
+    await sgMail.send(msg);
+
+    return new Response(JSON.stringify({ success: true }), { status: 200 });
   } catch (error) {
     console.error('Błąd przy wysyłaniu wiadomości:', error);
     throw createError({

@@ -92,7 +92,7 @@ const clearForm = () => {
 const showSuccessSendFormInfo = () => {
   isSendFormInfo.value = true;
   setTimeout(() => {
-    isSendFormInfo.value = true;
+    isSendFormInfo.value = false;
   }, 5000);
 };
 

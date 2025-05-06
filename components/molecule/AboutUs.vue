@@ -5,7 +5,7 @@
       class="flex flex-col items-center gap-4 rounded-lg bg-secondary p-4 md:flex-row md:gap-12 md:p-8"
     >
       <img
-        src="/images/about-company.png"
+        src="/images/about-company.webp"
         alt="zdjęcie firmy"
         class="rounded-lg md:max-w-[400px]"
       />

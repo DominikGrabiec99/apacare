@@ -1,6 +1,7 @@
 <template>
   <div
     class="mb-8 flex flex-col md:mb-10 md:flex-row md:items-center md:justify-between"
+    :id="text"
   >
     <h3
       class="text-2xl font-bold text-primary-black md:text-4xl"

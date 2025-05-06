@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative min-h-[650px] overflow-hidden bg-cover bg-center pt-16 md:flex md:min-h-[400px] md:items-center md:bg-[url(/images/bg-main-section.png)] md:pt-0 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-20 xl:min-h-[620px]"
+    class="relative min-h-[650px] overflow-hidden bg-cover bg-center pt-16 md:flex md:min-h-[400px] md:items-center md:bg-[url(/images/bg-main-section.webp)] md:pt-0 md:before:absolute md:before:inset-0 md:before:bg-black md:before:bg-opacity-20 xl:min-h-[620px]"
   >
     <div
       class="container flex h-full flex-col gap-5 px-6 md:h-min md:flex-row-reverse md:items-center md:justify-end md:gap-12 md:px-14 lg:gap-36"
@@ -15,7 +15,7 @@
             class="relative size-72 rotate-[25deg] overflow-hidden rounded-full border-8 border-solid border-primary shadow-lg transition-transform duration-300 ease-in-out hover:scale-[103%] md:size-[calc(400px-20px)] md:border-[12px]"
           >
             <img
-              src="/images/header-main-page.png"
+              src="/images/header-main-page.webp"
               alt="Uśmiechnięta dziewczyna"
               class="h-full w-full object-cover"
             />

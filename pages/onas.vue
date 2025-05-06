@@ -25,4 +25,13 @@
 <script setup lang="ts">
 /** CONSENTS */
 import { ABOUT_US_TEXT } from '@/constants/aboutUs';
+
+useSeoMeta({
+  title: 'O nas - Kodent | Innowacyjna pielęgnacja jamy ustnej',
+  ogTitle: 'O nas - Kodent | Innowacyjna pielęgnacja jamy ustnej',
+  description:
+    'Poznaj firmę Kodent dystrybutora produktów ApaCare - lidera innowacyjnych produktów do pielęgnacji jamy ustnej. Oferujemy pasty, płyny i gumy do żucia z hydroksyapatytem, które dbają o zdrowie Twoich zębów.',
+  ogDescription:
+    'Poznaj firmę Kodent dystrybutora produktów ApaCare - lidera innowacyjnych produktów do pielęgnacji jamy ustnej. Oferujemy pasty, płyny i gumy do żucia z hydroksyapatytem, które dbają o zdrowie Twoich zębów.',
+});
 </script>

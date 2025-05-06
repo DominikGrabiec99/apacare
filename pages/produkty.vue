@@ -64,6 +64,15 @@ import { ESortOrder } from '@/schema';
 import { useProductsPage } from '@/composables/useProductsPage';
 import { useFilters } from '@/composables/useFilters';
 
+useSeoMeta({
+  title: 'Produkty - Kodent | Pasty, płyny i gumy do żucia',
+  ogTitle: 'Produkty - Kodent | Pasty, płyny i gumy do żucia',
+  description:
+    'Oferujemy innowacyjne produkty firmy ApaCare do pielęgnacji jamy ustnej: pasty do zębów, płyny i gumy do żucia z hydroksyapatytem, które dbają o zdrowie Twoich zębów i zapewniają skuteczną ochronę.',
+  ogDescription:
+    'Oferujemy innowacyjne produkty firmy ApaCare do pielęgnacji jamy ustnej: pasty do zębów, płyny i gumy do żucia z hydroksyapatytem, które dbają o zdrowie Twoich zębów i zapewniają skuteczną ochronę.',
+});
+
 definePageMeta({
   layout: 'products-page',
 });

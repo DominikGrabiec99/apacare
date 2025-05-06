@@ -1,10 +1,11 @@
 <template>
   <NuxtLink :to="link">
     <div
-      className="relative inline-flex items-center  overflow-hidden gap-[6px] text-lg font-medium "
+      class="relative inline-flex items-center gap-[6px] overflow-hidden text-lg font-medium"
       :class="[textClass]"
     >
       <AtomUnderlineText :text="text" :text-class="textClass" />
+
       <NuxtIcon
         v-if="showIcon"
         :name="icon"

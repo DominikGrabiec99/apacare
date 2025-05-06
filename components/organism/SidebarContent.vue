@@ -4,6 +4,7 @@
       class="cursor-pointer"
       :class="[buttonClass]"
       :disabled="disabled"
+      as-child
     >
       <slot name="button">
         <AtomUnderlineText :text="openButtonText" text-class="!text-base" />

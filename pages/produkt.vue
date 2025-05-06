@@ -1,5 +1,11 @@
 <template>
   <div class="flex flex-col gap-6 pt-6 md:gap-10 md:pt-12">
+    <Head>
+      <Title>{{ seoTitle }}</Title>
+      <Meta name="description" :content="productDescription" />
+      <Meta name="og:description" :content="productDescription" />
+      <Meta name="og:title" :content="seoTitle" />
+    </Head>
     <div class="container grid grid-cols-12 px-4 md:px-8">
       <div
         class="col-span-12 flex flex-col items-center justify-center gap-3 md:col-span-6"
@@ -9,7 +15,12 @@
           class="w-full"
           :product-labels="productLabels"
         />
-        <NuxtImg :src="productImg" :alt="productTitle" class="max-h-[340px]" />
+        <NuxtImg
+          :src="productImg"
+          :alt="productTitle"
+          fetchpriority="high"
+          class="max-h-[340px]"
+        />
       </div>
       <MoleculeProductTitleSection
         :title="productTitle"
@@ -66,6 +77,15 @@ import { useProduct } from '@/composables/useProduct';
 /** SCHEMA */
 import { EListType } from '@/schema/index';
 
+useSeoMeta({
+  title: 'Produkty - Kodent | Pasty, płyny i gumy do żucia',
+  ogTitle: 'Produkty - Kodent | Pasty, płyny i gumy do żucia',
+  description:
+    'Oferujemy innowacyjne produkty firmy ApaCare do pielęgnacji jamy ustnej: pasty do zębów, płyny i gumy do żucia z hydroksyapatytem, które dbają o zdrowie Twoich zębów i zapewniają skuteczną ochronę.',
+  ogDescription:
+    'Oferujemy innowacyjne produkty firmy ApaCare do pielęgnacji jamy ustnej: pasty do zębów, płyny i gumy do żucia z hydroksyapatytem, które dbają o zdrowie Twoich zębów i zapewniają skuteczną ochronę.',
+});
+
 const { productRelation, product } = useProduct();
 
 const route = useRoute();
@@ -80,6 +100,7 @@ const {
   getProductMethodOfUse,
   getTextAfterMethodOfUse,
   getProductInformation,
+  getProductDescription,
 } = useProductInformation();
 
 const productImg = computed(() => getProductMainImg(product.value));
@@ -94,12 +115,13 @@ const productTextsAfterTitle = computed(() =>
 const productListInformation = computed(() =>
   getProductListInformation(product.value),
 );
-
 const productInformation = computed(() => getProductInformation(product.value));
-
 const productMethodOfUse = computed(() => getProductMethodOfUse(product.value));
-
 const textsAfterList = computed(() => getTextsAfterList(product.value));
+const productDescription = computed(() => getProductDescription(product.value));
+const seoTitle = computed(
+  () => `${productTitle.value}- Ochrona i pielęgnacja jamy ustnej z ApaCare`,
+);
 
 watch(
   () => route.query.id,

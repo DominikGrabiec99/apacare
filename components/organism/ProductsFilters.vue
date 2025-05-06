@@ -1,17 +1,15 @@
 <template>
   <div class="w-full">
-    <div class="hidden w-full flex-col gap-3 md:flex">
-      <template v-if="filters?.length">
-        <MoleculeFilter
-          v-for="(filter, index) in filters"
-          :key="filter.id"
-          v-model="filters[index]"
-          :disabled="disabled"
-          :hide-border-bottom="index === filters.length - 1"
-        />
-      </template>
+    <div v-show="filters?.length" class="hidden w-full flex-col gap-3 md:flex">
+      <MoleculeFilter
+        v-for="(filter, index) in filters"
+        :key="filter.id"
+        :model-value="filter"
+        @update:modelValue="updateFilter($event, index)"
+        :disabled="disabled"
+        :hide-border-bottom="index === filters.length - 1"
+      />
     </div>
-
     <OrganismSidebarContent
       :disabled="disabled"
       sidebar-title="Filtruj"
@@ -26,12 +24,12 @@
           Filtruj
         </Button>
       </template>
-
-      <template v-if="filters?.length">
+      <template v-show="filters?.length">
         <MoleculeFilter
           v-for="(filter, index) in filters"
           :key="filter.id"
-          v-model="filters[index]"
+          :model-value="filter"
+          @update:modelValue="updateFilter($event, index)"
           :disabled="disabled"
           :hide-border-bottom="index === filters.length - 1"
         />
@@ -44,6 +42,9 @@
 /** INTERFACES */
 import type { IFiltersProducts } from '@/ts/interfaces/FiltersProducts';
 
+/** UI */
+import { Button } from '@/components/ui/button';
+
 defineProps({
   disabled: {
     type: Boolean,
@@ -51,5 +52,10 @@ defineProps({
   },
 });
 
-const filters = defineModel<IFiltersProducts[]>();
+const filters = defineModel<IFiltersProducts[]>({ default: () => [] });
+
+const updateFilter = (value: any, index: number) => {
+  console.log(value);
+  filters[index] = value;
+};
 </script>

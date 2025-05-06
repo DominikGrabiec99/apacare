@@ -17,17 +17,17 @@
       {
         "title": "(A) A. Analiza badanych próbek szkliwa w skaningowym mikroskopie elektronowym.",
         "images": [
-          "/images/clinicalTrial/szkliwo-badanie-1.gif",
-          "/images/clinicalTrial/szkliwo-badanie-2.gif",
-          "/images/clinicalTrial/szkliwo-badanie-3.gif"
+          "/images/clinicalTrial/szkliwo-badanie-1.webp",
+          "/images/clinicalTrial/szkliwo-badanie-2.webp",
+          "/images/clinicalTrial/szkliwo-badanie-3.webp"
         ]
       },
       {
         "title": "(B) B. Analiza w mikroskopie optycznym obwodowych stref powierzchni.",
         "text": "Strefa obwodowa sztucznego ubytku szkliwa badana po zanurzeniu w wodzie destylowanej (grupa kontrolna), w porównaniu z próbkami szkliwa po zastosowaniu pasty zawierającej hydroksyapatyt. Ciemny pasek określa w obu przypadkach położenie warstwy zdemineralizowanej.",
         "images": [
-          "/images/clinicalTrial/mikroskop-badanie-1.jpg",
-          "/images/clinicalTrial/mikroskop-badanie-2.jpg"
+          "/images/clinicalTrial/mikroskop-badanie-1.webp",
+          "/images/clinicalTrial/mikroskop-badanie-2.webp"
         ]
       }
     ]
@@ -45,7 +45,7 @@
     "references": [
       "Kani T, Kani M, Isozaki A, Shintani H, Ohashi T, Tokumoto T: Effect to apatite-containing dentifrices on dental caries in school children. I Dent Health 39, 104 - 109 (1989)."
     ],
-    "img": "/images/clinicalTrial/zawiesina-badania.gif"
+    "img": "/images/clinicalTrial/zawiesina-badania.webp"
   },
   {
     "id": 3,

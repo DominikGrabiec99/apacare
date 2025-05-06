@@ -46,7 +46,11 @@ export default defineNuxtConfig({
     'shadcn-nuxt',
     '@nuxt/image',
     '@nuxtjs/turnstile',
+    '@nuxtjs/sitemap',
   ],
+  sitemap: {
+    sources: ['/api/__sitemap__/urls'],
+  },
   turnstile: {
     siteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY,
   },

@@ -6,13 +6,21 @@
         v-for="(method, idx) in methodOfUse"
         :key="idx"
         class="flex flex-row gap-3 md:items-center"
+        :class="{ 'md:!items-start': method.array?.length }"
       >
         <div
           class="flex size-10 shrink-0 items-center justify-center rounded-full bg-primary text-xl font-bold text-white"
         >
           {{ idx + 1 }}
         </div>
-        <p class="font-medium text-primary-black">{{ method.text }}</p>
+        <div class="flex flex-col gap-2">
+          <p class="font-medium text-primary-black">{{ method.text }}</p>
+          <div v-if="method.array?.length">
+            <ul class="ml-10 flex list-disc flex-col gap-1">
+              <li v-for="(el, idx) in method.array" :key="idx">{{ el }}</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
     <p class="text-sm text-primary-black">{{ textAfter }}</p>

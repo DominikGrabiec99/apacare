@@ -53,9 +53,9 @@ export const APA_CARE_DESCRIPTION = `
               nadwrażliwość zębów (np. na zimne i ciepłe posiłki).
             </p>
 
-            <h5 class="font-semibold">Produkty systemu ApaCare</h5>
+            <p class="font-semibold">Produkty systemu ApaCare</p>
             <div>
-              <ul class="list-disc ml-[32px]">
+              <ul class="list-disc " style="margin-left: 32px;">
                 <li>
                   Tworzą warstwy ochronnej: płynne szkliwo tworzy niewidzialną
                   warstwę ochronną, która pokrywa zęby niczym „druga skóra”.

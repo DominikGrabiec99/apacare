@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-4 md:gap-6">
-    <h3 class="text-left text-2xl font-bold">Parametry</h3>
+    <h3 class="text-left text-2xl font-bold">Charakterystyka produktu</h3>
     <div>
       <MoleculeProductInformationRow
         v-for="(info, idx) in information"
@@ -15,7 +15,6 @@
 
 <script setup lang="ts">
 /** SCHEMA */
-import { EInformationType } from '@/schema/index';
 import type { IInformation } from '@/schema/index';
 
 defineProps({

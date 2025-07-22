@@ -1,6 +1,6 @@
 <template>
   <div>
-    <AtomTitleElementSection text="Najpopularniesze produkty" />
+    <AtomTitleElementSection text="Najpopularaniejsze produkty" />
     <div>
       <Tabs default-value="apaCare">
         <TabsList class="mb-6 h-14 w-full md:w-auto">

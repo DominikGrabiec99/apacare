@@ -44,13 +44,13 @@
         sidebar-title="Dlaczego warto używać?"
       >
         <div class="flex flex-col gap-2">
-          <p
+          <div
             v-for="(text, idx) in textsAfterList"
             :key="idx"
             class="text-base text-primary-black"
           >
-            {{ text }}
-          </p>
+            <p v-html="text" />
+          </div>
         </div>
       </OrganismSidebarContent>
     </div>

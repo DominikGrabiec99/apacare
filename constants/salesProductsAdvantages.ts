@@ -3,7 +3,7 @@ export const SALES_PRODUCTS_ADVANTAGES = [
     photo: './images/advantages/develop-by-dentists.svg',
     icon: 'guidance:medical-laboratory',
     title: 'Opracowane przez dentystów',
-    text: `Nasze produkty zostały stworzone przez dentystów, ale i także są przez nich wykorzystywane!`,
+    text: `Nasze produkty zostały stworzone przez dentystów, jak również są przez nich wykorzystywane!`,
   },
   {
     photo: './images/advantages/recomended-stiftung.svg',

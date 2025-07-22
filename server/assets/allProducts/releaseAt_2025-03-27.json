@@ -13,7 +13,7 @@
     "labels": [],
     "name": "ApaCare Remineralising Toothpaste",
     "description": "Pasta do codziennego czyszczenia zębów. Płynne szkliwo wzmacnia, wygładza i rozjaśnia zęby.",
-    "isHomePageRecommended": true,
+    "isHomePageRecommended": false,
     "textsAfterTitle": [
       "Pasta do codziennego czyszczenia zębów.",
       "Płynne szkliwo wzmacnia, wygładza i rozjaśnia zęby."
@@ -33,7 +33,7 @@
         },
         {
           "title": "Wybielanie zębów:",
-          "text": "medyczny hydroksyapatyt sprawia, że zęby stają się lśniąco i jaśniejsze.",
+          "text": "medyczny hydroksyapatyt sprawia, że zęby stają się lśniące i jaśniejsze.",
           "icon": "mdi:brightness-5"
         }
       ]
@@ -41,12 +41,12 @@
     "textsAfterList": [
       "Płynne szkliwo i fluorek sodu zawarte w paście ApaCare doskonale się uzupełniają i wzmacniają swoje działanie zapobiegając próchnicy i remineralizując zęby.",
       "Pasta do zębów ApaCare jest przeznaczona dla osób w każdym wieku.",
-      "Starannie dobrane, wysokiej jakości składniki dokładnie czyszczą i jednocześnie wygładzają zęby. Pasta do zębów ApaCare jest pastą wegańska, nie zawiera konserwantów, mikroplastików ani dwutlenku tytanu."
+      "Starannie dobrane, wysokiej jakości składniki dokładnie czyszczą i jednocześnie wygładzają zęby."
     ],
     "methodOfUse": [
       {
         "priority": 4,
-        "text": "Przeznaczona do higieny jamy ustanej dla dorosłych i dzieci."
+        "text": "Preparat do higieny jamy ustanej dla dorosłych i dzieci."
       },
       {
         "priority": 3,
@@ -70,7 +70,7 @@
       {
         "priority": 0,
         "title": "Fluorek sodu",
-        "text": "1450 ppm F",
+        "text": "1450 ppm F-",
         "type": "TEXT"
       },
       {
@@ -82,7 +82,7 @@
       {
         "priority": 0,
         "title": "Opakowanie",
-        "text": "tubka 75 mL",
+        "text": "tuba 75 mL",
         "type": "TEXT"
       },
       {
@@ -93,7 +93,7 @@
       },
       {
         "priority": 0,
-        "title": "Wegańska",
+        "title": "Produkt wegański",
         "value": true,
         "type": "CHECK"
       },
@@ -154,23 +154,23 @@
     "company": "ApaCare",
     "labels": [],
     "name": "ApaCare Repair",
-    "description": "Medyczna pasta do naprawy zębów. Pasta o dużej zawartości płynnego szkliwa do stosowania po umyciu zębów.",
+    "description": "Medyczna pasta do naprawy zębów. Pasta o zwiększonej zawartości płynnego szkliwa do stosowania po umyciu zębów.",
     "isHomePageRecommended": true,
     "textsAfterTitle": [
       "Medyczna pasta do naprawy zębów",
-      "Pasta o dużej zawartości płynnego szkliwa do stosowania po umyciu zębów."
+      "Pasta o zwiększonej zawartości płynnego szkliwa do stosowania po umyciu zębów."
     ],
     "list": {
       "type": "TEXT",
       "elementsText": [
         {
           "title": "Naprawa szkliwa:",
-          "text": "zapobiega próchnicy początkowej, uszczelnia pory, wygładza powierzchnie zębów i działa remineralizująco w przypadku wad rozwojowych zębów oraz hipomineralizacji trzonowcowo-siekaczowej (MIH).",
+          "text": "zapobiega próchnicy początkowej, uszczelnia kanaliki zębowe, wygładza powierzchnie zębów i działa remineralizująco w przypadku wad rozwojowych zębów oraz hipomineralizacji trzonowcowo-siekaczowej (MIH).",
           "icon": "mdi:tooth-outline"
         },
         {
           "title": "Rozjaśnia zęby:",
-          "text": "zwiększa grubość powierzchni szkliwa i tworzy jasną, błyszczącą warstwę odbijającą światło.",
+          "text": "zwiększa grubość powierzchni szkliwa i tworzy jasną, lśniącą warstwę odbijającą światło.",
           "icon": "mdi:white-balance-sunny"
         },
         {
@@ -182,23 +182,23 @@
     },
     "textsAfterList": [
       "ApaCare Repair to produkt o największej skuteczności w badaniach produktów ApaCare (wyniki są lepsze niż w przypadku pasta do zębów!)",
-      "ApaCare Repair stosuje się po umyciu zębów. Duża zawartość medycznego hydroksyapatytu powoduje osadzanie się płynnego szkliwo na powierzchniach zębów, przyleganie do nich i wytworzenie zewnętrznej, niewidocznej warstwy ochronnej.",
-      "Minerały szkliwa naprawiają uszkodzenia szkliwa oraz próchnicę początkową, wspomagają dojrzewanie szkliwa nawet w przypadku przebarwionych zębów, zaburzeń rozwojowych lub wad rozwojowych zębów (np. hipomineralizacja trzonowcowo-siekaczowa), wzmacniają i pogrubiają powierzchnię szkliwa, bardzo przyjemnie ją wygładzają i sprawiają, że zęby stają się jaśniejsze i bardziej lśniące.",
-      "Jednocześnie leczone są nadwrażliwe szyjki zębów, a przyczyna występowania nadwrażliwości, czyli odsłonięte kanaliki zębinowe jest trwale leczona przez ich uszczelnianie.",
+      "Zwiększona zawartość medycznego hydroksyapatytu powoduje osadzanie się płynnego szkliwa na powierzchniach zębów, przyleganie do nich i wytworzenie zewnętrznej, niewidocznej warstwy ochronnej.",
+      "Minerały naprawiają uszkodzenia szkliwa oraz próchnicę początkową, wspomagają dojrzewanie szkliwa nawet w przypadku przebarwionych zębów, zaburzeń rozwojowych lub wad rozwojowych zębów (np. hipomineralizacja trzonowcowo-siekaczowa), wzmacniają i pogrubiają powierzchnię szkliwa, bardzo przyjemnie ją wygładzają i sprawiają, że zęby stają się jaśniejsze i bardziej lśniące.",
+      "Jednocześnie leczone są nadwrażliwe szyjki zębów, a przyczyna występowania nadwrażliwości, czyli odsłonięte kanaliki zębinowe są trwale leczone przez ich uszczelnianie.",
       "ApaCare Repair można również stosować w przypadku erozji kwasowej, wysokiej podatności na próchnicę i w trakcie leczenia ortodontycznego.",
       "ApaCare Repair to bezfluorowa alternatywa dla żeli z fluorem. Należy go stosować po szczotkowaniu zębów.",
       "Leczenie za pomocą ApaCare Repair jest szczególnie skuteczne, gdy produkt jest nakładany za pomocą szyny dentystycznej. Produkt należy używać raz lub dwa razy dziennie przez 20 minut lub nakładać go na noc. Najłatwiej jest to zrobić za pomocą szyny dentystycznej ApaCare Repair Dental Split, która daje możliwość samodzielnego jej formowania i przeznaczona jest do użytku domowego.",
-      "Dentyści mogą również używać pasty ApaCare Repair w swojej praktyce, np. po zabiegach profilaktycznych w celu wygładzenia zęby i zapobiegania nadwrażliwości.",
+      "Dentyści mogą również używać pasty ApaCare Repair w swojej praktyce, np. po zabiegach profilaktycznych w celu wygładzenia zębów i zapobiegania nadwrażliwości.",
       "ApaCare Repair: próchnica początkowa może być remineralizowana za pomocą płynnego szkliwa.",
       "W kontrolowanym i randomizowanym badaniu* na 92 pacjentach z próchnicą początkową, opublikowanym na Nature.com, wykazano wysoki stopień remineralizacji dzięki zastosowaniu produktu ApaCare Repair.",
       "Uczestnicy badania stosowali fluoryzowaną pastę do zębów, a następnie ApaCare Repair raz dziennie przez 6 miesięcy. Badanie kontrolne przeprowadzono po roku i dwóch latach.",
       "Wynik: Początkowa próchnica została zredukowana w 38% zębów, a w połączeniu z ozonem nawet w 69%. Po 2 latach bez stosowania ApaCare Repair liczba zębów wolnych od próchnicy zmniejszyła się do 18%. Autorzy zalecają, aby pacjenci z próchnicą początkową lub zagrożeni próchnicą stosowali leczenie nie tylko przez 6 miesięcy, ale na stałe.",
-      "*Grocholewicz, K., Matkowska-Cichocka, G., Makowiecki, P. et al. Wpływ nano-hydroksyapatytu i ozonu na próchnicę początkową okołozębową: randomizowane badanie kliniczne. Sci Rep 10, 11192 (2020)"
+      "*Grocholewicz, K, Matkowska-Cichocka G, Makowiecki P i wsp.; Wpływ nano-hydroksyapatytu i ozonu na próchnicę początkową okołozębową: randomizowane badanie kliniczne. Sci Rep 10, 11192 (2020)"
     ],
     "methodOfUse": [
       {
         "priority": 3,
-        "text": "Przeznaczona do higieny jamy ustanej dla dorosłych i dzieci."
+        "text": "Preparat do higieny jamy ustanej dla dorosłych i dzieci."
       },
       {
         "priority": 2,
@@ -218,7 +218,19 @@
       {
         "priority": 0,
         "title": "Opakowanie",
-        "text": "Tubka 30 mL",
+        "text": "Tuba 30 mL",
+        "type": "TEXT"
+      },
+      {
+        "priority": 0,
+        "title": "Fluorek sodu",
+        "text": "0 ppm F-",
+        "type": "TEXT"
+      },
+      {
+        "priority": 0,
+        "title": "Hydroksyapatyt",
+        "text": "10%",
         "type": "TEXT"
       },
       {
@@ -229,7 +241,7 @@
       },
       {
         "priority": 0,
-        "title": "Wegańska",
+        "title": "Produkt wegański",
         "value": true,
         "type": "CHECK"
       },
@@ -260,22 +272,22 @@
     "company": "ApaCare",
     "labels": [],
     "name": "ApaCare Polish",
-    "description": "Medyczna pasta do polerowania zębów z płynnym szkliwem",
+    "description": "Medyczna pasta do polerowania zębów z płynnym szkliwem.",
     "isHomePageRecommended": true,
     "textsAfterTitle": [
-      "Medyczna pasta do polerowania zębów z płynnym szkliwem"
+      "Medyczna pasta do polerowania zębów z płynnym szkliwem."
     ],
     "list": {
       "type": "TEXT",
       "elementsText": [
         {
-          "title": "Pasta do zębów stosowana raz lub dwa razy w tygodniu zamiast zwykle stosowanej pasty:",
-          "text": "ApaCare Polish ma podobną strukturę do pasty do zębów ApaCare zawiera jednak dodatkowo delikatne, skutecznie czyszczące perełki podobnymi do tych występujących w profesjonalnych pastach polerskich używanych przez dentystów.",
+          "title": "Pasta medyczna stosowana raz lub dwa razy w tygodniu zamiast zwykle stosowanej pasty:",
+          "text": "ApaCare Polish ma podobną strukturę do pasty do zębów ApaCare zawiera jednak dodatkowo delikatne, skutecznie czyszczące perełki podobne do tych występujących w profesjonalnych pastach polerskich używanych przez dentystów.",
           "icon": "mdi:calendar-clock"
         },
         {
           "title": "Usuwanie przebarwień i płytki nazębnej:",
-          "text": "zmniejsza i minimalizuje powstawanie nowej płytki nazębnej i przebarwień, nawet u osób palących, często spożywających herbatę lub kawę lub u których przebarwienia są działaniami niepożądanymi leków itp.",
+          "text": "zmniejsza i minimalizuje powstawanie nowej płytki nazębnej i przebarwień, nawet u osób palących tytoń, często spożywających herbatę lub kawę lub u których przebarwienia są działaniami niepożądanymi leków itp.",
           "icon": "mdi:toothbrush"
         },
         {
@@ -286,22 +298,22 @@
       ]
     },
     "textsAfterList": [
-      "Polerowanie i czyszczenie zębów podobne jak u dentysty: ApaCare Polish to idealne uzupełnienie pasty do zębów ApaCare Remoneralising. ApaCare Polish stosuje się raz lub dwa razy w tygodniu zamiast pasty do zębów.",
-      "Przeznaczona jest dla osób, którzy cenią sobie świeże, czyste zęby i chcą regularnie polerować i intensywnie czyścić zęby między sesjami profilaktyki stomatologicznej.",
-      "Używana jak zwykła pasta do zębów. Najlepiej stosować w połączeniu ze specjalnym programem polerowania/wybielania szczoteczki sonicznej ApaCare."
+      "Polerowanie i czyszczenie zębów podobne jak u dentysty: ApaCare Polish to idealne uzupełnienie pasty do zębów ApaCare Remineralising. ApaCare Polish stosuje się raz lub dwa razy w tygodniu zamiast zwykle używanej do zębów.",
+      "Przeznaczona jest dla osób, któr cenią sobie świeże, czyste zęby i chcą regularnie polerować i intensywnie czyścić zęby między sesjami profesjonalnej profilaktyki stomatologicznej w gabinecie dentystycznym.",
+      "ApaCare Polish stosuje się jak zwykłą pastę do zębów. Najlepiej stosować w połączeniu ze specjalnym programem polerowania/wybielania szczoteczki sonicznej ApaCare."
     ],
     "methodOfUse": [
       {
         "priority": 2,
-        "text": "Przeznaczona do higieny jamy ustanej dla dorosłych i młodzieży od 12 roku życia."
+        "text": "Preparat do higieny jamy ustanej dla dorosłych i młodzieży od 12 roku życia."
       },
       {
         "priority": 1,
-        "text": "ApaCare Polish należy stosować 1-2 razy w tygodniu zamiast zwykłej pasty do zębów."
+        "text": "ApaCare Polish należy stosować 1-2 razy w tygodniu zamiast zwykle stosowanej pasty do zębów."
       },
       {
         "priority": 0,
-        "text": "Najlepsze rezultaty można osiągnąć stosując ApaCare Polish za pomocą szczoteczkisonicznej ApaCare Sonic i programem „Whitening”."
+        "text": "Najlepsze rezultaty można osiągnąć stosując ApaCare Polish za pomocą szczoteczki sonicznej ApaCare Sonic i programem „Whitening”."
       }
     ],
     "textAfterMethodOfUse": "",
@@ -315,7 +327,7 @@
       {
         "priority": 0,
         "title": "Fluorek sodu",
-        "text": "1450 ppm F",
+        "text": "1450 ppm F-",
         "type": "TEXT"
       },
       {
@@ -323,6 +335,18 @@
         "title": "Skład",
         "text": "Aqua, Hydrated Silica, Sorbitol, Propylene Glycol, Hydroxyapatite, Sodium C14-16 Olefin Sulfonate, Aroma, Cellulose Gum, Tetrapotassium Pyrophosphate, Sodium Fluoride, Sodium Saccharin, Limonene, CI 42051.",
         "type": "TEXT"
+      },
+      {
+        "priority": 0,
+        "title": "Bez dwutlenku tytanu",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Produkt wegański",
+        "value": true,
+        "type": "CHECK"
       }
     ],
     "relationProductsId": [
@@ -351,7 +375,24 @@
       "Płyn do płukania jamy ustnej z medycznym hydroksyapatytem i prebiotykami."
     ],
     "list": {
-      "type": "EMPTY"
+      "type": "TEXT",
+      "elementsText": [
+        {
+          "title": "Chroni przed pruchnicą i paradontozą:",
+          "text": "probiotyki wspomagają utrzymanie zdrowej flory jamy usnej.",
+          "icon": "lineicons:protection"
+        },
+        {
+          "title": "Świeży smak:",
+          "text": "przyjemna forma zapewnia długotrwały świeży oddech i smak w ustach.",
+          "icon": "carbon:taste"
+        },
+        {
+          "title": "Nawilża błożę śluzową:",
+          "text": "kwas hialuronowy utrzymuje przyjemne nawilżenie błony śluzowej jamy ustnej.",
+          "icon": "mdi:air-humidifier"
+        }
+      ]
     },
     "textsAfterList": [
       "ApaCare OraLactin Liquid jest gotowym do użycia płynem do płukania jamy ustnej i zębów, który chroni przed próchnicą i paradontozą, a jednocześnie ma przyjemnie świeży smak. Podczas płukania, powstaje na zębach warstwa ochronna, a ich powierzchnia staje się gładsza. Nadwrażliwość ulega trwałemu zmniejszeniu. Prebiotyki wspomagają utrzymanie zdrowej flory jamy ustnej.",
@@ -363,11 +404,11 @@
     "methodOfUse": [
       {
         "priority": 3,
-        "text": "Przeznaczona do higieny jamy ustanej dla dorosłych i młodzieży oraz dzieci od 6 roku życia."
+        "text": "Preparat do higieny jamy ustnej dla dorosłych i młodzieży oraz dzieci od 6 roku życia."
       },
       {
         "priority": 2,
-        "text": "Przed użyciem butelkę należy krótko wstrząsnąć."
+        "text": "Butelke wstrząsnąć przed użyciem"
       },
       {
         "priority": 1,
@@ -383,7 +424,7 @@
       {
         "priority": 0,
         "title": "Fluorek sodu",
-        "text": "250 ppm F",
+        "text": "250 ppm F-",
         "type": "TEXT"
       },
       {
@@ -400,13 +441,13 @@
       },
       {
         "priority": 0,
-        "title": "Nie Zawiera alkoholu",
+        "title": "Nie zawiera alkoholu",
         "value": true,
         "type": "CHECK"
       },
       {
         "priority": 0,
-        "title": "Wegańska",
+        "title": "Produkt wegański",
         "value": true,
         "type": "CHECK"
       },
@@ -462,7 +503,7 @@
     "labels": [],
     "name": "ApaCare Anti-caries chewing gum",
     "description": "Guma do żucia chroniąca przed próchnicą zawierająca minerały szkliwa i ksylitol.",
-    "isHomePageRecommended": true,
+    "isHomePageRecommended": false,
     "textsAfterTitle": [
       "Guma do żucia chroniąca przed próchnicą zawierająca minerały szkliwa i ksylitol."
     ],
@@ -471,40 +512,32 @@
       "elementsText": [
         {
           "title": "Innowacyjne zapobieganie próchnicy:",
-          "text": "ksylitol i minerały szkliwa skutecznie redukują liczbę bakterie powodujące próchnicę i wspomagają remineralizację.",
+          "text": "ksylitol i minerały szkliwa skutecznie redukują liczbę bakterii powodujących próchnicę i wspomagają remineralizację.",
           "icon": "mdi:shield-plus"
         },
         {
           "title": "Stymulacja wydzielania śliny dla naturalnej ochrony:",
-          "text": "guma do żucia stymuluje przepływ śliny, neutralizuje kwasy i wspomaga fizjologiczny układ odpornościowy.",
+          "text": "guma do żucia stymuluje wytwarzanie śliny, neutralizuje kwasy i wspomaga fizjologiczny układ odpornościowy.",
           "icon": "mdi:water"
         },
         {
           "title": "Ksylitol zmniejsza ilość bakterii chorobotwórczym:",
           "text": "badania naukowe potwierdzają, że ksylitol trwale zmniejsza ilość bakterii próchnicotwórczych.",
           "icon": "mdi:bacteria"
-        },
-        {
-          "title": "Wspomagnie mikrobiomu jamy ustnej:",
-          "text": "stabilizuje florę jamy ustnej, pomaga zmniejszyć nasilenie suchości w ustach i przywraca świeży oddech.",
-          "icon": "mdi:dna"
-        },
-        {
-          "title": "Nie zawiera cukru i sztucznych dodatków:",
-          "text": "guma nie zawiera dwutlenku tytanu, konserwantów i syntetycznych substancji słodzących.",
-          "icon": "mdi:cancel"
         }
       ]
     },
-    "textsAfterList": [],
+    "textsAfterList": [
+      "Guma do żucia ApaCare Anti-caries zawiera ksylitol i minerały szkliwa. Dzięki temu skutecznie redukują liczbę bakterii powodujących próchnicę i wspomagają remineralizację szkliwa. Guma do żucia stymuluje wytwarzanie śliny, neutralizuje kwasy i wspomaga fizjologiczny układ odpornościowy. Ksylitol zawarty w gumie zmniejsza ilość bakterii chorobotwórczym. Dodatkowo guma do żucia stabilizuje florę jamy ustnej, pomaga zmniejszyć nasilenie suchości w ustach i przywraca świeży oddech. Nie zawiera cukru, dwutlenku tytanu, konserwantów i syntetycznych substancji słodzących."
+    ],
     "methodOfUse": [
       {
         "priority": 2,
-        "text": "Dzieci od 3 roku życia: 1 guma do żucia 1x dziennie"
+        "text": "Dzieci od 3 roku życia: 1 guma do żucia 1 x dziennie"
       },
       {
         "priority": 1,
-        "text": "Młodzież (od 12 roku życia) i dorośli: 1 guma do żucia 3 x dziennie - W połączeniu ze słodzikami, może mieć efekt przeczyszczający, jeśli jest spożywana w nadmiarze."
+        "text": "Młodzież (od 12 roku życia) i dorośli: 1 guma do żucia 3 x dziennie (w połączeniu ze słodzikami, może mieć efekt przeczyszczający, jeśli jest spożywana w nadmiarze)."
       },
       {
         "priority": 0,
@@ -539,7 +572,31 @@
       },
       {
         "priority": 0,
-        "title": "Wegańska",
+        "title": "Bez cukru",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Ksylitol",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Produkt wegański",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Bez dwutlenku tytanu",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Bez konserwantów",
         "value": true,
         "type": "CHECK"
       }
@@ -566,20 +623,36 @@
     "name": "ApaCare Lack Lakier Mineralizujący",
     "description": "Długotrwały lakier, który chroni przed nadwrażliwością, remineralizuje szkliwo i zapobiega próchnicy.",
     "isHomePageRecommended": false,
-    "textsAfterTitle": [
-      "Natychmiastowa pomoc w przypadku nadwrażliwości zębów",
-      "Lakier stosowany w przypadku nadwrażliwości szyjek zębowych oraz do remineralizacji próchnicy początkowej i hipomineralizacji (hipomineralizacji trzonowcowo-siekaczowej).",
-      "Lakier ochronny o długotrwałym działania, odporny na wilgoć. Stosowany w przypadku nadwrażliwości szyjek zębowych lub do intensywnej remineralizacji w przypadku próchnicy początkowej. Do stosowania miejscowego w jamie ustnej. Utrzymuje się na zębach przez długi czas. Łączy natychmiastowy efekt z ukierunkowaną na przyczynę, długotrwałą ochroną.",
-      "Apacare Lack Lakier Mineralizujący to profesjonalny produkt do stosowania przez pacjenta, ale również często stosowany przez dentystów i specjalistów od profilaktyki. Dla dorosłych, młodzieży i dzieci z nadwrażliwością zębów, wysoką podatnością na próchnicę, mechanicznym starciem zębów, częstym spożywaniem kwaśnych napojów lub wadami zębów, np. hipomineralizacji trzonowcowo-siekaczowej. Stosowany również w celu zapobiegania próchnicy zębów podczas leczenia stałymi aparatami ortodontycznymi w ramach uszczelniania zamków."
-    ],
+    "textsAfterTitle": [],
     "list": {
-      "type": "EMPTY"
+      "type": "TEXT",
+      "elementsText": [
+        {
+          "title": "Długi czas działania:",
+          "text": "zmniejsza nadwrażliwość zębów i intensywnie remineralizuje szkliwo.",
+          "icon": "material-symbols:clock-arrow-up-outline-rounded"
+        },
+        {
+          "title": "Dobre efekty podczas leczenia stałymi aparatami ortodontycznymi:",
+          "text": "dzięki dużej zawartości hydroksyapatytu i długiemu czasowi działania zapobiega rozwojowi próchnicy.",
+          "icon": "mdi:shield-plus"
+        },
+        {
+          "title": "Odporny na wilgoć:",
+          "text": "przed długi czas utrzymuje się na zębach.",
+          "icon": "hugeicons:treatment"
+        }
+      ]
     },
-    "textsAfterList": [],
+    "textsAfterList": [
+      "ApaCare Lack Lakier Mineralizujący daje praktycznie natychmiastowa efekt w przypadku nadwrażliwości zębów.",
+      "ApaCare Lack Lakier Mineralizujący to profesjonalny produkt do stosowania przez pacjenta, ale również często stosowany przez dentystów i specjalistów od profilaktyki. Dla dorosłych, młodzieży i dzieci z nadwrażliwością zębów, wysoką podatnością na próchnicę, mechanicznym starciem zębów, częstym spożywaniem kwaśnych napojów lub wadami zębów, np. hipomineralizacji trzonowcowo-siekaczowej. Stosowany również w celu zapobiegania próchnicy zębów podczas leczenia stałymi aparatami ortodontycznymi w ramach uszczelniania zamków.",
+      "Lakier ochronny wykazuje długotrwałe działanie i jest odporny na wilgoć. Stosowany w przypadku nadwrażliwości szyjek zębowych lub do intensywnej remineralizacji w przypadku próchnicy początkowej. Utrzymuje się na zębach przez długi czas. Łączy natychmiastowy efekt z ukierunkowaną na przyczynę, długotrwałą ochroną."
+    ],
     "methodOfUse": [
       {
         "priority": 5,
-        "text": "Przeznaczony dla dorosłych, młodzieży i dzieci od 6 roku życia."
+        "text": "Preparat do stosowania u dorosłych, młodzieży i dzieci od 6 roku życia."
       },
       {
         "priority": 4,
@@ -606,8 +679,14 @@
     "information": [
       {
         "priority": 0,
+        "title": "Fluorek sodu",
+        "text": "0 ppm F-",
+        "type": "TEXT"
+      },
+      {
+        "priority": 0,
         "title": "Opakowanie",
-        "text": "butelka zawierająca 5 mL lakieru.",
+        "text": "butelka 5 mL",
         "type": "TEXT"
       },
       {
@@ -615,6 +694,36 @@
         "title": "Skład",
         "text": "Alcohol, Shellac, Hydroxy Apatite, Aqua, Aroma (Limonene, Menthol).",
         "type": "TEXT"
+      },
+      {
+        "priority": 0,
+        "title": "Szelak",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Produkt wegański",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Bez laktozy",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Bez glutenu",
+        "value": true,
+        "type": "CHECK"
+      },
+      {
+        "priority": 0,
+        "title": "Bez dwutlenku tytanu",
+        "value": true,
+        "type": "CHECK"
       }
     ],
     "relationProductsId": [
@@ -637,10 +746,10 @@
     "company": "OraLactin",
     "labels": [],
     "name": "OraLactin Toothpast",
-    "description": "Medyczna pasta do zębów z probiotykim i płynnym szkliwem do codziennego mycia i pielęgnacji zębów.",
+    "description": "Medyczna pasta do zębów z probiotykiem i płynnym szkliwem do codziennego mycia i pielęgnacji zębów.",
     "isHomePageRecommended": true,
     "textsAfterTitle": [
-      "Medyczna pasta do zębów z probiotykim i płynnym szkliwem do codziennego mycia i pielęgnacji zębów."
+      "Medyczna pasta do zębów z probiotykiem i płynnym szkliwem do codziennego mycia i pielęgnacji zębów."
     ],
     "list": {
       "type": "TEXT",
@@ -663,17 +772,17 @@
       ]
     },
     "textsAfterList": [
-      "Pasta do zębów ApaCare Oralactin wykorzystuje jak bazę sprawdzoną formułę ApaCare z płynnym szkliwem i fluorem, natomiast jej innowacyjność polega na dodatkowym działaniu probiotycznym.",
+      "Pasta do zębów ApaCare OraLactin wykorzystuje jak bazę sprawdzoną formułę ApaCare z płynnym szkliwem i fluorem, natomiast jej innowacyjność polega na dodatkowym działaniu probiotycznym.",
       "Naturalne dodatki prebiotyczne szczególnie sprzyjają rozwojowi prozdrowotnych mikroorganizmów we florze jamy ustnej, zwłaszcza tych, które obniżają ciśnienie krwi i zapobiegają cukrzycy.",
       "Specyficzne dla bakterii substancje sygnalizacyjne, tzw. postbiotyki, hamują rozwój patogenów bez żadnych działań niepożądanych.",
-      "Przy regularnym stosowaniu na powierzchni zębów tworzy się warstwa ochronny, która bardzo skutecznie wygładza, naprawia drobne ubytki, chroni przed nadwrażliwością i rozjaśnia zęby.",
+      "Przy regularnym stosowaniu na powierzchni zębów tworzy się warstwa ochronna, która bardzo skutecznie wygładza, naprawia drobne ubytki, chroni przed nadwrażliwością i rozjaśnia zęby.",
       "Starannie dobrane, wysokiej jakości składniki dokładnie czyszczą i jednocześnie wygładzają zęby.",
       "Pasta do zębów ApaCare Oralactin jest wegańska, nie zawiera konserwantów, mikroplastików, dwutlenku tytanu itp."
     ],
     "methodOfUse": [
       {
         "priority": 2,
-        "text": "Przeznaczona do higieny jamy ustnej z dodatkową ochroną zdrowej flory bakteryjnej dla dorosłych, młodzieży i dzieci od 6. roku życia."
+        "text": "Preparat do higieny jamy ustnej z dodatkową ochroną zdrowej flory bakteryjnej dla dorosłych, młodzieży i dzieci od 6. roku życia."
       },
       {
         "priority": 1,
@@ -689,7 +798,7 @@
       {
         "priority": 0,
         "title": "Fluorek sodu",
-        "text": "1450 ppm F",
+        "text": "1450 ppm F-",
         "type": "TEXT"
       },
       {
@@ -701,7 +810,7 @@
       {
         "priority": 0,
         "title": "Opakowanie",
-        "text": "tubka 75 mL",
+        "text": "tuba 75 mL",
         "type": "TEXT"
       },
       {
@@ -712,7 +821,7 @@
       },
       {
         "priority": 0,
-        "title": "Wegańska",
+        "title": "Produkt wegański",
         "value": true,
         "type": "CHECK"
       },
@@ -775,20 +884,36 @@
     "name": "ApaCare Repair Dental Split",
     "description": "Jednoczęściowa szyna intensywnie remineralizuje, rozjaśnia i nabłyszcza zęby, wspomagając ich ochronę.",
     "isHomePageRecommended": false,
-    "textsAfterTitle": [
-      "Jednoczęściowa szyna dentystyczna do stosowania ApaCare Repair",
-      "Szyny dentystyczne do intensywnej remineralizacji zębów",
-      "Dzięki szynie dentystycznej ApaCare Repair Dental Splint można skutecznie i delikatnie remineralizować zęby za pomocą pastą naprawczej ApaCare Repair. Jednocześnie zęby rozjaśniają się i uzyskują lśniący blask. Stomatolodzy zalecają ten system szczególnie w przypadku nadwrażliwości zębów i wysokiej podatności na próchnicę, ale także w przypadku wysokich wymagań estetycznych i profesjonalnych zabiegach wybielania.",
-      "Przed użyciem pasty ApaCare Repair należy wyszczotkować zęby. W razie jakichkolwiek pytań prosimy o kontakt z dentystą."
-    ],
+    "textsAfterTitle": [],
     "list": {
-      "type": "EMPTY"
+      "type": "TEXT",
+      "elementsText": [
+        {
+          "title": "Łatwość użycia:",
+          "text": "jednoczęściowa szyna dentystyczna.",
+          "icon": "mdi:tooth-outline"
+        },
+        {
+          "title": "Idealne dopasowanie:",
+          "text": "szyna wykonana jest z termoplastycznego plastiku.",
+          "icon": "mdi:fit-to-page-outline"
+        },
+        {
+          "title": "Lepsze efektu stosowanych preparatów:",
+          "text": "dzięki idealnemu dopasowaniu indywidualnie dla pacjenta stosowane preparaty mogą działać tam gdzie powinny i przez dłuższy czas.",
+          "icon": "material-symbols:star-shine-outline"
+        }
+      ]
     },
-    "textsAfterList": [""],
+    "textsAfterList": [
+      "ApaCare Repair Dental Split to jednoczęściowa szyna dentystyczna do stosowania preparatu ApaCare Repair.",
+      "Dzięki szynie dentystycznej ApaCare Repair Dental Splint można skutecznie i delikatnie remineralizować zęby za pomocą pastą naprawczej ApaCare Repair. Jednocześnie zęby rozjaśniają się i uzyskują lśniący blask. Stomatolodzy zalecają ten system szczególnie w przypadku nadwrażliwości zębów i wysokiej podatności na próchnicę, ale także w przypadku wysokich wymagań estetycznych i po profesjonalnych zabiegach wybielania.",
+      "Szyna jest zbudowana z termoplastycznego plastyki i jest dostosowywana przed pierwszym użyciem do indywidualnego zgryzu każdego użytkownika."
+    ],
     "methodOfUse": [
       {
         "priority": 1,
-        "text": "Dopasowanie szyny: wymieszać dwie filiżanki wrzątku z jedna filiżanką zimnej wody (woda będzie miła temperaturę około 80 o C). Zamocować uchwyt do szyny i zanurzyć ją w przygotowanej wodzie na 20 sekund w celu jej uplastycznienia. Następnie należy wyjąć szynę z wody, strząsnąć wodę i włożyć szynę do jamy ustnej. Zamknąć usta, zagryźć szynę na około 1 minutę i następnie wyjąć szynę z ust."
+        "text": "Dopasowanie szyny: wymieszać dwie filiżanki wrzątku z jedna filiżanką zimnej wody (woda będzie miła temperaturę około 80 st. C). Zamocować uchwyt do szyny i zanurzyć ją w przygotowanej wodzie na 20 sekund w celu jej uplastycznienia. Następnie należy wyjąć szynę z wody, strząsnąć wodę i włożyć szynę do jamy ustnej. Zamknąć usta, zagryźć szynę na około 1 minutę i następnie wyjąć szynę z ust."
       },
       {
         "priority": 0,
@@ -840,7 +965,7 @@
     "description": "Zestaw zawiera pasty Remineralising Toothpaste, Repair, Polish oraz szynę dentystyczną Repair.",
     "isHomePageRecommended": false,
     "textsAfterTitle": [
-      "W zestawie znajduje się pasta do zębów ApaCare Remineralising Toothpast, pasty do naprawy zębów ApaCare Repair, pasty polerskiej ApaCare Polish oraz jednoczęściowej szyny dentystycznej ApaCare Repair."
+      "W zestawie znajduje się pasta do zębów ApaCare Remineralising Toothpast, pasta do naprawy zębów ApaCare Repair, pasta polerska ApaCare Polish oraz jednoczęściowa szyna dentystyczna ApaCare Repair Dental Split."
     ],
     "list": {
       "type": "EMPTY"
@@ -882,5 +1007,166 @@
       "apaCare-prophylaxis-set",
       "oraLactin-toothpast"
     ]
+  },
+  {
+    "id": "apa-care-sonic",
+    "priority": "2",
+    "category": "Akcesoria do pielęgnacji",
+    "photos": [
+      {
+        "url": "/images/products/ApaCare_sonic_toothbrush.webp",
+        "priority": 100
+      }
+    ],
+    "company": "ApaCare",
+    "labels": ["Nowość"],
+    "name": "ApaCare Sonic",
+    "description": "Profesjonalna, soniczna szczoteczka do zębów.",
+    "isHomePageRecommended": true,
+    "textsAfterTitle": ["Profesjonalna, soniczna szczoteczka do zębów"],
+    "list": {
+      "type": "TEXT",
+      "elementsText": [
+        {
+          "title": "Innowacyjna technologia:",
+          "text": "opracowana przez dentystów szczoteczka soniczna z technologią szczotkowania 3D.",
+          "icon": "material-symbols:3d-rotation"
+        },
+        {
+          "title": "Wygoda użytkowania:",
+          "text": "Szczoteczka akumulatorowa z głowicą czyszczącą wykonująca 35 000 drgań/min.",
+          "icon": "mdi:toothbrush"
+        },
+        {
+          "title": "5 programów użytkowania:",
+          "text": "Program czyszczenia, polerowania i wybielania zębów, pielęgnacji dziąseł oraz program delikatny.",
+          "icon": "material-symbols-light:forward-5"
+        }
+      ]
+    },
+    "textsAfterList": [
+      "ApaCare Sonic to opracowana przez dentystów, innowacyjna szczoteczka soniczna z technologią szczotkowania 3D. Według Stiftung Warentest (niemiecka federacja konsumentów) to jedna z najlepszych szczotek w 2022 roku – ma doskonały stosunek ceny do jakości. Wysokiej jakości, dobrze zaprojektowana szczoteczka soniczna, zapewnia ergonomię użytkowania i skuteczność działania. Główki szczoteczki są zoptymalizowane do delikatnego usuwania wszystkich osadów (technologia 3D Sensitive). Główki szczoteczki 3D są wymienne, a opcjonalnie można je zamienić główkami jednopęczkowe. Szczoteczka wspomaga utrzymanie zdrowia zębów, jamy ustnej i implantów, pomaga zapobiegać zapaleniu dziąseł. W połączeniu z np. pastą do zębów ApaCare może być używana do delikatnego wybielania zębów (program wybielający) oraz ich łagodnego i dokładnego czyszczenia. Dodatkowe funkcje jak 2-minutowy inteligentny timer (szczotka automatycznie wyłącza się po tym czasie) oraz 30-sekundowy timer interwałowy (sygnalizuje zmiany obszaru szczotkowania) pozwalają na jeszcze łatwiejsze używanie szczoteczki.",
+      "<span class='font-bold'>Technologia ApaCare 3D Sensitive:</span>",
+      "<ul class='flex flex-col gap-2' style='margin-left: 40px; list-style: disc;'><li><span class='font-bold'>Specjalistyczne Włókna:</span> Końcówki wykorzystujące tę technologię posiadają dwa rodzaje włókien o różnej twardości i przeznaczeniu. Zazwyczaj zewnętrzne, często zielone włókna, są wyjątkowo miękkie i elastyczne. Ich zadaniem jest delikatne, ale dokładne oczyszczanie wrażliwych okolic przydziąsłowych oraz masaż dziąseł, co poprawia ich ukrwienie i kondycję. Wewnętrzne włókna są nieco twardsze, co pozwala na efektywne usuwanie płytki nazębnej i powierzchownych przebarwień z powierzchni zębów.</li><li><span class='font-bold'>Trójwymiarowy Układ Włókien (&quot;3D&quot;):</span> Określenie &quot;3D&quot; odnosi się do wielopoziomowego i zróżnicowanego ułożenia pęczków włókien. Taka budowa pozwala główce szczoteczki lepiej dopasować się do nieregularnego kształtu zębów, docierając do trudno dostępnych miejsc, takich jak przestrzenie międzyzębowe i bruzdy na powierzchniach żujących. Zapewnia to kompleksowe i trójwymiarowe oczyszczanie całej jamy ustnej.</li><li><span class='font-bold'>Ochrona i Bezpieczeństwo:</span> Głównym celem technologii &quot;Sensitive&quot; jest minimalizowanie ryzyka podrażnień. Miękkie włókna i zaokrąglone końcówki chronią szkliwo przed ścieraniem i zapobiegają recesji dziąseł, co jest częstym problemem u osób z nadwrażliwością.</li></ul>"
+    ],
+    "methodOfUse": [
+      {
+        "priority": 1,
+        "text": "Należy wybrać jeden z pięciu programów:",
+        "array": [
+          "Clean (Czyszczenie): Zwykłe codzienne czyszczenie zębów.",
+          "White (Wybielanie): Specjalny program wybielający do rozjaśniania zębów, szczególnie dla palaczy oraz osób pijących herbatę i kawę",
+          "Polish (Polerowanie): Polerowanie powierzchni zębów (w połączeniu z pastą polerską do zębów ApaCare Polish.",
+          "GumCare (Pielęgnacja dziąseł): Delikatna pielęgnacja dziąseł",
+          "Sensitive (Tryb delikatny): Łagodny tryb, szczególnie dla pacjentów z nadwrażliwością zębów lub dla dzieci."
+        ]
+      },
+      {
+        "priority": 0,
+        "text": "Wymianę główki szczoteczki zaleca się co najmniej raz na 3 miesiące"
+      }
+    ],
+    "textAfterMethodOfUse": "",
+    "information": [
+      {
+        "priority": 0,
+        "title": "Opakowanie",
+        "array": [
+          {
+            "text": "1 x rękojeść szczoteczki"
+          },
+          {
+            "text": "2 x główka szczoteczki z osłonką ochronną"
+          },
+          {
+            "text": "1 x stacja ładująca z kablem USB i zasilaczem sieciowym"
+          }
+        ],
+        "type": "ARRAY"
+      },
+      {
+        "priority": 0,
+        "title": "Konstrukcja",
+        "text": "Elegancka, smukła rękojeść, łatwa do czyszczenia",
+        "type": "TEXT"
+      },
+      {
+        "priority": 0,
+        "title": "Timery",
+        "array": [
+          {
+            "text": "2-minutowy inteligentny timer - wyłącza się automatycznie"
+          },
+          {
+            "text": "30-sekundowy timer interwałowy - sygnalizuje zalecenie zmiany obszaru szczotkowania"
+          }
+        ],
+        "type": "ARRAY"
+      }
+    ],
+    "relationProductsId": ["apa-care-sonic-koncowki"]
+  },
+  {
+    "id": "apa-care-sonic-koncowki",
+    "priority": "2",
+    "category": "Akcesoria do pielęgnacji",
+    "photos": [
+      {
+        "url": "/images/products/ApaCare_sonic-koncowki.webp",
+        "priority": 100
+      }
+    ],
+    "company": "ApaCare",
+    "labels": ["Nowość"],
+    "name": "ApaCare Sonic - główki do szczoteczki",
+    "description": "Końcówki do szczoteczki sonicznej ApaCare Sonic",
+    "isHomePageRecommended": true,
+    "textsAfterTitle": ["Końcówki do szczoteczki sonicznej ApaCare Sonic."],
+    "list": {
+      "type": "TEXT",
+      "elementsText": [
+        {
+          "title": "Dostępne w dwóch wersjach:",
+          "text": "klasyczna (Sonic 3D Sensitive brush heads) i do przestrzeni międzyzębowych (ApaCare Sonic Inter Polish Brush).",
+          "icon": "fluent:multiplier-2x-28-filled"
+        },
+        {
+          "title": "Wygoda użytkowania:",
+          "text": "obie wersje główek dostępne są w dwupakach.",
+          "icon": "hugeicons:tick-double-03"
+        },
+        {
+          "title": "Techologia 3D Sensitive:",
+          "text": "Obie wersje główek są zbudowane zgodnie z technologią 3D Sensitive - technologia zapewniająca maksymalnej skuteczności czyszczenia przy jednoczesnym zachowaniu niezwykłej delikatności dla szkliwa i dziąseł.",
+          "icon": "mdi:video-3d"
+        }
+      ]
+    },
+    "textsAfterList": [
+      "<span class='font-bold'>Końcówki ApaCare Sonic Inter Polish</span> (do przestrzeni międzyzębowych) do szczoteczki sonicznej ApaCare Sonic. Dostępne są w opakowaniach zawierających 2 końcówki. Wyposażone są w technologię 3D Sensitive. Ten rodzaj główki jest specjalnie przeznaczony do czyszczenia przestrzeni międzyzębowych, aparatów ortodontycznych i implantów zębowych. Szczególnie są zalecane do usuwania kamienia nazębnego w połączeniu z pastą polerską ApaCare Polish. Główka zapewnia łagodne i wysoce skuteczne czyszczenie - jest delikatna i bezpieczna.",
+      "<span class='font-bold'>Końcówki ApaCare Sonic 3D Sensitive</span> do szczoteczki sonicznej ApaCare Sonic. Dostępne są w opakowaniach zawierających 2 końcówki. Wyposażone są w technologię 3D Sensitive. Zapewniają doskonałe czyszczenie zębów, dziąseł, implantów, aparatów ortodontycznych oraz protez zębowych. Główka zapewnia łagodne i wysoce skuteczne czyszczenie – jest delikatna i bezpieczna."
+    ],
+    "methodOfUse": [
+      {
+        "priority": 1,
+        "text": "Wyminę główki szczoteczki zaleca się co najmniej raz na 3 miesiące."
+      }
+    ],
+    "textAfterMethodOfUse": "",
+    "information": [
+      {
+        "priority": 0,
+        "title": "Opakowanie",
+        "text": "2 sztuki w opakowaniu.",
+        "type": "TEXT"
+      },
+      {
+        "priority": 0,
+        "title": "Technologia 3D Sensitive.",
+        "value": true,
+        "type": "CHECK"
+      }
+    ],
+    "relationProductsId": ["apa-care-sonic"]
   }
 ]

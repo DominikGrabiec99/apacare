@@ -58,6 +58,7 @@ export interface IElementText {
 export interface IMethodOfUse {
   priority: number;
   text: string;
+  array?: string[];
 }
 
 export interface InformationArrayValue {

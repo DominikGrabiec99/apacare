@@ -11,6 +11,7 @@ specifiers:
   '@nuxtjs/sitemap': ^7.2.10
   '@nuxtjs/tailwindcss': ^6.13.2
   '@nuxtjs/turnstile': ^1.0.0
+  '@rollup/rollup-linux-x64-gnu': 4.9.5
   '@sendgrid/mail': ^8.1.5
   '@tailwindcss/postcss': ^4.0.14
   '@tailwindcss/vite': ^4.0.14
@@ -77,6 +78,9 @@ dependencies:
   vue: 3.5.13_typescript@5.8.3
   vue-router: 4.5.1_vue@3.5.13
   yup: 1.6.1
+
+optionalDependencies:
+  '@rollup/rollup-linux-x64-gnu': 4.9.5
 
 devDependencies:
   '@iconify-json/material-symbols': 1.2.20
@@ -2291,6 +2295,14 @@ packages:
 
   /@rollup/rollup-linux-x64-gnu/4.40.0:
     resolution: {integrity: sha512-RcDGMtqF9EFN8i2RYN2W+64CdHruJ5rPqrlYw+cgM3uOVPSsnAQps7cpjXe9be/yDp8UC7VLoCoKC8J3Kn2FkQ==}
+    cpu: [x64]
+    os: [linux]
+    requiresBuild: true
+    dev: false
+    optional: true
+
+  /@rollup/rollup-linux-x64-gnu/4.9.5:
+    resolution: {integrity: sha512-Dq1bqBdLaZ1Gb/l2e5/+o3B18+8TI9ANlA1SkejZqDgdU/jK/ThYaMPMJpVMMXy2uRHvGKbkz9vheVGdq3cJfA==}
     cpu: [x64]
     os: [linux]
     requiresBuild: true

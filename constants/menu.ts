@@ -6,7 +6,7 @@ const MENU_LINK = [
   },
   {
     id: '3',
-    text: 'O nas',
+    text: 'O nas/Kontakt',
     to: '/onas',
   },
   {

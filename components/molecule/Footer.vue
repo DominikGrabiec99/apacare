@@ -15,6 +15,15 @@
         </a>
       </p>
 
+      <div class="mt-4 flex flex-col gap-2">
+        <NuxtLink to="/polityka-prywatnosc" class="hover:underline"
+          >Polityka prywatności</NuxtLink
+        >
+        <NuxtLink to="/warunki-ogolne" class="hover:underline"
+          >Warunki ogólne</NuxtLink
+        >
+      </div>
+
       <span class="mt-8 text-xs">
         Copyright© {{ year }} Kodent. Wszelkie prawa zastrzeżone.
       </span>

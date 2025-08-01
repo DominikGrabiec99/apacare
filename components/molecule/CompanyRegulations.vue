@@ -1,5 +1,7 @@
 <template>
-  <section class="privacy-policy mx-auto mt-10 flex max-w-4xl flex-col gap-10">
+  <section
+    class="privacy-policy mx-auto mt-10 flex max-w-4xl flex-col gap-10 px-4"
+  >
     <h1 class="mb-6 text-3xl font-bold">
       {{ title }}
     </h1>

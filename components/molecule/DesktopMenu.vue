@@ -1,15 +1,15 @@
 <template>
   <div class="flex size-full items-center justify-between">
     <AtomLogo />
-    <nav class="flex h-full gap-3">
+    <nav class="flex h-full gap-2 xl:gap-3">
       <NuxtLink
         v-for="link in MENU_LINK"
         :key="link.id"
         :to="link.to"
-        class="flex h-full items-center px-5 font-medium"
+        class="flex h-full items-center px-2 font-medium"
       >
         <span
-          class="before:content-[' '] before:bg-primary-blue-dark relative text-2xl font-medium text-white before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:transition-all hover:before:w-full"
+          class="before:content-[' '] relative text-xl font-medium text-white before:absolute before:bottom-0 before:left-0 before:h-[2px] before:w-0 before:bg-primary-blue-dark before:transition-all hover:before:w-full xl:text-2xl"
         >
           {{ link.text }}
         </span>

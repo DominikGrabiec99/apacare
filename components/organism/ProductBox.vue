@@ -1,28 +1,26 @@
 <template>
-  <div class="flex flex-col gap-2 bg-white p-4">
-    <NuxtLink :to="productLink">
-      <MoleculeProductLabelsSection
-        class="h-[30px]"
-        :product-labels="productLabels"
+  <NuxtLink :to="productLink" class="flex flex-col gap-2 bg-white p-4">
+    <MoleculeProductLabelsSection
+      class="h-[30px]"
+      :product-labels="productLabels"
+    />
+    <div class="flex h-64 items-center">
+      <AtomScaleImg
+        class="mx-auto h-full max-h-64 w-auto px-2"
+        :photo="productImg"
+        :name="productTitle"
       />
-      <div class="flex h-64 items-center">
-        <AtomScaleImg
-          class="mx-auto h-full max-h-64 w-auto px-2"
-          :photo="productImg"
-          :name="productTitle"
-        />
-      </div>
+    </div>
 
-      <h4
-        class="h-[24px] text-base font-semibold text-primary-black md:h-[56px] md:text-lg"
-      >
-        {{ productTitle }}
-      </h4>
-      <p class="text-justify text-sm text-primary-black">
-        {{ productDescription }}
-      </p>
-    </NuxtLink>
-  </div>
+    <h4
+      class="h-[24px] text-base font-semibold text-primary-black md:h-[56px] md:text-lg"
+    >
+      {{ productTitle }}
+    </h4>
+    <p class="text-justify text-sm text-primary-black">
+      {{ productDescription }}
+    </p>
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">

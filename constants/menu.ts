@@ -14,6 +14,11 @@ const MENU_LINK = [
     text: 'Badania kliniczne',
     to: '/badania',
   },
+  {
+    id: '4',
+    text: 'Jak to działa',
+    to: '/blog/jak-to-dziala',
+  },
 ];
 
 export default MENU_LINK;

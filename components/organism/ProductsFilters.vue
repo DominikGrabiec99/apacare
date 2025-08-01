@@ -24,7 +24,7 @@
           Filtruj
         </Button>
       </template>
-      <template v-show="filters?.length">
+      <div v-show="filters?.length">
         <MoleculeFilter
           v-for="(filter, index) in filters"
           :key="filter.id"
@@ -33,7 +33,7 @@
           :disabled="disabled"
           :hide-border-bottom="index === filters.length - 1"
         />
-      </template>
+      </div>
     </OrganismSidebarContent>
   </div>
 </template>
@@ -55,7 +55,6 @@ defineProps({
 const filters = defineModel<IFiltersProducts[]>({ default: () => [] });
 
 const updateFilter = (value: any, index: number) => {
-  console.log(value);
   filters[index] = value;
 };
 </script>

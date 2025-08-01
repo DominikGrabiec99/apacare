@@ -1,0 +1,125 @@
+[
+  {
+    "id": "jak-to-dziala",
+    "title": "Jak to działa?",
+    "mainImg": "/images/blog/jak-to-dziala/AdobeStock.webp",
+    "dataCreate": "2025-07-25",
+    "decoratedTitle": "Rewitalizacja szkliwa i zdrowie jamy ustnej",
+    "description": "ApaCare i OraLactin to innowacyjne systemy do pielęgnacji jamy ustnej, które odbudowują szkliwo oraz wspierają zdrową florę bakteryjną dzięki płynnemu hydroksyapatytowi i dobroczynnym bakteriom.",
+    "content": [
+      {
+        "sectionId": "1",
+        "title": "Remineralizacja „płynnym szkliwem”",
+        "paragraphs": [
+          {
+            "id": "1",
+            "rightImg": {
+              "src": "/images/blog/jak-to-dziala/apacare_logo.webp",
+              "alt": "",
+              "height": "70px"
+            },
+            "text": "ApaCare jest system przeznaczonym do profesjonalnej pielęgnacji zębów z wykorzystaniem płynnego szkliwa. Dzięki produktom ApaCare możesz zapewnić sobie naturalnie gładkie, zdrowe i lśniące zęby na długi czas."
+          },
+          {
+            "id": "2",
+            "leftImg": {
+              "src": "/images/blog/jak-to-dziala/AdobeStock.webp",
+              "alt": "",
+              "height": "220px"
+            },
+            "text": "Podstawowym celem nowoczesnej stomatologii jest utrzymanie jak największej ilości zdrowych zębów tak długo, jak to jest tylko możliwe. Dla większości społeczeństwa symbolem piękna i zdrowych zębów są białe, lśniące zęby. Biel zębom zapewnia szkliwo. Jest ono atakowane każdego dnia przez bakterie, kwaśne pożywienie i płyny. Również płyny, będące depozytem barwników (np. herbata czy kawa) wpływają negatywnie na estetykę zębów. Zarówno szkliwo jak i zębina są wobec tych czynników bezbronne. Szkliwo zębowe u dorosłych jest wysoce zmineralizowaną bezkomórkową tkanką, zawierającą 99% substancji mineralnych. Dlatego szkliwo samo w sobie nie ma zdolności regeneracji, czyli odbudowy."
+          },
+          {
+            "id": "3",
+            "rightImg": {
+              "src": "/images/blog/jak-to-dziala/wirkung.webp",
+              "alt": "",
+              "height": "180px"
+            },
+            "text": "Większość dotychczas stosowanych materiałów używanych do ochrony szkliwa (np. fluorki) działają głównie przez ograniczanie procesu rozpuszczania apatytu (głównego budulca szkliwa), a nie przez mineralizację prowadzącą do krystalizacji apatytu lub odnowy utraconych związków mineralnych. Zębina natomiast może być odbudowana samoczynnie, ale nowa tkanka narasta jedynie w kierunku miazgi. Powstałe uszkodzenia można naprawić jedynie po zastosowaniu materiałów alloplastycznych lub materiałów naturalnie występujących w ślinie. Jedną z substancji, która odbudowuje w warunkach fizjologicznych szkliwo jest zmikronizowany hydroksyapatyt, zwany „płynnym szkliwem”."
+          },
+          {
+            "id": "4",
+            "text": "Wszystkie produkty ApaCare zawierają medyczny hydroksyapatyt, który tworzy ochronną warstwę na szkliwie, z której dzięki zmikronizowanej strukturze hydroksyapatytu wbudowuje się on w szkliwo zęba. Dzięki temu szkliwo i zęby stają się bardziej gładkie i jaśniejsze odzyskując naturalny kolor. Proces ten nazywany jest remineralizacją szkliwa. Medyczny hydroksyapatyt jest nietoksyczny, nie powoduje odpowiedzi zapalnej czy immunologicznej, co wynika z faktu, że w przeciwieństwie do fluoru, jest niczym „nowym” dla zębów, gdyż działa jako biomimetyczny zamiennik utraconych cząstek szkliwa."
+          },
+          {
+            "id": "5",
+            "leftImg": {
+              "src": "/images/blog/jak-to-dziala/.webp",
+              "alt": "",
+              "height": "180px"
+            },
+            "text": "Dodatkowo, medyczny hydroksypaptyt może być stosowany w celu szybkiego i trwałego zamykania otwartych kanalików (porów) nadwrażliwych szyjek zębowych. Medyczny hydroksyapatyt zmniejsza nadwrażliwość zębów (np. na zimne i ciepłe posiłki)."
+          }
+        ]
+      },
+      {
+        "sectionId": "2",
+        "title": "Produkty systemu ApaCare",
+        "paragraphs": [
+          {
+            "id": "6",
+            "list": [
+              "Tworzą warstwę ochronną: płynne szkliwo tworzy niewidzialną warstwę ochronną, która pokrywa zęby niczym „druga skóra”.",
+              "Zwiększają gładkość i blask zębów: płynne szkliwo zapewnia lśniące gładkie powierzchnie zębów, które nie tylko są przyjemnie gładkie w dotyku, ale także zapewniają promiennie zdrowy uśmiech.",
+              "Naprawiają: małe ubytki, wczesne zmiany próchnicowe, pęknięcia i szorstkie miejsca, które są skutecznie naprawiane przez płynny hydroksyapatyt.",
+              "Wybielają: efekty odbicia optycznego zapewnia naturalne wybielenie zębów.",
+              "Działają ochronnie na nadwrażliwe szyjki zębów: płynne szkliwo chroni wrażliwe szyjki zębów i zauważalnie zmniejsza reakcje na gorące, zimne lub słodkie pokarmy."
+            ],
+            "rightImg": {
+              "src": "/images/blog/jak-to-dziala/wirkung-2.webp",
+              "alt": "",
+              "height": "180px"
+            }
+          },
+          {
+            "id": "7",
+            "title": "Dzięki zawartości płynnego szkliwa, czyli medycznego hydroksyapatytu!",
+            "text": "Produkty systemu ApaCare są dostępne w aptekach, specjalistycznych sklepach stomatologicznych, w niektórych gabinetach stomatologicznych."
+          }
+        ]
+      },
+      {
+        "sectionId": "3",
+        "title": "Zdrowa flora jamy ustnej - probiotyki OraLactin",
+        "paragraphs": [
+          {
+            "id": "8",
+            "topImg": {
+              "src": "/images/blog/jak-to-dziala/logo_ora_lactin.webp",
+              "alt": "",
+              "height": ""
+            },
+            "text": "OraLactin jest system do profesjonalnej pielęgnacji zębów i jamy ustnej dobrymi bakteriami."
+          },
+          {
+            "id": "9",
+            "text": "Odkrycia naukowe pokazują, że wiele konwencjonalnych antybakteryjnych środków do higieny jamy ustnej zabija nie tylko bakterie chorobotwórcze, ale także „dobre” bakterie, które są ważne dla zdrowego funkcjonowania nie tylko jamy ustnej, ale i całego organizmu. Środki te zapobiegają zatem rozwojowi zdrowej flory jamy ustnej i utrzymaniu ważnych substancji sygnalizacyjnych, które są istotne w procesach takich jak regulacja ciśnienia krwi."
+          },
+          {
+            "id": "10",
+            "rightImg": {
+              "src": "/images/blog/jak-to-dziala/bakterie.webp",
+              "alt": "",
+              "height": "220px"
+            },
+            "text": "OraLactin koncentruje się na wzmocnieniu i regeneracji flory jamy ustnej poprzez połączenie probiotyków, prebiotyków i postbiotyków. Probiotyki: Zawierają żywe bakterie, które przywracają i stabilizują równowagę flory jamy ustnej. Produkty probiotyczne, takie jak pastylki do żucia OraLactin lub saszetki w proszku, są idealne do rozwoju prozdrowotnych bakterii, takich jak pałeczki kwasu mlekowego i bifidobakterie. Zdrowa flora jamy ustnej może rozwinąć się już po 2-4 tygodniach."
+          },
+          {
+            "id": "11",
+            "leftImg": {
+              "src": "/images/blog/jak-to-dziala/ora_lactin_bakterie.webp",
+              "alt": "",
+              "height": ""
+            },
+            "text": "Prebiotyki: Prebiotyki działają jako selektywne składniki odżywcze dla „dobrych” bakterii i promują ich wzrost. Te aktywne składniki są zawarte w produktach codziennego użytku, takich jak pasta do zębów i płyn do płukania jamy ustnej OraLactin. Wspierają one zdrową florę jamy ustnej w dłuższym czasie. perspektywie."
+          },
+          {
+            "id": "12",
+            "text": "Postbiotyki: Postbiotyki to inaktywowane bakterie lub substancje bioaktywne, które hamują patogeny, jednocześnie promując wzrost zdrowych bakterii. Znajdują się one również w produktach takich jak pasta do zębów i płyn do płukania jamy ustnej OraLactin, które można stosować codziennie w celu ustabilizowania flory jamy ustnej w naturalny sposób."
+          }
+        ]
+      }
+    ]
+  }
+]

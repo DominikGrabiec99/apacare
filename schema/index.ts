@@ -109,3 +109,35 @@ export interface ClinicalTrials {
   analysis?: ClinicalTrialsAnalysis[];
   img?: string;
 }
+
+export interface BlogArticle {
+  id: string;
+  title: string;
+  mainImg: string;
+  dataCreate: string;
+  decoratedTitle: string;
+  description: string;
+  content: BlogSection[];
+}
+
+export interface BlogSection {
+  id: string;
+  title?: string;
+  paragraphs: BlogParagraph[];
+}
+
+export interface BlogParagraph {
+  id: string;
+  title?: string;
+  leftImg?: BlogImg;
+  rightImg?: BlogImg;
+  topImg?: BlogImg;
+  text?: string;
+  list?: string[];
+}
+
+export interface BlogImg {
+  src: string;
+  alt: string;
+  height: string;
+}

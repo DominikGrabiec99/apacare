@@ -6,6 +6,12 @@ export default defineSitemapEventHandler(async () => {
       method: 'POST',
     });
 
+    const allBlogs = await $fetch<
+      { id: string; title: string; decoratedTitle: string; mainImg: string }[]
+    >('/api/getAllBlogArticles', {
+      method: 'POST',
+    });
+
     return [
       {
         loc: '/',
@@ -31,6 +37,12 @@ export default defineSitemapEventHandler(async () => {
         priority: 0.8,
         lastmod: new Date().toISOString(),
       },
+      {
+        loc: '/blog',
+        changefreq: 'weekly',
+        priority: 0.6,
+        lastmod: new Date().toISOString(),
+      },
       ...allProducts.map((product) => ({
         loc: `/produkt?id=${product.id}`,
         changefreq: 'monthly',
@@ -41,6 +53,19 @@ export default defineSitemapEventHandler(async () => {
             loc: `/images/products/${product.img}`,
             caption: `Zdjęcie produktu ${product.name}`,
             title: `Produkt: ${product.name}`,
+          },
+        ],
+      })),
+      ...allBlogs.map((blog) => ({
+        loc: `/blog/${blog.id}`,
+        changefreq: 'monthly',
+        priority: 0.6,
+        lastmod: new Date().toISOString(),
+        images: [
+          {
+            loc: blog.mainImg,
+            caption: `Główne zdjęcie bloga: ${blog.title}`,
+            title: blog.decoratedTitle,
           },
         ],
       })),

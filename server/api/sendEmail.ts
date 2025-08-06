@@ -1,4 +1,4 @@
-import sgMail from '@sendgrid/mail';
+import nodemailer from 'nodemailer';
 
 /** INTERFACES */
 import { ITurnstileVerificationResponse } from '@/server/ts/interfaces/TurnstileVerificationResponse';
@@ -8,8 +8,6 @@ export default defineEventHandler(async (event) => {
     const body = await readBody(event);
 
     const runtimeConfig = useRuntimeConfig();
-
-    sgMail.setApiKey(runtimeConfig.SENDGRID_API_KEY);
 
     const {
       nameAndSurname,
@@ -58,23 +56,30 @@ export default defineEventHandler(async (event) => {
       });
     }
 
-    const msg = {
-      to: [{ email: runtimeConfig.RECEIVER_EMAIL || '' }],
-      from: {
-        email: runtimeConfig.RESEND_SENDER || '',
-        name: 'Formularz kontaktowy',
+    const transporter = nodemailer.createTransport({
+      host: runtimeConfig.smpt.host,
+      port: Number(runtimeConfig.smpt.port),
+      secure: runtimeConfig.smpt.secure === 'true',
+      auth: {
+        user: runtimeConfig.smpt.user,
+        pass: runtimeConfig.smpt.password,
       },
-      subject: 'Formularz kontaktowy',
+    });
+
+    const mailOptions = {
+      from: `"Formularz Kontaktowy" <klienta>`,
+      to: runtimeConfig.smpt.user,
+      subject: 'Nowa wiadomość z formularza kontaktowego',
       text: `
         Imię i nazwisko: ${nameAndSurname}
         Firma: ${company || ''}
         Email: ${email}
         Numer telefonu: ${phoneNumber || ''}
         Wiadomość: ${message}
-      `,
+    `,
     };
 
-    await sgMail.send(msg);
+    await transporter.sendMail(mailOptions);
 
     return new Response(JSON.stringify({ success: true }), { status: 200 });
   } catch (error) {

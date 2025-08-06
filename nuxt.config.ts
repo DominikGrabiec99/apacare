@@ -12,10 +12,13 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
-    RECEIVER_EMAIL: process.env.NUXT_RECEIVER_EMAIL,
-    RESEND_SENDER: process.env.NUXT_RESEND_SENDER,
-    RESEND_API_KEY: process.env.NUXT_RESEND_API_KEY,
-    SENDGRID_API_KEY: process.env.NUXT_SENDGRID_API_KEY,
+    smpt: {
+      host: process.env.NUXT_SMTP_HOST,
+      port: process.env.NUXT_SMTP_PORT,
+      secure: process.env.NUXT_SMTP_SECURE,
+      user: process.env.NUXT_SMTP_USER,
+      password: process.env.NUXT_SMTP_PASSWORD,
+    },
     turnstile: {
       secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY,
     },

@@ -12,6 +12,11 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
+    resend: {
+      apiKey: process.env.NUXT_RESEND_API_KEY,
+      sender: process.env.NUXT_RESEND_SENDER,
+      email: process.env.NUXT_RESEND_EMAIL,
+    },
     smpt: {
       host: process.env.NUXT_SMTP_HOST,
       port: process.env.NUXT_SMTP_PORT,

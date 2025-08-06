@@ -56,32 +56,31 @@ export default defineEventHandler(async (event) => {
       });
     }
 
-    const transporter = nodemailer.createTransport({
-      host: runtimeConfig.smpt.host,
-      port: Number(runtimeConfig.smpt.port),
-      secure: runtimeConfig.smpt.secure === 'true',
-      auth: {
-        user: runtimeConfig.smpt.user,
-        pass: runtimeConfig.smpt.password,
+    const response = await $fetch('https://api.resend.com/emails', {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${runtimeConfig.resend.apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: {
+        from: runtimeConfig.resend.sender,
+        to: [runtimeConfig.resend.email],
+        subject: 'Nowa wiadomość z formularza kontaktowego',
+        text: `
+          Imię i nazwisko: ${nameAndSurname}
+          Firma: ${company || ''}
+          Email: ${email}
+          Telefon: ${phoneNumber || ''}
+          Wiadomość: ${message}
+        `,
       },
     });
 
-    const mailOptions = {
-      from: `"Formularz Kontaktowy" <klienta>`,
-      to: runtimeConfig.smpt.user,
-      subject: 'Nowa wiadomość z formularza kontaktowego',
-      text: `
-        Imię i nazwisko: ${nameAndSurname}
-        Firma: ${company || ''}
-        Email: ${email}
-        Numer telefonu: ${phoneNumber || ''}
-        Wiadomość: ${message}
-    `,
-    };
+    // await transporter.sendMail(mailOptions);
 
-    await transporter.sendMail(mailOptions);
-
-    return new Response(JSON.stringify({ success: true }), { status: 200 });
+    return new Response(JSON.stringify({ success: true, response }), {
+      status: 200,
+    });
   } catch (error) {
     console.error('Błąd przy wysyłaniu wiadomości:', error);
     throw createError({

@@ -59,7 +59,7 @@ export const useFilters = async () => {
   };
 
   const clearFilter = () => {
-    productsFilters.value = productsFilters.value.map((filter) => {
+    productsFilters.value = [...productsFilters.value].map((filter) => {
       filter.choices.map((choice) => {
         choice.value = false;
         return choice;

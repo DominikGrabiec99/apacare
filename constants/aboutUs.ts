@@ -5,4 +5,4 @@ nowoczesnych rozwiązań służących poprawie zdrowia jamy ustnej powstała fir
 proponuje Państwu doskonałe materiały do higieny jamy ustnej. Jesteśmy wyłącznym
 dystrybutorem niemieckiej firmy Cumdente GmbH. Proponujemy Państwu szeroki
 asortyment produktów, które zapewniają dobrą kondycję i wspaniały wygląd zębów dla
-całej rodziny. Zapraszamy do zapoznania się z naszą ofertą.`;
+całej rodziny. Zapraszamy do zapoznania się z naszą ofertą. `;
